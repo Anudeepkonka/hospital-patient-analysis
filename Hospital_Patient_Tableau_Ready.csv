@@ -1,0 +1,985 @@
+Patient_ID,Age,Gender,Condition,Medication,Admission_Date,Discharge_Date,Patient_State,Year_of_Admission,Length_of_Stay,Readmission,Outcome,Satisfaction,Insurance_Claimed,Total_Cost,Age_Group,Stay_Category,Admission_Year,Admission_Month,Admission_Month_Name,Admission_Quarter,Admission_Day_Name,Cost_Category,Readmission_Flag
+1,45,Female,Heart Disease,Angioplasty,2024-07-02,1733097600000000000,Kerala,1970-01-01 00:00:00.000002024,153.0,,Recovered,4,Yes,15000,31-45,8+ Days,2024.0,7.0,July,2024Q3,Tuesday,Medium Cost,0
+2,60,Male,Diabetes,Insulin Therapy,2023-11-03,-9223372036854775808,Goa,1970-01-01 00:00:00.000002023,,,Stable,3,No,2000,46-60,,2023.0,11.0,November,2023Q4,Friday,Low Cost,0
+3,32,Female,Fractured Arm,X-Ray and Splint,2025-02-01,1740787200000000000,Maharastra,1970-01-01 00:00:00.000002025,28.0,,Recovered,5,Yes,500,31-45,8+ Days,2025.0,2.0,February,2025Q1,Saturday,Medium Cost,0
+4,75,Male,Stroke,CT Scan and Medication,,1717200000000000000,Manipur,1970-01-01 00:00:00.000002023,,,Stable,2,No,10000,61-75,,,,,NaT,,Medium Cost,0
+5,50,Female,Cancer,Surgery and Chemotherapy,2022-10-05,-9223372036854775808,Mizoram,1970-01-01 00:00:00.000002022,,,Recovered,4,No,25000,46-60,,2022.0,10.0,October,2022Q4,Wednesday,Low Cost,0
+6,68,Male,Hypertension,Medication and Counseling,,-9223372036854775808,Sikkim,1970-01-01 00:00:00.000002025,,,Stable,4,Yes,1000,61-75,,,,,NaT,,Low Cost,0
+7,55,Female,Appendicitis,Appendectomy,,-9223372036854775808,Karnataka,1970-01-01 00:00:00.000002023,,,Recovered,3,No,8000,46-60,,,,,NaT,,Low Cost,0
+8,40,Male,Fractured Leg,Cast and Physical Therapy,,1646697600000000000,Gujarat,1970-01-01 00:00:00.000002022,,,Recovered,4,Yes,3000,31-45,,,,,NaT,,Low Cost,0
+9,70,Female,Heart Attack,Cardiac Catheterization,2023-11-05,-9223372036854775808,Kerala,1970-01-01 00:00:00.000002023,,,Stable,2,No,18000,61-75,,2023.0,11.0,November,2023Q4,Sunday,Low Cost,0
+10,25,Male,Allergic Reaction,Epinephrine Injection,,-9223372036854775808,Kerala,1970-01-01 00:00:00.000002023,,,Recovered,5,No,100,19-30,,,,,NaT,,Low Cost,0
+11,48,Female,Respiratory Infection,Antibiotics and Rest,,-9223372036854775808,Delhi,1970-01-01 00:00:00.000002024,,,Stable,4,No,800,46-60,,,,,NaT,,Low Cost,0
+12,65,Male,Prostate Cancer,Radiation Therapy,2025-05-05,-9223372036854775808,Delhi,1970-01-01 00:00:00.000002025,,,Recovered,3,No,20000,61-75,,2025.0,5.0,May,2025Q2,Monday,Low Cost,0
+13,30,Female,Childbirth,Delivery and Postnatal Care,2025-04-10,1752105600000000000,Bihar,1970-01-01 00:00:00.000002025,91.0,,Recovered,4,No,12000,19-30,8+ Days,2025.0,4.0,April,2025Q2,Thursday,Medium Cost,0
+14,52,Male,Kidney Stones,Lithotripsy,,-9223372036854775808,Delhi,1970-01-01 00:00:00.000002025,,,Recovered,3,No,6000,46-60,,,,,NaT,,Low Cost,0
+15,58,Female,Osteoarthritis,Physical Therapy and Pain Management,,1676073600000000000,Chandigarh,1970-01-01 00:00:00.000002023,,,Stable,4,No,4000,46-60,,,,,NaT,,Low Cost,0
+16,55,Female,Heart Disease,Angioplasty,,1644537600000000000,Nagaland,1970-01-01 00:00:00.000002022,,,Recovered,3,Yes,15000,46-60,,,,,NaT,,Low Cost,0
+17,62,Male,Diabetes,Insulin Therapy,2022-04-07,1659830400000000000,Goa,1970-01-01 00:00:00.000002022,122.0,,Stable,4,No,2000,61-75,8+ Days,2022.0,4.0,April,2022Q2,Thursday,Low Cost,0
+18,35,Female,Fractured Arm,X-Ray and Splint,,-9223372036854775808,Maharastra,1970-01-01 00:00:00.000002025,,,Recovered,5,Yes,500,31-45,,,,,NaT,,Low Cost,0
+19,78,Male,Stroke,CT Scan and Medication,,1644019200000000000,Tripura,1970-01-01 00:00:00.000002022,,,Stable,2,No,10000,76+,,,,,NaT,,Low Cost,0
+20,53,Female,Cancer,Surgery and Chemotherapy,,1725235200000000000,Meghalaya,1970-01-01 00:00:00.000002024,,,Recovered,4,Yes,25000,46-60,,,,,NaT,,Medium Cost,0
+21,72,Male,Hypertension,Medication and Counseling,,-9223372036854775808,Goa,1970-01-01 00:00:00.000002023,,,Stable,4,No,1000,61-75,,,,,NaT,,Low Cost,0
+22,60,Female,Appendicitis,Appendectomy,,-9223372036854775808,Kerala,1970-01-01 00:00:00.000002022,,,Recovered,3,No,8000,46-60,,,,,NaT,,Low Cost,0
+23,45,Male,Fractured Leg,Cast and Physical Therapy,,-9223372036854775808,Gujarat,1970-01-01 00:00:00.000002024,,,Recovered,4,No,3000,31-45,,,,,NaT,,Low Cost,0
+24,75,Female,Heart Attack,Cardiac Catheterization,,-9223372036854775808,West Bengal,1970-01-01 00:00:00.000002024,,,Stable,2,Yes,18000,61-75,,,,,NaT,,Low Cost,0
+25,28,Male,Allergic Reaction,Epinephrine Injection,,-9223372036854775808,Kerala,1970-01-01 00:00:00.000002023,,,Recovered,5,Yes,100,19-30,,,,,NaT,,Low Cost,0
+26,52,Female,Respiratory Infection,Antibiotics and Rest,,-9223372036854775808,Jammu & Kashmir,1970-01-01 00:00:00.000002025,,,Stable,4,Yes,800,46-60,,,,,NaT,,Low Cost,0
+27,67,Male,Prostate Cancer,Radiation Therapy,2023-09-08,-9223372036854775808,Assam,1970-01-01 00:00:00.000002023,,,Recovered,3,Yes,20000,61-75,,2023.0,9.0,September,2023Q3,Friday,Low Cost,0
+28,35,Female,Childbirth,Delivery and Postnatal Care,2022-05-04,1662249600000000000,Uttar Pradesh,1970-01-01 00:00:00.000002022,123.0,,Recovered,4,No,12000,31-45,8+ Days,2022.0,5.0,May,2022Q2,Wednesday,Low Cost,0
+29,50,Male,Kidney Stones,Lithotripsy,,-9223372036854775808,Punjab,1970-01-01 00:00:00.000002023,,,Recovered,3,Yes,6000,46-60,,,,,NaT,,Low Cost,0
+30,60,Female,Osteoarthritis,Physical Therapy and Pain Management,,1683244800000000000,Chandigarh,1970-01-01 00:00:00.000002023,,,Stable,4,Yes,4000,46-60,,,,,NaT,,Low Cost,0
+31,48,Female,Heart Disease,Angioplasty,,-9223372036854775808,Himachal Pradesh,1970-01-01 00:00:00.000002025,,,Recovered,4,Yes,15000,46-60,,,,,NaT,,Low Cost,0
+32,65,Male,Diabetes,Insulin Therapy,,-9223372036854775808,Puducherry,1970-01-01 00:00:00.000002024,,,Stable,3,No,2000,61-75,,,,,NaT,,Low Cost,0
+33,30,Female,Fractured Arm,X-Ray and Splint,,-9223372036854775808,Himachal Pradesh,1970-01-01 00:00:00.000002022,,,Recovered,5,No,500,19-30,,,,,NaT,,Low Cost,0
+34,70,Male,Stroke,CT Scan and Medication,2025-07-02,-9223372036854775808,Manipur,1970-01-01 00:00:00.000002025,,,Stable,2,No,10000,61-75,,2025.0,7.0,July,2025Q3,Wednesday,Low Cost,0
+35,55,Female,Cancer,Surgery and Chemotherapy,2024-01-03,-9223372036854775808,Assam,1970-01-01 00:00:00.000002024,,,Recovered,4,No,25000,46-60,,2024.0,1.0,January,2024Q1,Wednesday,Low Cost,0
+36,68,Male,Hypertension,Medication and Counseling,2022-10-08,-9223372036854775808,Punjab,1970-01-01 00:00:00.000002022,,,Stable,4,Yes,1000,61-75,,2022.0,10.0,October,2022Q4,Saturday,Low Cost,0
+37,45,Female,Appendicitis,Appendectomy,,-9223372036854775808,Andhra Pradesh,1970-01-01 00:00:00.000002024,,,Recovered,3,Yes,8000,31-45,,,,,NaT,,Low Cost,0
+38,40,Male,Fractured Leg,Cast and Physical Therapy,,-9223372036854775808,Puducherry,1970-01-01 00:00:00.000002022,,,Recovered,4,No,3000,31-45,,,,,NaT,,Low Cost,0
+39,78,Female,Heart Attack,Cardiac Catheterization,,1641340800000000000,Kerala,1970-01-01 00:00:00.000002022,,,Stable,2,Yes,18000,76+,,,,,NaT,,Low Cost,0
+40,25,Male,Allergic Reaction,Epinephrine Injection,,-9223372036854775808,Tamil Nadu,1970-01-01 00:00:00.000002024,,,Recovered,5,No,100,19-30,,,,,NaT,,Low Cost,0
+41,52,Female,Respiratory Infection,Antibiotics and Rest,2023-06-11,1696982400000000000,Meghalaya,1970-01-01 00:00:00.000002023,122.0,,Stable,4,No,800,46-60,8+ Days,2023.0,6.0,June,2023Q2,Sunday,Medium Cost,0
+42,58,Male,Prostate Cancer,Radiation Therapy,,1780272000000000000,Delhi,1970-01-01 00:00:00.000002025,,,Recovered,3,No,20000,46-60,,,,,NaT,,Medium Cost,0
+43,32,Female,Childbirth,Delivery and Postnatal Care,2025-07-07,1765065600000000000,Madhya Pradesh,1970-01-01 00:00:00.000002025,153.0,,Recovered,4,No,12000,31-45,8+ Days,2025.0,7.0,July,2025Q3,Monday,Medium Cost,0
+44,55,Male,Kidney Stones,Lithotripsy,2025-06-08,1765152000000000000,Delhi,1970-01-01 00:00:00.000002025,183.0,,Recovered,3,Yes,6000,46-60,8+ Days,2025.0,6.0,June,2025Q2,Sunday,Medium Cost,0
+45,65,Female,Osteoarthritis,Physical Therapy and Pain Management,,1736294400000000000,Odisha,1970-01-01 00:00:00.000002025,,,Stable,4,No,4000,61-75,,,,,NaT,,Medium Cost,0
+46,55,Female,Heart Disease,Angioplasty,,1683763200000000000,Punjab,1970-01-01 00:00:00.000002023,,,Recovered,3,No,15000,46-60,,,,,NaT,,Low Cost,0
+47,62,Male,Diabetes,Insulin Therapy,,-9223372036854775808,Goa,1970-01-01 00:00:00.000002024,,,Stable,4,No,2000,61-75,,,,,NaT,,Low Cost,0
+48,35,Female,Fractured Arm,X-Ray and Splint,2023-12-07,-9223372036854775808,Maharastra,1970-01-01 00:00:00.000002023,,,Recovered,5,No,500,31-45,,2023.0,12.0,December,2023Q4,Thursday,Low Cost,0
+49,78,Male,Stroke,CT Scan and Medication,,1746921600000000000,Assam,1970-01-01 00:00:00.000002025,,,Stable,2,No,10000,76+,,,,,NaT,,Medium Cost,0
+50,53,Female,Cancer,Surgery and Chemotherapy,2025-05-03,-9223372036854775808,Mizoram,1970-01-01 00:00:00.000002025,,,Recovered,4,No,25000,46-60,,2025.0,5.0,May,2025Q2,Saturday,Low Cost,0
+51,72,Male,Hypertension,Medication and Counseling,,1707091200000000000,Kerala,1970-01-01 00:00:00.000002024,,,Stable,4,Yes,1000,61-75,,,,,NaT,,Medium Cost,0
+52,60,Female,Appendicitis,Appendectomy,2025-11-04,-9223372036854775808,Andhra Pradesh,1970-01-01 00:00:00.000002025,,,Recovered,3,Yes,8000,46-60,,2025.0,11.0,November,2025Q4,Tuesday,Low Cost,0
+53,45,Male,Fractured Leg,Cast and Physical Therapy,,-9223372036854775808,Punjab,1970-01-01 00:00:00.000002023,,,Recovered,4,No,3000,31-45,,,,,NaT,,Low Cost,0
+54,75,Female,Heart Attack,Cardiac Catheterization,2022-11-02,-9223372036854775808,Kerala,1970-01-01 00:00:00.000002022,,,Stable,2,No,18000,61-75,,2022.0,11.0,November,2022Q4,Wednesday,Low Cost,0
+55,28,Male,Allergic Reaction,Epinephrine Injection,,-9223372036854775808,Madhya Pradesh,1970-01-01 00:00:00.000002025,,,Recovered,5,Yes,100,19-30,,,,,NaT,,Low Cost,0
+56,52,Female,Respiratory Infection,Antibiotics and Rest,2024-09-05,-9223372036854775808,Delhi,1970-01-01 00:00:00.000002024,,,Stable,4,Yes,800,46-60,,2024.0,9.0,September,2024Q3,Thursday,Low Cost,0
+57,67,Male,Prostate Cancer,Radiation Therapy,,-9223372036854775808,Maharastra,1970-01-01 00:00:00.000002024,,,Recovered,3,No,20000,61-75,,,,,NaT,,Low Cost,0
+58,35,Female,Childbirth,Delivery and Postnatal Care,,1683849600000000000,Uttar Pradesh,1970-01-01 00:00:00.000002023,,,Recovered,4,No,12000,31-45,,,,,NaT,,Low Cost,0
+59,50,Male,Kidney Stones,Lithotripsy,2024-03-10,1728518400000000000,Rajasthan,1970-01-01 00:00:00.000002024,214.0,,Recovered,3,No,6000,46-60,8+ Days,2024.0,3.0,March,2024Q1,Sunday,Medium Cost,0
+60,48,Female,Heart Disease,Angioplasty,2024-04-08,-9223372036854775808,Kerala,1970-01-01 00:00:00.000002024,,,Recovered,4,No,15000,46-60,,2024.0,4.0,April,2024Q2,Monday,Low Cost,0
+61,65,Male,Diabetes,Insulin Therapy,2025-09-02,-9223372036854775808,Puducherry,1970-01-01 00:00:00.000002025,,,Stable,3,Yes,2000,61-75,,2025.0,9.0,September,2025Q3,Tuesday,Low Cost,0
+62,30,Female,Fractured Arm,X-Ray and Splint,,-9223372036854775808,Maharastra,1970-01-01 00:00:00.000002024,,,Recovered,5,No,500,19-30,,,,,NaT,,Low Cost,0
+63,70,Male,Stroke,CT Scan and Medication,,1683331200000000000,Mizoram,1970-01-01 00:00:00.000002023,,,Stable,2,No,10000,61-75,,,,,NaT,,Low Cost,0
+64,55,Female,Cancer,Surgery and Chemotherapy,2024-06-02,-9223372036854775808,Mizoram,1970-01-01 00:00:00.000002024,,,Recovered,4,Yes,25000,46-60,,2024.0,6.0,June,2024Q2,Sunday,Low Cost,0
+65,68,Male,Hypertension,Medication and Counseling,2023-04-10,1696896000000000000,Kerala,1970-01-01 00:00:00.000002023,183.0,,Stable,4,No,1000,61-75,8+ Days,2023.0,4.0,April,2023Q2,Monday,Medium Cost,0
+66,45,Female,Appendicitis,Appendectomy,,-9223372036854775808,Kerala,1970-01-01 00:00:00.000002022,,,Recovered,3,No,8000,31-45,,,,,NaT,,Low Cost,0
+67,40,Male,Fractured Leg,Cast and Physical Therapy,,-9223372036854775808,Puducherry,1970-01-01 00:00:00.000002024,,,Recovered,4,No,3000,31-45,,,,,NaT,,Low Cost,0
+68,78,Female,Heart Attack,Cardiac Catheterization,2025-10-12,-9223372036854775808,West Bengal,1970-01-01 00:00:00.000002025,,,Stable,2,Yes,18000,76+,,2025.0,10.0,October,2025Q4,Sunday,Low Cost,0
+69,25,Male,Allergic Reaction,Epinephrine Injection,,-9223372036854775808,Madhya Pradesh,1970-01-01 00:00:00.000002023,,,Recovered,5,No,100,19-30,,,,,NaT,,Low Cost,0
+70,52,Female,Respiratory Infection,Antibiotics and Rest,,-9223372036854775808,Delhi,1970-01-01 00:00:00.000002024,,,Stable,4,No,800,46-60,,,,,NaT,,Low Cost,0
+71,58,Male,Prostate Cancer,Radiation Therapy,,1686441600000000000,Delhi,1970-01-01 00:00:00.000002023,,,Recovered,3,No,20000,46-60,,,,,NaT,,Low Cost,0
+72,32,Female,Childbirth,Delivery and Postnatal Care,2024-12-02,-9223372036854775808,Uttar Pradesh,1970-01-01 00:00:00.000002024,,,Recovered,4,Yes,12000,31-45,,2024.0,12.0,December,2024Q4,Monday,Low Cost,0
+73,55,Male,Kidney Stones,Lithotripsy,,1707350400000000000,Gujarat,1970-01-01 00:00:00.000002024,,,Recovered,3,No,6000,46-60,,,,,NaT,,Medium Cost,0
+74,65,Female,Osteoarthritis,Physical Therapy and Pain Management,,-9223372036854775808,Odisha,1970-01-01 00:00:00.000002023,,,Stable,4,No,4000,61-75,,,,,NaT,,Low Cost,0
+75,55,Female,Heart Disease,Angioplasty,2025-04-12,-9223372036854775808,Kerala,1970-01-01 00:00:00.000002025,,,Recovered,3,No,15000,46-60,,2025.0,4.0,April,2025Q2,Saturday,Low Cost,0
+76,62,Male,Diabetes,Insulin Therapy,2025-09-09,-9223372036854775808,Kerala,1970-01-01 00:00:00.000002025,,,Stable,4,Yes,2000,61-75,,2025.0,9.0,September,2025Q3,Tuesday,Low Cost,0
+77,35,Female,Fractured Arm,X-Ray and Splint,,-9223372036854775808,Himachal Pradesh,1970-01-01 00:00:00.000002022,,,Recovered,5,Yes,500,31-45,,,,,NaT,,Low Cost,0
+78,78,Male,Stroke,CT Scan and Medication,,1738713600000000000,Manipur,1970-01-01 00:00:00.000002025,,,Stable,2,Yes,10000,76+,,,,,NaT,,Medium Cost,0
+79,53,Female,Cancer,Surgery and Chemotherapy,,-9223372036854775808,Meghalaya,1970-01-01 00:00:00.000002022,,,Recovered,4,No,25000,46-60,,,,,NaT,,Low Cost,0
+80,72,Male,Hypertension,Medication and Counseling,2022-07-01,-9223372036854775808,Kerala,1970-01-01 00:00:00.000002022,,,Stable,4,Yes,1000,61-75,,2022.0,7.0,July,2022Q3,Friday,Low Cost,0
+81,60,Female,Appendicitis,Appendectomy,,1746403200000000000,Karnataka,1970-01-01 00:00:00.000002025,,,Recovered,3,No,8000,46-60,,,,,NaT,,Medium Cost,0
+82,45,Male,Fractured Leg,Cast and Physical Therapy,2025-10-12,-9223372036854775808,Puducherry,1970-01-01 00:00:00.000002025,,,Recovered,4,No,3000,31-45,,2025.0,10.0,October,2025Q4,Sunday,Low Cost,0
+83,75,Female,Heart Attack,Cardiac Catheterization,,1660262400000000000,Punjab,1970-01-01 00:00:00.000002022,,,Stable,2,No,18000,61-75,,,,,NaT,,Low Cost,0
+84,28,Male,Allergic Reaction,Epinephrine Injection,,1686096000000000000,Tamil Nadu,1970-01-01 00:00:00.000002023,,,Recovered,5,No,100,19-30,,,,,NaT,,Low Cost,0
+85,52,Female,Respiratory Infection,Antibiotics and Rest,,-9223372036854775808,Meghalaya,1970-01-01 00:00:00.000002025,,,Stable,4,Yes,800,46-60,,,,,NaT,,Low Cost,0
+86,67,Male,Prostate Cancer,Radiation Therapy,,1754784000000000000,Assam,1970-01-01 00:00:00.000002025,,,Recovered,3,Yes,20000,61-75,,,,,NaT,,Medium Cost,0
+87,35,Female,Childbirth,Delivery and Postnatal Care,2023-09-10,-9223372036854775808,Bihar,1970-01-01 00:00:00.000002023,,,Recovered,4,Yes,12000,31-45,,2023.0,9.0,September,2023Q3,Sunday,Low Cost,0
+88,50,Male,Kidney Stones,Lithotripsy,2023-07-07,-9223372036854775808,Gujarat,1970-01-01 00:00:00.000002023,,,Recovered,3,No,6000,46-60,,2023.0,7.0,July,2023Q3,Friday,Low Cost,0
+89,60,Female,Osteoarthritis,Physical Therapy and Pain Management,,1738800000000000000,Chandigarh,1970-01-01 00:00:00.000002025,,,Stable,4,Yes,4000,46-60,,,,,NaT,,Medium Cost,0
+90,48,Female,Heart Disease,Angioplasty,2024-12-12,-9223372036854775808,Kerala,1970-01-01 00:00:00.000002024,,,Recovered,4,Yes,15000,46-60,,2024.0,12.0,December,2024Q4,Thursday,Low Cost,0
+91,65,Male,Diabetes,Insulin Therapy,,-9223372036854775808,Kerala,1970-01-01 00:00:00.000002025,,,Stable,3,No,2000,61-75,,,,,NaT,,Low Cost,0
+92,30,Female,Fractured Arm,X-Ray and Splint,,-9223372036854775808,Haryana,1970-01-01 00:00:00.000002023,,,Recovered,5,No,500,19-30,,,,,NaT,,Low Cost,0
+93,70,Male,Stroke,CT Scan and Medication,,1644624000000000000,Manipur,1970-01-01 00:00:00.000002022,,,Stable,2,No,10000,61-75,,,,,NaT,,Low Cost,0
+94,55,Female,Cancer,Surgery and Chemotherapy,,1659484800000000000,Assam,1970-01-01 00:00:00.000002022,,,Recovered,4,No,25000,46-60,,,,,NaT,,Low Cost,0
+95,68,Male,Hypertension,Medication and Counseling,2022-01-10,1662768000000000000,Punjab,1970-01-01 00:00:00.000002022,243.0,,Stable,4,Yes,1000,61-75,8+ Days,2022.0,1.0,January,2022Q1,Monday,Low Cost,0
+96,45,Female,Appendicitis,Appendectomy,2022-03-09,-9223372036854775808,Tamil Nadu,1970-01-01 00:00:00.000002022,,,Recovered,3,No,8000,31-45,,2022.0,3.0,March,2022Q1,Wednesday,Low Cost,0
+97,40,Male,Fractured Leg,Cast and Physical Therapy,,1657411200000000000,Gujarat,1970-01-01 00:00:00.000002022,,,Recovered,4,No,3000,31-45,,,,,NaT,,Low Cost,0
+98,78,Female,Heart Attack,Cardiac Catheterization,2022-01-11,-9223372036854775808,Punjab,1970-01-01 00:00:00.000002022,,,Stable,2,No,18000,76+,,2022.0,1.0,January,2022Q1,Tuesday,Low Cost,0
+99,25,Male,Allergic Reaction,Epinephrine Injection,,1654992000000000000,Kerala,1970-01-01 00:00:00.000002022,,,Recovered,5,Yes,100,19-30,,,,,NaT,,Low Cost,0
+100,52,Female,Respiratory Infection,Antibiotics and Rest,,1718150400000000000,Jammu & Kashmir,1970-01-01 00:00:00.000002024,,,Stable,4,No,800,46-60,,,,,NaT,,Medium Cost,0
+101,58,Male,Prostate Cancer,Radiation Therapy,,1681257600000000000,Karnataka,1970-01-01 00:00:00.000002023,,,Recovered,3,Yes,20000,46-60,,,,,NaT,,Low Cost,0
+102,32,Female,Childbirth,Delivery and Postnatal Care,2023-05-10,-9223372036854775808,Bihar,1970-01-01 00:00:00.000002023,,,Recovered,4,No,12000,31-45,,2023.0,5.0,May,2023Q2,Wednesday,Low Cost,0
+103,55,Male,Kidney Stones,Lithotripsy,2024-02-09,1733702400000000000,Delhi,1970-01-01 00:00:00.000002024,304.0,,Recovered,3,No,6000,46-60,8+ Days,2024.0,2.0,February,2024Q1,Friday,Medium Cost,0
+104,65,Female,Osteoarthritis,Physical Therapy and Pain Management,,1720483200000000000,Tamil Nadu,1970-01-01 00:00:00.000002024,,,Stable,4,No,4000,61-75,,,,,NaT,,Medium Cost,0
+105,55,Female,Heart Disease,Angioplasty,2025-07-08,-9223372036854775808,Punjab,1970-01-01 00:00:00.000002025,,,Recovered,3,Yes,15000,46-60,,2025.0,7.0,July,2025Q3,Tuesday,Low Cost,0
+106,62,Male,Diabetes,Insulin Therapy,2024-02-04,1733270400000000000,Kerala,1970-01-01 00:00:00.000002024,304.0,,Stable,4,No,2000,61-75,8+ Days,2024.0,2.0,February,2024Q1,Sunday,Medium Cost,0
+107,35,Female,Fractured Arm,X-Ray and Splint,,-9223372036854775808,Maharastra,1970-01-01 00:00:00.000002024,,,Recovered,5,No,500,31-45,,,,,NaT,,Low Cost,0
+108,78,Male,Stroke,CT Scan and Medication,2022-03-06,-9223372036854775808,Manipur,1970-01-01 00:00:00.000002022,,,Stable,2,No,10000,76+,,2022.0,3.0,March,2022Q1,Sunday,Low Cost,0
+109,53,Female,Cancer,Surgery and Chemotherapy,,1688774400000000000,Nagaland,1970-01-01 00:00:00.000002023,,,Recovered,4,No,25000,46-60,,,,,NaT,,Medium Cost,0
+110,72,Male,Hypertension,Medication and Counseling,2023-02-04,1699056000000000000,Punjab,1970-01-01 00:00:00.000002023,273.0,,Stable,4,Yes,1000,61-75,8+ Days,2023.0,2.0,February,2023Q1,Saturday,Medium Cost,0
+111,60,Female,Appendicitis,Appendectomy,,1725494400000000000,Kerala,1970-01-01 00:00:00.000002024,,,Recovered,3,Yes,8000,46-60,,,,,NaT,,Medium Cost,0
+112,45,Male,Fractured Leg,Cast and Physical Therapy,2025-08-01,-9223372036854775808,Gujarat,1970-01-01 00:00:00.000002025,,,Recovered,4,No,3000,31-45,,2025.0,8.0,August,2025Q3,Friday,Low Cost,0
+113,75,Female,Heart Attack,Cardiac Catheterization,,1720483200000000000,Punjab,1970-01-01 00:00:00.000002024,,,Stable,2,Yes,18000,61-75,,,,,NaT,,Medium Cost,0
+114,28,Male,Allergic Reaction,Epinephrine Injection,,1754611200000000000,Kerala,1970-01-01 00:00:00.000002025,,,Recovered,5,No,100,19-30,,,,,NaT,,Medium Cost,0
+115,52,Female,Respiratory Infection,Antibiotics and Rest,2023-10-05,-9223372036854775808,Puducherry,1970-01-01 00:00:00.000002023,,,Stable,4,No,800,46-60,,2023.0,10.0,October,2023Q4,Thursday,Low Cost,0
+116,67,Male,Prostate Cancer,Radiation Therapy,2025-08-11,-9223372036854775808,Assam,1970-01-01 00:00:00.000002025,,,Recovered,3,No,20000,61-75,,2025.0,8.0,August,2025Q3,Monday,Low Cost,0
+117,35,Female,Childbirth,Delivery and Postnatal Care,,-9223372036854775808,Rajasthan,1970-01-01 00:00:00.000002024,,,Recovered,4,Yes,12000,31-45,,,,,NaT,,Low Cost,0
+118,50,Male,Kidney Stones,Lithotripsy,2024-06-06,-9223372036854775808,Delhi,1970-01-01 00:00:00.000002024,,,Recovered,3,No,6000,46-60,,2024.0,6.0,June,2024Q2,Thursday,Low Cost,0
+119,60,Female,Osteoarthritis,Physical Therapy and Pain Management,,1769904000000000000,Tamil Nadu,1970-01-01 00:00:00.000002025,,,Stable,4,No,4000,46-60,,,,,NaT,,Medium Cost,0
+120,65,Male,Diabetes,Insulin Therapy,,-9223372036854775808,Puducherry,1970-01-01 00:00:00.000002025,,,Stable,3,No,2000,61-75,,,,,NaT,,Low Cost,0
+121,30,Female,Fractured Arm,X-Ray and Splint,,-9223372036854775808,Maharastra,1970-01-01 00:00:00.000002025,,,Recovered,5,Yes,500,19-30,,,,,NaT,,Low Cost,0
+122,70,Male,Stroke,CT Scan and Medication,2024-05-03,-9223372036854775808,Mizoram,1970-01-01 00:00:00.000002024,,,Stable,2,No,10000,61-75,,2024.0,5.0,May,2024Q2,Friday,Low Cost,0
+123,55,Female,Cancer,Surgery and Chemotherapy,,1696636800000000000,Kerala,1970-01-01 00:00:00.000002023,,,Recovered,4,No,25000,46-60,,,,,NaT,,Medium Cost,0
+124,68,Male,Hypertension,Medication and Counseling,,1664668800000000000,Goa,1970-01-01 00:00:00.000002022,,,Stable,4,Yes,1000,61-75,,,,,NaT,,Low Cost,0
+125,45,Female,Appendicitis,Appendectomy,2025-10-05,-9223372036854775808,Karnataka,1970-01-01 00:00:00.000002025,,,Recovered,3,No,8000,31-45,,2025.0,10.0,October,2025Q4,Sunday,Low Cost,0
+126,40,Male,Fractured Leg,Cast and Physical Therapy,,1678579200000000000,Puducherry,1970-01-01 00:00:00.000002023,,,Recovered,4,Yes,3000,31-45,,,,,NaT,,Low Cost,0
+127,78,Female,Heart Attack,Cardiac Catheterization,2022-06-11,-9223372036854775808,West Bengal,1970-01-01 00:00:00.000002022,,,Stable,2,No,18000,76+,,2022.0,6.0,June,2022Q2,Saturday,Low Cost,0
+128,25,Male,Allergic Reaction,Epinephrine Injection,,-9223372036854775808,Kerala,1970-01-01 00:00:00.000002023,,,Recovered,5,Yes,100,19-30,,,,,NaT,,Low Cost,0
+129,52,Female,Respiratory Infection,Antibiotics and Rest,2022-01-01,1667260800000000000,Jammu & Kashmir,1970-01-01 00:00:00.000002022,304.0,,Stable,4,No,800,46-60,8+ Days,2022.0,1.0,January,2022Q1,Saturday,Low Cost,0
+130,58,Male,Prostate Cancer,Radiation Therapy,,1685836800000000000,Delhi,1970-01-01 00:00:00.000002023,,,Recovered,3,Yes,20000,46-60,,,,,NaT,,Low Cost,0
+131,32,Female,Childbirth,Delivery and Postnatal Care,2024-12-03,-9223372036854775808,Odisha,1970-01-01 00:00:00.000002024,,,Recovered,4,Yes,12000,31-45,,2024.0,12.0,December,2024Q4,Tuesday,Low Cost,0
+132,55,Male,Kidney Stones,Lithotripsy,,-9223372036854775808,Delhi,1970-01-01 00:00:00.000002023,,,Recovered,3,No,6000,46-60,,,,,NaT,,Low Cost,0
+133,65,Female,Osteoarthritis,Physical Therapy and Pain Management,2022-11-12,-9223372036854775808,Odisha,1970-01-01 00:00:00.000002022,,,Stable,4,Yes,4000,61-75,,2022.0,11.0,November,2022Q4,Saturday,Low Cost,0
+134,55,Female,Heart Disease,Angioplasty,,1733961600000000000,Tamil Nadu,1970-01-01 00:00:00.000002024,,,Recovered,3,No,15000,46-60,,,,,NaT,,Medium Cost,0
+135,62,Male,Diabetes,Insulin Therapy,,1748736000000000000,Goa,1970-01-01 00:00:00.000002024,,,Stable,4,No,2000,61-75,,,,,NaT,,Medium Cost,0
+136,35,Female,Fractured Arm,X-Ray and Splint,,1688860800000000000,Himachal Pradesh,1970-01-01 00:00:00.000002023,,,Recovered,5,Yes,500,31-45,,,,,NaT,,Medium Cost,0
+137,78,Male,Stroke,CT Scan and Medication,,-9223372036854775808,Assam,1970-01-01 00:00:00.000002024,,,Stable,2,No,10000,76+,,,,,NaT,,Low Cost,0
+138,53,Female,Cancer,Surgery and Chemotherapy,2025-08-12,-9223372036854775808,Punjab,1970-01-01 00:00:00.000002025,,,Recovered,4,No,25000,46-60,,2025.0,8.0,August,2025Q3,Tuesday,Low Cost,0
+139,72,Male,Hypertension,Medication and Counseling,,-9223372036854775808,Goa,1970-01-01 00:00:00.000002025,,,Stable,4,Yes,1000,61-75,,,,,NaT,,Low Cost,0
+140,60,Female,Appendicitis,Appendectomy,,-9223372036854775808,Karnataka,1970-01-01 00:00:00.000002022,,,Recovered,3,No,8000,46-60,,,,,NaT,,Low Cost,0
+141,45,Male,Fractured Leg,Cast and Physical Therapy,2024-05-09,-9223372036854775808,Gujarat,1970-01-01 00:00:00.000002024,,,Recovered,4,Yes,3000,31-45,,2024.0,5.0,May,2024Q2,Thursday,Low Cost,0
+142,75,Female,Heart Attack,Cardiac Catheterization,,-9223372036854775808,Kerala,1970-01-01 00:00:00.000002023,,,Stable,2,No,18000,61-75,,,,,NaT,,Low Cost,0
+143,28,Male,Allergic Reaction,Epinephrine Injection,,1673136000000000000,Kerala,1970-01-01 00:00:00.000002023,,,Recovered,5,No,100,19-30,,,,,NaT,,Low Cost,0
+144,52,Female,Respiratory Infection,Antibiotics and Rest,,-9223372036854775808,Delhi,1970-01-01 00:00:00.000002025,,,Stable,4,No,800,46-60,,,,,NaT,,Low Cost,0
+145,67,Male,Prostate Cancer,Radiation Therapy,,-9223372036854775808,Delhi,1970-01-01 00:00:00.000002025,,,Recovered,3,No,20000,61-75,,,,,NaT,,Low Cost,0
+146,35,Female,Childbirth,Delivery and Postnatal Care,,1762387200000000000,Jharkhand,1970-01-01 00:00:00.000002025,,,Recovered,4,No,12000,31-45,,,,,NaT,,Medium Cost,0
+147,50,Male,Kidney Stones,Lithotripsy,2022-09-10,-9223372036854775808,Punjab,1970-01-01 00:00:00.000002022,,,Recovered,3,No,6000,46-60,,2022.0,9.0,September,2022Q3,Saturday,Low Cost,0
+148,60,Female,Osteoarthritis,Physical Therapy and Pain Management,2023-01-07,-9223372036854775808,Chandigarh,1970-01-01 00:00:00.000002023,,,Stable,4,No,4000,46-60,,2023.0,1.0,January,2023Q1,Saturday,Low Cost,0
+149,48,Female,Heart Disease,Angioplasty,2025-08-02,-9223372036854775808,Tamil Nadu,1970-01-01 00:00:00.000002025,,,Recovered,4,No,15000,46-60,,2025.0,8.0,August,2025Q3,Saturday,Low Cost,0
+150,65,Male,Diabetes,Insulin Therapy,2024-07-06,-9223372036854775808,Puducherry,1970-01-01 00:00:00.000002024,,,Stable,3,No,2000,61-75,,2024.0,7.0,July,2024Q3,Saturday,Low Cost,0
+151,30,Female,Fractured Arm,X-Ray and Splint,2023-07-05,-9223372036854775808,Himachal Pradesh,1970-01-01 00:00:00.000002023,,,Recovered,5,No,500,19-30,,2023.0,7.0,July,2023Q3,Wednesday,Low Cost,0
+152,70,Male,Stroke,CT Scan and Medication,2023-01-05,-9223372036854775808,Tripura,1970-01-01 00:00:00.000002023,,,Stable,2,No,10000,61-75,,2023.0,1.0,January,2023Q1,Thursday,Low Cost,0
+153,55,Female,Cancer,Surgery and Chemotherapy,,-9223372036854775808,Nagaland,1970-01-01 00:00:00.000002023,,,Recovered,4,No,25000,46-60,,,,,NaT,,Low Cost,0
+154,68,Male,Hypertension,Medication and Counseling,2025-09-04,-9223372036854775808,Goa,1970-01-01 00:00:00.000002025,,,Stable,4,Yes,1000,61-75,,2025.0,9.0,September,2025Q3,Thursday,Low Cost,0
+155,45,Female,Appendicitis,Appendectomy,2023-08-01,-9223372036854775808,Andhra Pradesh,1970-01-01 00:00:00.000002023,,,Recovered,3,No,8000,31-45,,2023.0,8.0,August,2023Q3,Tuesday,Low Cost,0
+156,40,Male,Fractured Leg,Cast and Physical Therapy,2025-03-03,-9223372036854775808,Himachal Pradesh,1970-01-01 00:00:00.000002025,,,Recovered,4,No,3000,31-45,,2025.0,3.0,March,2025Q1,Monday,Low Cost,0
+157,78,Female,Heart Attack,Cardiac Catheterization,,1717459200000000000,West Bengal,1970-01-01 00:00:00.000002024,,,Stable,2,No,18000,76+,,,,,NaT,,Medium Cost,0
+158,25,Male,Allergic Reaction,Epinephrine Injection,2022-04-08,-9223372036854775808,Madhya Pradesh,1970-01-01 00:00:00.000002022,,,Recovered,5,No,100,19-30,,2022.0,4.0,April,2022Q2,Friday,Low Cost,0
+159,52,Female,Respiratory Infection,Antibiotics and Rest,,-9223372036854775808,Jammu & Kashmir,1970-01-01 00:00:00.000002025,,,Stable,4,No,800,46-60,,,,,NaT,,Low Cost,0
+160,58,Male,Prostate Cancer,Radiation Therapy,2023-07-09,-9223372036854775808,Delhi,1970-01-01 00:00:00.000002023,,,Recovered,3,No,20000,46-60,,2023.0,7.0,July,2023Q3,Sunday,Low Cost,0
+161,32,Female,Childbirth,Delivery and Postnatal Care,,-9223372036854775808,Madhya Pradesh,1970-01-01 00:00:00.000002025,,,Recovered,4,No,12000,31-45,,,,,NaT,,Low Cost,0
+162,55,Male,Kidney Stones,Lithotripsy,,1691193600000000000,Delhi,1970-01-01 00:00:00.000002023,,,Recovered,3,No,6000,46-60,,,,,NaT,,Medium Cost,0
+163,65,Female,Osteoarthritis,Physical Therapy and Pain Management,,-9223372036854775808,Chandigarh,1970-01-01 00:00:00.000002025,,,Stable,4,No,4000,61-75,,,,,NaT,,Low Cost,0
+164,55,Female,Heart Disease,Angioplasty,,-9223372036854775808,Kerala,1970-01-01 00:00:00.000002024,,,Recovered,3,No,15000,46-60,,,,,NaT,,Low Cost,0
+165,62,Male,Diabetes,Insulin Therapy,,-9223372036854775808,Chandigarh,1970-01-01 00:00:00.000002024,,,Stable,4,Yes,2000,61-75,,,,,NaT,,Low Cost,0
+166,35,Female,Fractured Arm,X-Ray and Splint,2024-05-12,-9223372036854775808,Himachal Pradesh,1970-01-01 00:00:00.000002024,,,Recovered,5,No,500,31-45,,2024.0,5.0,May,2024Q2,Sunday,Low Cost,0
+167,78,Male,Stroke,CT Scan and Medication,,1652054400000000000,Tripura,1970-01-01 00:00:00.000002022,,,Stable,2,No,10000,76+,,,,,NaT,,Low Cost,0
+168,53,Female,Cancer,Surgery and Chemotherapy,2023-02-10,-9223372036854775808,Nagaland,1970-01-01 00:00:00.000002023,,,Recovered,4,Yes,25000,46-60,,2023.0,2.0,February,2023Q1,Friday,Low Cost,0
+169,72,Male,Hypertension,Medication and Counseling,2023-04-03,-9223372036854775808,Kerala,1970-01-01 00:00:00.000002023,,,Stable,4,No,1000,61-75,,2023.0,4.0,April,2023Q2,Monday,Low Cost,0
+170,60,Female,Appendicitis,Appendectomy,2025-09-08,-9223372036854775808,Kerala,1970-01-01 00:00:00.000002025,,,Recovered,3,No,8000,46-60,,2025.0,9.0,September,2025Q3,Monday,Low Cost,0
+171,45,Male,Fractured Leg,Cast and Physical Therapy,2022-09-09,-9223372036854775808,Himachal Pradesh,1970-01-01 00:00:00.000002022,,,Recovered,4,No,3000,31-45,,2022.0,9.0,September,2022Q3,Friday,Low Cost,0
+172,75,Female,Heart Attack,Cardiac Catheterization,2022-11-06,-9223372036854775808,Punjab,1970-01-01 00:00:00.000002022,,,Stable,2,No,18000,61-75,,2022.0,11.0,November,2022Q4,Sunday,Low Cost,0
+173,28,Male,Allergic Reaction,Epinephrine Injection,2025-08-02,-9223372036854775808,Madhya Pradesh,1970-01-01 00:00:00.000002025,,,Recovered,5,No,100,19-30,,2025.0,8.0,August,2025Q3,Saturday,Low Cost,0
+174,52,Female,Respiratory Infection,Antibiotics and Rest,2024-12-07,-9223372036854775808,Meghalaya,1970-01-01 00:00:00.000002024,,,Stable,4,Yes,800,46-60,,2024.0,12.0,December,2024Q4,Saturday,Low Cost,0
+175,67,Male,Prostate Cancer,Radiation Therapy,,-9223372036854775808,Assam,1970-01-01 00:00:00.000002023,,,Recovered,3,No,20000,61-75,,,,,NaT,,Low Cost,0
+176,35,Female,Childbirth,Delivery and Postnatal Care,,-9223372036854775808,Bihar,1970-01-01 00:00:00.000002023,,,Recovered,4,Yes,12000,31-45,,,,,NaT,,Low Cost,0
+177,50,Male,Kidney Stones,Lithotripsy,,1704499200000000000,Gujarat,1970-01-01 00:00:00.000002024,,,Recovered,3,No,6000,46-60,,,,,NaT,,Medium Cost,0
+178,60,Female,Osteoarthritis,Physical Therapy and Pain Management,2022-01-07,-9223372036854775808,Odisha,1970-01-01 00:00:00.000002022,,,Stable,4,No,4000,46-60,,2022.0,1.0,January,2022Q1,Friday,Low Cost,0
+179,48,Female,Heart Disease,Angioplasty,,1728259200000000000,Kerala,1970-01-01 00:00:00.000002024,,,Recovered,4,Yes,15000,46-60,,,,,NaT,,Medium Cost,0
+180,30,Female,Fractured Arm,X-Ray and Splint,2024-05-12,-9223372036854775808,Himachal Pradesh,1970-01-01 00:00:00.000002024,,,Recovered,5,No,500,19-30,,2024.0,5.0,May,2024Q2,Sunday,Low Cost,0
+181,70,Male,Stroke,CT Scan and Medication,2023-09-10,-9223372036854775808,Tripura,1970-01-01 00:00:00.000002023,,,Stable,2,No,10000,61-75,,2023.0,9.0,September,2023Q3,Sunday,Low Cost,0
+182,55,Female,Cancer,Surgery and Chemotherapy,,1699660800000000000,Mizoram,1970-01-01 00:00:00.000002023,,,Recovered,4,No,25000,46-60,,,,,NaT,,Medium Cost,0
+183,68,Male,Hypertension,Medication and Counseling,2022-07-02,-9223372036854775808,Kerala,1970-01-01 00:00:00.000002022,,,Stable,4,No,1000,61-75,,2022.0,7.0,July,2022Q3,Saturday,Low Cost,0
+184,45,Female,Appendicitis,Appendectomy,2023-05-03,-9223372036854775808,Karnataka,1970-01-01 00:00:00.000002023,,,Recovered,3,No,8000,31-45,,2023.0,5.0,May,2023Q2,Wednesday,Low Cost,0
+185,40,Male,Fractured Leg,Cast and Physical Therapy,,1725321600000000000,Gujarat,1970-01-01 00:00:00.000002024,,,Recovered,4,Yes,3000,31-45,,,,,NaT,,Medium Cost,0
+186,78,Female,Heart Attack,Cardiac Catheterization,2024-06-05,-9223372036854775808,Kerala,1970-01-01 00:00:00.000002024,,,Stable,2,Yes,18000,76+,,2024.0,6.0,June,2024Q2,Wednesday,Low Cost,0
+187,25,Male,Allergic Reaction,Epinephrine Injection,,-9223372036854775808,Tamil Nadu,1970-01-01 00:00:00.000002025,,,Recovered,5,Yes,100,19-30,,,,,NaT,,Low Cost,0
+188,52,Female,Respiratory Infection,Antibiotics and Rest,2022-11-05,-9223372036854775808,Jammu & Kashmir,1970-01-01 00:00:00.000002022,,,Stable,4,Yes,800,46-60,,2022.0,11.0,November,2022Q4,Saturday,Low Cost,0
+189,58,Male,Prostate Cancer,Radiation Therapy,2023-01-03,-9223372036854775808,Delhi,1970-01-01 00:00:00.000002023,,,Recovered,3,Yes,20000,46-60,,2023.0,1.0,January,2023Q1,Tuesday,Low Cost,0
+190,32,Female,Childbirth,Delivery and Postnatal Care,,-9223372036854775808,Bihar,1970-01-01 00:00:00.000002025,,,Recovered,4,No,12000,31-45,,,,,NaT,,Low Cost,0
+191,55,Male,Kidney Stones,Lithotripsy,2024-02-10,-9223372036854775808,Delhi,1970-01-01 00:00:00.000002024,,,Recovered,3,Yes,6000,46-60,,2024.0,2.0,February,2024Q1,Saturday,Low Cost,0
+192,65,Female,Osteoarthritis,Physical Therapy and Pain Management,,1717459200000000000,Chandigarh,1970-01-01 00:00:00.000002024,,,Stable,4,No,4000,61-75,,,,,NaT,,Medium Cost,0
+193,55,Female,Heart Disease,Angioplasty,,1730678400000000000,Tamil Nadu,1970-01-01 00:00:00.000002024,,,Recovered,3,Yes,15000,46-60,,,,,NaT,,Medium Cost,0
+194,62,Male,Diabetes,Insulin Therapy,2024-09-03,-9223372036854775808,Goa,1970-01-01 00:00:00.000002024,,,Stable,4,Yes,2000,61-75,,2024.0,9.0,September,2024Q3,Tuesday,Low Cost,0
+195,35,Female,Fractured Arm,X-Ray and Splint,,-9223372036854775808,Maharastra,1970-01-01 00:00:00.000002024,,,Recovered,5,Yes,500,31-45,,,,,NaT,,Low Cost,0
+196,78,Male,Stroke,CT Scan and Medication,,-9223372036854775808,Tripura,1970-01-01 00:00:00.000002025,,,Stable,2,Yes,10000,76+,,,,,NaT,,Low Cost,0
+197,53,Female,Cancer,Surgery and Chemotherapy,,-9223372036854775808,Mizoram,1970-01-01 00:00:00.000002023,,,Recovered,4,No,25000,46-60,,,,,NaT,,Low Cost,0
+198,72,Male,Hypertension,Medication and Counseling,2024-12-12,-9223372036854775808,Punjab,1970-01-01 00:00:00.000002024,,,Stable,4,No,1000,61-75,,2024.0,12.0,December,2024Q4,Thursday,Low Cost,0
+199,60,Female,Appendicitis,Appendectomy,,-9223372036854775808,Tamil Nadu,1970-01-01 00:00:00.000002024,,,Recovered,3,No,8000,46-60,,,,,NaT,,Low Cost,0
+200,45,Male,Fractured Leg,Cast and Physical Therapy,,1741478400000000000,Puducherry,1970-01-01 00:00:00.000002025,,,Recovered,4,No,3000,31-45,,,,,NaT,,Medium Cost,0
+201,75,Female,Heart Attack,Cardiac Catheterization,2023-09-09,-9223372036854775808,Kerala,1970-01-01 00:00:00.000002023,,,Stable,2,No,18000,61-75,,2023.0,9.0,September,2023Q3,Saturday,Low Cost,0
+202,28,Male,Allergic Reaction,Epinephrine Injection,2022-09-08,-9223372036854775808,Madhya Pradesh,1970-01-01 00:00:00.000002022,,,Recovered,5,No,100,19-30,,2022.0,9.0,September,2022Q3,Thursday,Low Cost,0
+203,52,Female,Respiratory Infection,Antibiotics and Rest,2023-11-06,-9223372036854775808,Delhi,1970-01-01 00:00:00.000002023,,,Stable,4,No,800,46-60,,2023.0,11.0,November,2023Q4,Monday,Low Cost,0
+204,67,Male,Prostate Cancer,Radiation Therapy,,-9223372036854775808,Karnataka,1970-01-01 00:00:00.000002024,,,Recovered,3,No,20000,61-75,,,,,NaT,,Low Cost,0
+205,35,Female,Childbirth,Delivery and Postnatal Care,,1691280000000000000,Bihar,1970-01-01 00:00:00.000002023,,,Recovered,4,Yes,12000,31-45,,,,,NaT,,Medium Cost,0
+206,50,Male,Kidney Stones,Lithotripsy,2025-04-01,-9223372036854775808,Gujarat,1970-01-01 00:00:00.000002025,,,Recovered,3,No,6000,46-60,,2025.0,4.0,April,2025Q2,Tuesday,Low Cost,0
+207,60,Female,Osteoarthritis,Physical Therapy and Pain Management,,1731283200000000000,Odisha,1970-01-01 00:00:00.000002024,,,Stable,4,Yes,4000,46-60,,,,,NaT,,Medium Cost,0
+208,48,Female,Heart Disease,Angioplasty,2024-08-09,-9223372036854775808,Kerala,1970-01-01 00:00:00.000002024,,,Recovered,4,Yes,15000,46-60,,2024.0,8.0,August,2024Q3,Friday,Low Cost,0
+209,65,Male,Diabetes,Insulin Therapy,,-9223372036854775808,Puducherry,1970-01-01 00:00:00.000002022,,,Stable,3,No,2000,61-75,,,,,NaT,,Low Cost,0
+210,30,Female,Fractured Arm,X-Ray and Splint,,1675468800000000000,Maharastra,1970-01-01 00:00:00.000002023,,,Recovered,5,Yes,500,19-30,,,,,NaT,,Low Cost,0
+211,70,Male,Stroke,CT Scan and Medication,,1772323200000000000,Tripura,1970-01-01 00:00:00.000002025,,,Stable,2,Yes,10000,61-75,,,,,NaT,,Medium Cost,0
+212,55,Female,Cancer,Surgery and Chemotherapy,,1693872000000000000,Meghalaya,1970-01-01 00:00:00.000002023,,,Recovered,4,No,25000,46-60,,,,,NaT,,Medium Cost,0
+213,68,Male,Hypertension,Medication and Counseling,2024-02-06,-9223372036854775808,Sikkim,1970-01-01 00:00:00.000002024,,,Stable,4,Yes,1000,61-75,,2024.0,2.0,February,2024Q1,Tuesday,Low Cost,0
+214,45,Female,Appendicitis,Appendectomy,,-9223372036854775808,Tamil Nadu,1970-01-01 00:00:00.000002022,,,Recovered,3,No,8000,31-45,,,,,NaT,,Low Cost,0
+215,40,Male,Fractured Leg,Cast and Physical Therapy,,-9223372036854775808,Gujarat,1970-01-01 00:00:00.000002024,,,Recovered,4,No,3000,31-45,,,,,NaT,,Low Cost,0
+216,78,Female,Heart Attack,Cardiac Catheterization,,1731024000000000000,Kerala,1970-01-01 00:00:00.000002024,,,Stable,2,No,18000,76+,,,,,NaT,,Medium Cost,0
+217,25,Male,Allergic Reaction,Epinephrine Injection,,1644537600000000000,Madhya Pradesh,1970-01-01 00:00:00.000002022,,,Recovered,5,No,100,19-30,,,,,NaT,,Low Cost,0
+218,52,Female,Respiratory Infection,Antibiotics and Rest,,-9223372036854775808,Delhi,1970-01-01 00:00:00.000002025,,,Stable,4,No,800,46-60,,,,,NaT,,Low Cost,0
+219,58,Male,Prostate Cancer,Radiation Therapy,2022-06-04,-9223372036854775808,Assam,1970-01-01 00:00:00.000002022,,,Recovered,3,No,20000,46-60,,2022.0,6.0,June,2022Q2,Saturday,Low Cost,0
+220,32,Female,Childbirth,Delivery and Postnatal Care,2024-12-01,-9223372036854775808,Bihar,1970-01-01 00:00:00.000002024,,,Recovered,4,No,12000,31-45,,2024.0,12.0,December,2024Q4,Sunday,Low Cost,0
+221,55,Male,Kidney Stones,Lithotripsy,2025-04-09,-9223372036854775808,Delhi,1970-01-01 00:00:00.000002025,,,Recovered,3,Yes,6000,46-60,,2025.0,4.0,April,2025Q2,Wednesday,Low Cost,0
+222,65,Female,Osteoarthritis,Physical Therapy and Pain Management,,1675641600000000000,Chandigarh,1970-01-01 00:00:00.000002023,,,Stable,4,No,4000,61-75,,,,,NaT,,Low Cost,0
+223,55,Female,Heart Disease,Angioplasty,2022-10-05,-9223372036854775808,Punjab,1970-01-01 00:00:00.000002022,,,Recovered,3,No,15000,46-60,,2022.0,10.0,October,2022Q4,Wednesday,Low Cost,0
+224,62,Male,Diabetes,Insulin Therapy,,-9223372036854775808,Chandigarh,1970-01-01 00:00:00.000002024,,,Stable,4,No,2000,61-75,,,,,NaT,,Low Cost,0
+225,35,Female,Fractured Arm,X-Ray and Splint,2022-10-07,-9223372036854775808,Maharastra,1970-01-01 00:00:00.000002022,,,Recovered,5,Yes,500,31-45,,2022.0,10.0,October,2022Q4,Friday,Low Cost,0
+226,78,Male,Stroke,CT Scan and Medication,,1725926400000000000,Manipur,1970-01-01 00:00:00.000002024,,,Stable,2,Yes,10000,76+,,,,,NaT,,Medium Cost,0
+227,53,Female,Cancer,Surgery and Chemotherapy,,-9223372036854775808,Punjab,1970-01-01 00:00:00.000002025,,,Recovered,4,No,25000,46-60,,,,,NaT,,Low Cost,0
+228,72,Male,Hypertension,Medication and Counseling,,1683158400000000000,Sikkim,1970-01-01 00:00:00.000002023,,,Stable,4,No,1000,61-75,,,,,NaT,,Low Cost,0
+229,60,Female,Appendicitis,Appendectomy,2022-04-06,-9223372036854775808,Tamil Nadu,1970-01-01 00:00:00.000002022,,,Recovered,3,No,8000,46-60,,2022.0,4.0,April,2022Q2,Wednesday,Low Cost,0
+230,45,Male,Fractured Leg,Cast and Physical Therapy,,-9223372036854775808,Himachal Pradesh,1970-01-01 00:00:00.000002025,,,Recovered,4,Yes,3000,31-45,,,,,NaT,,Low Cost,0
+231,75,Female,Heart Attack,Cardiac Catheterization,,-9223372036854775808,Kerala,1970-01-01 00:00:00.000002023,,,Stable,2,No,18000,61-75,,,,,NaT,,Low Cost,0
+232,28,Male,Allergic Reaction,Epinephrine Injection,,1717372800000000000,Tamil Nadu,1970-01-01 00:00:00.000002024,,,Recovered,5,No,100,19-30,,,,,NaT,,Medium Cost,0
+233,52,Female,Respiratory Infection,Antibiotics and Rest,,1694044800000000000,Meghalaya,1970-01-01 00:00:00.000002023,,,Stable,4,No,800,46-60,,,,,NaT,,Medium Cost,0
+234,67,Male,Prostate Cancer,Radiation Therapy,,1686441600000000000,Kerala,1970-01-01 00:00:00.000002023,,,Recovered,3,No,20000,61-75,,,,,NaT,,Low Cost,0
+235,35,Female,Childbirth,Delivery and Postnatal Care,2023-01-11,-9223372036854775808,Bihar,1970-01-01 00:00:00.000002023,,,Recovered,4,Yes,12000,31-45,,2023.0,1.0,January,2023Q1,Wednesday,Low Cost,0
+236,50,Male,Kidney Stones,Lithotripsy,2025-09-11,-9223372036854775808,Delhi,1970-01-01 00:00:00.000002025,,,Recovered,3,Yes,6000,46-60,,2025.0,9.0,September,2025Q3,Thursday,Low Cost,0
+237,60,Female,Osteoarthritis,Physical Therapy and Pain Management,,1748908800000000000,Tamil Nadu,1970-01-01 00:00:00.000002025,,,Stable,4,Yes,4000,46-60,,,,,NaT,,Medium Cost,0
+238,48,Female,Heart Disease,Angioplasty,,1727913600000000000,Punjab,1970-01-01 00:00:00.000002024,,,Recovered,4,No,15000,46-60,,,,,NaT,,Medium Cost,0
+239,65,Male,Diabetes,Insulin Therapy,2024-10-08,-9223372036854775808,Tamil Nadu,1970-01-01 00:00:00.000002024,,,Stable,3,Yes,2000,61-75,,2024.0,10.0,October,2024Q4,Tuesday,Low Cost,0
+240,70,Male,Stroke,CT Scan and Medication,2023-10-07,1675814400000000000,Mizoram,1970-01-01 00:00:00.000002023,,,Stable,2,No,10000,61-75,,2023.0,10.0,October,2023Q4,Saturday,Low Cost,0
+241,55,Female,Cancer,Surgery and Chemotherapy,2023-12-04,1691193600000000000,Mizoram,1970-01-01 00:00:00.000002023,,,Recovered,4,No,25000,46-60,,2023.0,12.0,December,2023Q4,Monday,Medium Cost,0
+242,68,Male,Hypertension,Medication and Counseling,2022-05-03,-9223372036854775808,Sikkim,1970-01-01 00:00:00.000002022,,,Stable,4,Yes,1000,61-75,,2022.0,5.0,May,2022Q2,Tuesday,Low Cost,0
+243,45,Female,Appendicitis,Appendectomy,2022-05-06,-9223372036854775808,Tamil Nadu,1970-01-01 00:00:00.000002022,,,Recovered,3,Yes,8000,31-45,,2022.0,5.0,May,2022Q2,Friday,Low Cost,0
+244,40,Male,Fractured Leg,Cast and Physical Therapy,2023-09-10,-9223372036854775808,Gujarat,1970-01-01 00:00:00.000002023,,,Recovered,4,Yes,3000,31-45,,2023.0,9.0,September,2023Q3,Sunday,Low Cost,0
+245,78,Female,Heart Attack,Cardiac Catheterization,,-9223372036854775808,West Bengal,1970-01-01 00:00:00.000002023,,,Stable,2,No,18000,76+,,,,,NaT,,Low Cost,0
+246,25,Male,Allergic Reaction,Epinephrine Injection,,1736035200000000000,Madhya Pradesh,1970-01-01 00:00:00.000002025,,,Recovered,5,Yes,100,19-30,,,,,NaT,,Medium Cost,0
+247,52,Female,Respiratory Infection,Antibiotics and Rest,,1667779200000000000,Delhi,1970-01-01 00:00:00.000002022,,,Stable,4,No,800,46-60,,,,,NaT,,Low Cost,0
+248,58,Male,Prostate Cancer,Radiation Therapy,,1696636800000000000,Assam,1970-01-01 00:00:00.000002023,,,Recovered,3,No,20000,46-60,,,,,NaT,,Medium Cost,0
+249,32,Female,Childbirth,Delivery and Postnatal Care,,1644364800000000000,Uttar Pradesh,1970-01-01 00:00:00.000002022,,,Recovered,4,No,12000,31-45,,,,,NaT,,Low Cost,0
+250,55,Male,Kidney Stones,Lithotripsy,2023-02-08,-9223372036854775808,Delhi,1970-01-01 00:00:00.000002023,,,Recovered,3,No,6000,46-60,,2023.0,2.0,February,2023Q1,Wednesday,Low Cost,0
+251,65,Female,Osteoarthritis,Physical Therapy and Pain Management,,-9223372036854775808,Tamil Nadu,1970-01-01 00:00:00.000002022,,,Stable,4,No,4000,61-75,,,,,NaT,,Low Cost,0
+252,55,Female,Heart Disease,Angioplasty,2024-10-09,1707523200000000000,Kerala,1970-01-01 00:00:00.000002024,,,Recovered,3,No,15000,46-60,,2024.0,10.0,October,2024Q4,Wednesday,Medium Cost,0
+253,62,Male,Diabetes,Insulin Therapy,2022-01-09,-9223372036854775808,Andhra Pradesh,1970-01-01 00:00:00.000002022,,,Stable,4,Yes,2000,61-75,,2022.0,1.0,January,2022Q1,Sunday,Low Cost,0
+254,35,Female,Fractured Arm,X-Ray and Splint,,-9223372036854775808,Maharastra,1970-01-01 00:00:00.000002024,,,Recovered,5,No,500,31-45,,,,,NaT,,Low Cost,0
+255,78,Male,Stroke,CT Scan and Medication,2025-03-09,-9223372036854775808,Manipur,1970-01-01 00:00:00.000002025,,,Stable,2,Yes,10000,76+,,2025.0,3.0,March,2025Q1,Sunday,Low Cost,0
+256,53,Female,Cancer,Surgery and Chemotherapy,2025-12-07,1754611200000000000,Meghalaya,1970-01-01 00:00:00.000002025,,,Recovered,4,Yes,25000,46-60,,2025.0,12.0,December,2025Q4,Sunday,Medium Cost,0
+257,72,Male,Hypertension,Medication and Counseling,,1641859200000000000,Sikkim,1970-01-01 00:00:00.000002022,,,Stable,4,Yes,1000,61-75,,,,,NaT,,Low Cost,0
+258,60,Female,Appendicitis,Appendectomy,2024-12-11,1710201600000000000,Tamil Nadu,1970-01-01 00:00:00.000002024,,,Recovered,3,Yes,8000,46-60,,2024.0,12.0,December,2024Q4,Wednesday,Medium Cost,0
+259,45,Male,Fractured Leg,Cast and Physical Therapy,,-9223372036854775808,Himachal Pradesh,1970-01-01 00:00:00.000002022,,,Recovered,4,No,3000,31-45,,,,,NaT,,Low Cost,0
+260,75,Female,Heart Attack,Cardiac Catheterization,,-9223372036854775808,West Bengal,1970-01-01 00:00:00.000002025,,,Stable,2,No,18000,61-75,,,,,NaT,,Low Cost,0
+261,28,Male,Allergic Reaction,Epinephrine Injection,,1654473600000000000,Kerala,1970-01-01 00:00:00.000002022,,,Recovered,5,No,100,19-30,,,,,NaT,,Low Cost,0
+262,52,Female,Respiratory Infection,Antibiotics and Rest,,1675468800000000000,Jammu & Kashmir,1970-01-01 00:00:00.000002023,,,Stable,4,No,800,46-60,,,,,NaT,,Low Cost,0
+263,67,Male,Prostate Cancer,Radiation Therapy,,1694131200000000000,Kerala,1970-01-01 00:00:00.000002023,,,Recovered,3,Yes,20000,61-75,,,,,NaT,,Medium Cost,0
+264,35,Female,Childbirth,Delivery and Postnatal Care,,1759536000000000000,Uttar Pradesh,1970-01-01 00:00:00.000002025,,,Recovered,4,Yes,12000,31-45,,,,,NaT,,Medium Cost,0
+265,50,Male,Kidney Stones,Lithotripsy,2022-02-03,-9223372036854775808,Delhi,1970-01-01 00:00:00.000002022,,,Recovered,3,No,6000,46-60,,2022.0,2.0,February,2022Q1,Thursday,Low Cost,0
+266,60,Female,Osteoarthritis,Physical Therapy and Pain Management,2023-09-05,-9223372036854775808,Chandigarh,1970-01-01 00:00:00.000002023,,,Stable,4,Yes,4000,46-60,,2023.0,9.0,September,2023Q3,Tuesday,Low Cost,0
+267,48,Female,Heart Disease,Angioplasty,,1693526400000000000,Punjab,1970-01-01 00:00:00.000002022,,,Recovered,4,Yes,15000,46-60,,,,,NaT,,Medium Cost,0
+268,65,Male,Diabetes,Insulin Therapy,,1701820800000000000,Andhra Pradesh,1970-01-01 00:00:00.000002023,,,Stable,3,Yes,2000,61-75,,,,,NaT,,Medium Cost,0
+269,30,Female,Fractured Arm,X-Ray and Splint,2022-08-01,-9223372036854775808,Himachal Pradesh,1970-01-01 00:00:00.000002022,,,Recovered,5,No,500,19-30,,2022.0,8.0,August,2022Q3,Monday,Low Cost,0
+270,70,Male,Stroke,CT Scan and Medication,2024-01-01,-9223372036854775808,Mizoram,1970-01-01 00:00:00.000002024,,,Stable,2,Yes,10000,61-75,,2024.0,1.0,January,2024Q1,Monday,Low Cost,0
+271,55,Female,Cancer,Surgery and Chemotherapy,,-9223372036854775808,Assam,1970-01-01 00:00:00.000002025,,,Recovered,4,No,25000,46-60,,,,,NaT,,Low Cost,0
+272,68,Male,Hypertension,Medication and Counseling,2024-10-03,-9223372036854775808,Punjab,1970-01-01 00:00:00.000002024,,,Stable,4,No,1000,61-75,,2024.0,10.0,October,2024Q4,Thursday,Low Cost,0
+273,45,Female,Appendicitis,Appendectomy,2022-12-12,1677628800000000000,Karnataka,1970-01-01 00:00:00.000002022,79.0,,Recovered,3,Yes,8000,31-45,8+ Days,2022.0,12.0,December,2022Q4,Monday,Low Cost,0
+274,40,Male,Fractured Leg,Cast and Physical Therapy,,-9223372036854775808,Himachal Pradesh,1970-01-01 00:00:00.000002024,,,Recovered,4,Yes,3000,31-45,,,,,NaT,,Low Cost,0
+275,78,Female,Heart Attack,Cardiac Catheterization,,-9223372036854775808,Punjab,1970-01-01 00:00:00.000002022,,,Stable,2,Yes,18000,76+,,,,,NaT,,Low Cost,0
+276,25,Male,Allergic Reaction,Epinephrine Injection,,1748908800000000000,Kerala,1970-01-01 00:00:00.000002025,,,Recovered,5,No,100,19-30,,,,,NaT,,Medium Cost,0
+277,52,Female,Respiratory Infection,Antibiotics and Rest,,-9223372036854775808,Delhi,1970-01-01 00:00:00.000002022,,,Stable,4,No,800,46-60,,,,,NaT,,Low Cost,0
+278,58,Male,Prostate Cancer,Radiation Therapy,,-9223372036854775808,Assam,1970-01-01 00:00:00.000002024,,,Recovered,3,Yes,20000,46-60,,,,,NaT,,Low Cost,0
+279,32,Female,Childbirth,Delivery and Postnatal Care,,1668124800000000000,Rajasthan,1970-01-01 00:00:00.000002022,,,Recovered,4,Yes,12000,31-45,,,,,NaT,,Low Cost,0
+280,55,Male,Kidney Stones,Lithotripsy,2023-06-05,-9223372036854775808,Delhi,1970-01-01 00:00:00.000002023,,,Recovered,3,No,6000,46-60,,2023.0,6.0,June,2023Q2,Monday,Low Cost,0
+281,65,Female,Osteoarthritis,Physical Therapy and Pain Management,,1693526400000000000,Odisha,1970-01-01 00:00:00.000002022,,,Stable,4,No,4000,61-75,,,,,NaT,,Medium Cost,0
+282,55,Female,Heart Disease,Angioplasty,,-9223372036854775808,Tamil Nadu,1970-01-01 00:00:00.000002023,,,Recovered,3,Yes,15000,46-60,,,,,NaT,,Low Cost,0
+283,62,Male,Diabetes,Insulin Therapy,,1662940800000000000,Tamil Nadu,1970-01-01 00:00:00.000002022,,,Stable,4,No,2000,61-75,,,,,NaT,,Low Cost,0
+284,35,Female,Fractured Arm,X-Ray and Splint,,1662681600000000000,Haryana,1970-01-01 00:00:00.000002022,,,Recovered,5,Yes,500,31-45,,,,,NaT,,Low Cost,0
+285,78,Male,Stroke,CT Scan and Medication,2023-11-04,1688515200000000000,Tripura,1970-01-01 00:00:00.000002023,,,Stable,2,Yes,10000,76+,,2023.0,11.0,November,2023Q4,Saturday,Medium Cost,0
+286,53,Female,Cancer,Surgery and Chemotherapy,,-9223372036854775808,Assam,1970-01-01 00:00:00.000002025,,,Recovered,4,No,25000,46-60,,,,,NaT,,Low Cost,0
+287,72,Male,Hypertension,Medication and Counseling,,1714953600000000000,Punjab,1970-01-01 00:00:00.000002024,,,Stable,4,No,1000,61-75,,,,,NaT,,Medium Cost,0
+288,60,Female,Appendicitis,Appendectomy,,1733443200000000000,Kerala,1970-01-01 00:00:00.000002024,,,Recovered,3,Yes,8000,46-60,,,,,NaT,,Medium Cost,0
+289,45,Male,Fractured Leg,Cast and Physical Therapy,2022-07-01,1641081600000000000,Gujarat,1970-01-01 00:00:00.000002022,,,Recovered,4,Yes,3000,31-45,,2022.0,7.0,July,2022Q3,Friday,Low Cost,0
+290,75,Female,Heart Attack,Cardiac Catheterization,,-9223372036854775808,Punjab,1970-01-01 00:00:00.000002025,,,Stable,2,No,18000,61-75,,,,,NaT,,Low Cost,0
+291,52,Female,Respiratory Infection,Antibiotics and Rest,,1697068800000000000,Delhi,1970-01-01 00:00:00.000002023,,,Stable,4,Yes,800,46-60,,,,,NaT,,Medium Cost,0
+292,67,Male,Prostate Cancer,Radiation Therapy,,-9223372036854775808,Delhi,1970-01-01 00:00:00.000002025,,,Recovered,3,No,20000,61-75,,,,,NaT,,Low Cost,0
+293,35,Female,Childbirth,Delivery and Postnatal Care,,-9223372036854775808,Rajasthan,1970-01-01 00:00:00.000002025,,,Recovered,4,No,12000,31-45,,,,,NaT,,Low Cost,0
+294,50,Male,Kidney Stones,Lithotripsy,,-9223372036854775808,Gujarat,1970-01-01 00:00:00.000002025,,,Recovered,3,Yes,6000,46-60,,,,,NaT,,Low Cost,0
+295,60,Female,Osteoarthritis,Physical Therapy and Pain Management,2022-04-11,-9223372036854775808,Chandigarh,1970-01-01 00:00:00.000002022,,,Stable,4,Yes,4000,46-60,,2022.0,4.0,April,2022Q2,Monday,Low Cost,0
+296,48,Female,Heart Disease,Angioplasty,2025-04-11,-9223372036854775808,Punjab,1970-01-01 00:00:00.000002025,,,Recovered,4,Yes,15000,46-60,,2025.0,4.0,April,2025Q2,Friday,Low Cost,0
+297,65,Male,Diabetes,Insulin Therapy,,1662249600000000000,Goa,1970-01-01 00:00:00.000002022,,,Stable,3,Yes,2000,61-75,,,,,NaT,,Low Cost,0
+298,30,Female,Fractured Arm,X-Ray and Splint,2025-10-05,-9223372036854775808,Haryana,1970-01-01 00:00:00.000002025,,,Recovered,5,No,500,19-30,,2025.0,10.0,October,2025Q4,Sunday,Low Cost,0
+299,70,Male,Stroke,CT Scan and Medication,,-9223372036854775808,Assam,1970-01-01 00:00:00.000002025,,,Stable,2,No,10000,61-75,,,,,NaT,,Low Cost,0
+300,55,Female,Cancer,Surgery and Chemotherapy,2023-08-01,1688256000000000000,Assam,1970-01-01 00:00:00.000002023,,,Recovered,4,No,25000,46-60,,2023.0,8.0,August,2023Q3,Tuesday,Low Cost,0
+301,68,Male,Hypertension,Medication and Counseling,2023-09-02,1677801600000000000,Goa,1970-01-01 00:00:00.000002023,,,Stable,4,No,1000,61-75,,2023.0,9.0,September,2023Q3,Saturday,Low Cost,0
+302,45,Female,Appendicitis,Appendectomy,,1730592000000000000,Andhra Pradesh,1970-01-01 00:00:00.000002024,,,Recovered,3,No,8000,31-45,,,,,NaT,,Medium Cost,0
+303,40,Male,Fractured Leg,Cast and Physical Therapy,,1728518400000000000,Puducherry,1970-01-01 00:00:00.000002024,,,Recovered,4,No,3000,31-45,,,,,NaT,,Medium Cost,0
+304,78,Female,Heart Attack,Cardiac Catheterization,2025-06-06,1743984000000000000,West Bengal,1970-01-01 00:00:00.000002025,,,Stable,2,No,18000,76+,,2025.0,6.0,June,2025Q2,Friday,Medium Cost,0
+305,25,Male,Allergic Reaction,Epinephrine Injection,,-9223372036854775808,Madhya Pradesh,1970-01-01 00:00:00.000002023,,,Recovered,5,Yes,100,19-30,,,,,NaT,,Low Cost,0
+306,52,Female,Respiratory Infection,Antibiotics and Rest,2023-05-05,-9223372036854775808,Jammu & Kashmir,1970-01-01 00:00:00.000002023,,,Stable,4,No,800,46-60,,2023.0,5.0,May,2023Q2,Friday,Low Cost,0
+307,58,Male,Prostate Cancer,Radiation Therapy,,-9223372036854775808,Delhi,1970-01-01 00:00:00.000002024,,,Recovered,3,No,20000,46-60,,,,,NaT,,Low Cost,0
+308,32,Female,Childbirth,Delivery and Postnatal Care,,-9223372036854775808,Madhya Pradesh,1970-01-01 00:00:00.000002025,,,Recovered,4,No,12000,31-45,,,,,NaT,,Low Cost,0
+309,55,Male,Kidney Stones,Lithotripsy,,-9223372036854775808,Delhi,1970-01-01 00:00:00.000002024,,,Recovered,3,No,6000,46-60,,,,,NaT,,Low Cost,0
+310,65,Female,Osteoarthritis,Physical Therapy and Pain Management,,-9223372036854775808,Tamil Nadu,1970-01-01 00:00:00.000002024,,,Stable,4,No,4000,61-75,,,,,NaT,,Low Cost,0
+311,55,Female,Heart Disease,Angioplasty,,-9223372036854775808,Tamil Nadu,1970-01-01 00:00:00.000002024,,,Recovered,3,No,15000,46-60,,,,,NaT,,Low Cost,0
+312,62,Male,Diabetes,Insulin Therapy,,1701734400000000000,Puducherry,1970-01-01 00:00:00.000002023,,,Stable,4,No,2000,61-75,,,,,NaT,,Medium Cost,0
+313,35,Female,Fractured Arm,X-Ray and Splint,2022-05-02,-9223372036854775808,Haryana,1970-01-01 00:00:00.000002022,,,Recovered,5,No,500,31-45,,2022.0,5.0,May,2022Q2,Monday,Low Cost,0
+314,78,Male,Stroke,CT Scan and Medication,2025-05-06,1741305600000000000,Manipur,1970-01-01 00:00:00.000002025,,,Stable,2,No,10000,76+,,2025.0,5.0,May,2025Q2,Tuesday,Medium Cost,0
+315,53,Female,Cancer,Surgery and Chemotherapy,2023-07-04,1691193600000000000,Meghalaya,1970-01-01 00:00:00.000002023,32.0,,Recovered,4,Yes,25000,46-60,8+ Days,2023.0,7.0,July,2023Q3,Tuesday,Medium Cost,0
+316,72,Male,Hypertension,Medication and Counseling,2023-11-09,1681084800000000000,Sikkim,1970-01-01 00:00:00.000002023,,,Stable,4,No,1000,61-75,,2023.0,11.0,November,2023Q4,Thursday,Low Cost,0
+317,60,Female,Appendicitis,Appendectomy,2022-06-05,-9223372036854775808,West Bengal,1970-01-01 00:00:00.000002022,,,Recovered,3,No,8000,46-60,,2022.0,6.0,June,2022Q2,Sunday,Low Cost,0
+318,45,Male,Fractured Leg,Cast and Physical Therapy,2022-04-07,-9223372036854775808,Gujarat,1970-01-01 00:00:00.000002022,,,Recovered,4,No,3000,31-45,,2022.0,4.0,April,2022Q2,Thursday,Low Cost,0
+319,75,Female,Heart Attack,Cardiac Catheterization,2022-12-06,1667779200000000000,Punjab,1970-01-01 00:00:00.000002022,,,Stable,2,Yes,18000,61-75,,2022.0,12.0,December,2022Q4,Tuesday,Low Cost,0
+320,28,Male,Allergic Reaction,Epinephrine Injection,,1751587200000000000,Kerala,1970-01-01 00:00:00.000002025,,,Recovered,5,Yes,100,19-30,,,,,NaT,,Medium Cost,0
+321,52,Female,Respiratory Infection,Antibiotics and Rest,,1751760000000000000,Jammu & Kashmir,1970-01-01 00:00:00.000002025,,,Stable,4,Yes,800,46-60,,,,,NaT,,Medium Cost,0
+322,67,Male,Prostate Cancer,Radiation Therapy,,-9223372036854775808,Assam,1970-01-01 00:00:00.000002023,,,Recovered,3,No,20000,61-75,,,,,NaT,,Low Cost,0
+323,35,Female,Childbirth,Delivery and Postnatal Care,,-9223372036854775808,Uttar Pradesh,1970-01-01 00:00:00.000002022,,,Recovered,4,Yes,12000,31-45,,,,,NaT,,Low Cost,0
+324,50,Male,Kidney Stones,Lithotripsy,,-9223372036854775808,Punjab,1970-01-01 00:00:00.000002024,,,Recovered,3,Yes,6000,46-60,,,,,NaT,,Low Cost,0
+325,60,Female,Osteoarthritis,Physical Therapy and Pain Management,2024-06-01,1704153600000000000,Chandigarh,1970-01-01 00:00:00.000002024,,,Stable,4,No,4000,46-60,,2024.0,6.0,June,2024Q2,Saturday,Medium Cost,0
+326,48,Female,Heart Disease,Angioplasty,,1699660800000000000,Kerala,1970-01-01 00:00:00.000002023,,,Recovered,4,No,15000,46-60,,,,,NaT,,Medium Cost,0
+327,65,Male,Diabetes,Insulin Therapy,2023-10-08,1680998400000000000,Puducherry,1970-01-01 00:00:00.000002023,,,Stable,3,Yes,2000,61-75,,2023.0,10.0,October,2023Q4,Sunday,Low Cost,0
+328,30,Female,Fractured Arm,X-Ray and Splint,,-9223372036854775808,Maharastra,1970-01-01 00:00:00.000002024,,,Recovered,5,No,500,19-30,,,,,NaT,,Low Cost,0
+329,70,Male,Stroke,CT Scan and Medication,,-9223372036854775808,Mizoram,1970-01-01 00:00:00.000002023,,,Stable,2,No,10000,61-75,,,,,NaT,,Low Cost,0
+330,55,Female,Cancer,Surgery and Chemotherapy,,-9223372036854775808,Mizoram,1970-01-01 00:00:00.000002022,,,Recovered,4,Yes,25000,46-60,,,,,NaT,,Low Cost,0
+331,68,Male,Hypertension,Medication and Counseling,2022-02-02,-9223372036854775808,Sikkim,1970-01-01 00:00:00.000002022,,,Stable,4,Yes,1000,61-75,,2022.0,2.0,February,2022Q1,Wednesday,Low Cost,0
+332,45,Female,Appendicitis,Appendectomy,,-9223372036854775808,West Bengal,1970-01-01 00:00:00.000002025,,,Recovered,3,Yes,8000,31-45,,,,,NaT,,Low Cost,0
+333,40,Male,Fractured Leg,Cast and Physical Therapy,,1696118400000000000,Puducherry,1970-01-01 00:00:00.000002022,,,Recovered,4,Yes,3000,31-45,,,,,NaT,,Medium Cost,0
+334,78,Female,Heart Attack,Cardiac Catheterization,2023-01-11,1673481600000000000,West Bengal,1970-01-01 00:00:00.000002023,1.0,,Stable,2,No,18000,76+,Same Day / 1 Day,2023.0,1.0,January,2023Q1,Wednesday,Low Cost,0
+335,25,Male,Allergic Reaction,Epinephrine Injection,,-9223372036854775808,Madhya Pradesh,1970-01-01 00:00:00.000002024,,,Recovered,5,Yes,100,19-30,,,,,NaT,,Low Cost,0
+336,52,Female,Respiratory Infection,Antibiotics and Rest,,1662595200000000000,Jammu & Kashmir,1970-01-01 00:00:00.000002022,,,Stable,4,Yes,800,46-60,,,,,NaT,,Low Cost,0
+337,58,Male,Prostate Cancer,Radiation Therapy,2023-01-02,1680480000000000000,Kerala,1970-01-01 00:00:00.000002023,91.0,,Recovered,3,No,20000,46-60,8+ Days,2023.0,1.0,January,2023Q1,Monday,Low Cost,0
+338,32,Female,Childbirth,Delivery and Postnatal Care,,-9223372036854775808,Bihar,1970-01-01 00:00:00.000002023,,,Recovered,4,Yes,12000,31-45,,,,,NaT,,Low Cost,0
+339,55,Male,Kidney Stones,Lithotripsy,2023-06-08,1673222400000000000,Haryana,1970-01-01 00:00:00.000002023,,,Recovered,3,No,6000,46-60,,2023.0,6.0,June,2023Q2,Thursday,Low Cost,0
+340,65,Female,Osteoarthritis,Physical Therapy and Pain Management,,1733961600000000000,Tamil Nadu,1970-01-01 00:00:00.000002024,,,Stable,4,No,4000,61-75,,,,,NaT,,Medium Cost,0
+341,55,Female,Heart Disease,Angioplasty,,1762041600000000000,Kerala,1970-01-01 00:00:00.000002025,,,Recovered,3,No,15000,46-60,,,,,NaT,,Medium Cost,0
+342,62,Male,Diabetes,Insulin Therapy,2023-06-07,1673136000000000000,Goa,1970-01-01 00:00:00.000002023,,,Stable,4,Yes,2000,61-75,,2023.0,6.0,June,2023Q2,Wednesday,Low Cost,0
+343,35,Female,Fractured Arm,X-Ray and Splint,,-9223372036854775808,Himachal Pradesh,1970-01-01 00:00:00.000002023,,,Recovered,5,Yes,500,31-45,,,,,NaT,,Low Cost,0
+344,78,Male,Stroke,CT Scan and Medication,2024-05-10,1712793600000000000,Tripura,1970-01-01 00:00:00.000002024,,,Stable,2,No,10000,76+,,2024.0,5.0,May,2024Q2,Friday,Medium Cost,0
+345,53,Female,Cancer,Surgery and Chemotherapy,,-9223372036854775808,Nagaland,1970-01-01 00:00:00.000002023,,,Recovered,4,No,25000,46-60,,,,,NaT,,Low Cost,0
+346,72,Male,Hypertension,Medication and Counseling,,-9223372036854775808,Goa,1970-01-01 00:00:00.000002022,,,Stable,4,No,1000,61-75,,,,,NaT,,Low Cost,0
+347,60,Female,Appendicitis,Appendectomy,2025-04-12,-9223372036854775808,Punjab,1970-01-01 00:00:00.000002025,,,Recovered,3,No,8000,46-60,,2025.0,4.0,April,2025Q2,Saturday,Low Cost,0
+348,45,Male,Fractured Leg,Cast and Physical Therapy,2024-02-11,1705017600000000000,Gujarat,1970-01-01 00:00:00.000002024,,,Recovered,4,No,3000,31-45,,2024.0,2.0,February,2024Q1,Sunday,Medium Cost,0
+349,75,Female,Heart Attack,Cardiac Catheterization,,-9223372036854775808,Punjab,1970-01-01 00:00:00.000002025,,,Stable,2,No,18000,61-75,,,,,NaT,,Low Cost,0
+350,28,Male,Allergic Reaction,Epinephrine Injection,,-9223372036854775808,Kerala,1970-01-01 00:00:00.000002024,,,Recovered,5,No,100,19-30,,,,,NaT,,Low Cost,0
+351,67,Male,Prostate Cancer,Radiation Therapy,2025-03-06,1746576000000000000,Assam,1970-01-01 00:00:00.000002025,62.0,,Recovered,3,No,20000,61-75,8+ Days,2025.0,3.0,March,2025Q1,Thursday,Medium Cost,0
+352,35,Female,Childbirth,Delivery and Postnatal Care,,1764547200000000000,Bihar,1970-01-01 00:00:00.000002024,,,Recovered,4,No,12000,31-45,,,,,NaT,,Medium Cost,0
+353,50,Male,Kidney Stones,Lithotripsy,,-9223372036854775808,Delhi,1970-01-01 00:00:00.000002023,,,Recovered,3,No,6000,46-60,,,,,NaT,,Low Cost,0
+354,60,Female,Osteoarthritis,Physical Therapy and Pain Management,,1668038400000000000,Chandigarh,1970-01-01 00:00:00.000002022,,,Stable,4,Yes,4000,46-60,,,,,NaT,,Low Cost,0
+355,48,Female,Heart Disease,Angioplasty,,1667347200000000000,Tamil Nadu,1970-01-01 00:00:00.000002022,,,Recovered,4,No,15000,46-60,,,,,NaT,,Low Cost,0
+356,65,Male,Diabetes,Insulin Therapy,2024-09-06,1717718400000000000,Puducherry,1970-01-01 00:00:00.000002024,,,Stable,3,Yes,2000,61-75,,2024.0,9.0,September,2024Q3,Friday,Medium Cost,0
+357,30,Female,Fractured Arm,X-Ray and Splint,2025-03-05,-9223372036854775808,Himachal Pradesh,1970-01-01 00:00:00.000002025,,,Recovered,5,No,500,19-30,,2025.0,3.0,March,2025Q1,Wednesday,Low Cost,0
+358,70,Male,Stroke,CT Scan and Medication,,-9223372036854775808,Tripura,1970-01-01 00:00:00.000002025,,,Stable,2,No,10000,61-75,,,,,NaT,,Low Cost,0
+359,55,Female,Cancer,Surgery and Chemotherapy,,-9223372036854775808,Mizoram,1970-01-01 00:00:00.000002024,,,Recovered,4,Yes,25000,46-60,,,,,NaT,,Low Cost,0
+360,68,Male,Hypertension,Medication and Counseling,2022-02-06,-9223372036854775808,Goa,1970-01-01 00:00:00.000002022,,,Stable,4,Yes,1000,61-75,,2022.0,2.0,February,2022Q1,Sunday,Low Cost,0
+361,45,Female,Appendicitis,Appendectomy,2024-03-05,-9223372036854775808,Karnataka,1970-01-01 00:00:00.000002024,,,Recovered,3,Yes,8000,31-45,,2024.0,3.0,March,2024Q1,Tuesday,Low Cost,0
+362,40,Male,Fractured Leg,Cast and Physical Therapy,,-9223372036854775808,Himachal Pradesh,1970-01-01 00:00:00.000002022,,,Recovered,4,Yes,3000,31-45,,,,,NaT,,Low Cost,0
+363,78,Female,Heart Attack,Cardiac Catheterization,2025-06-07,1751932800000000000,Punjab,1970-01-01 00:00:00.000002025,31.0,,Stable,2,No,18000,76+,8+ Days,2025.0,6.0,June,2025Q2,Saturday,Medium Cost,0
+364,25,Male,Allergic Reaction,Epinephrine Injection,2025-01-06,-9223372036854775808,Kerala,1970-01-01 00:00:00.000002025,,,Recovered,5,Yes,100,19-30,,2025.0,1.0,January,2025Q1,Monday,Low Cost,0
+365,52,Female,Respiratory Infection,Antibiotics and Rest,,-9223372036854775808,Delhi,1970-01-01 00:00:00.000002022,,,Stable,4,No,800,46-60,,,,,NaT,,Low Cost,0
+366,58,Male,Prostate Cancer,Radiation Therapy,,1707004800000000000,Kerala,1970-01-01 00:00:00.000002024,,,Recovered,3,No,20000,46-60,,,,,NaT,,Medium Cost,0
+367,32,Female,Childbirth,Delivery and Postnatal Care,2023-09-04,1685923200000000000,Uttar Pradesh,1970-01-01 00:00:00.000002023,,,Recovered,4,Yes,12000,31-45,,2023.0,9.0,September,2023Q3,Monday,Low Cost,0
+368,55,Male,Kidney Stones,Lithotripsy,,-9223372036854775808,Delhi,1970-01-01 00:00:00.000002022,,,Recovered,3,No,6000,46-60,,,,,NaT,,Low Cost,0
+369,65,Female,Osteoarthritis,Physical Therapy and Pain Management,,-9223372036854775808,Odisha,1970-01-01 00:00:00.000002025,,,Stable,4,Yes,4000,61-75,,,,,NaT,,Low Cost,0
+370,55,Female,Heart Disease,Angioplasty,2024-05-08,1712620800000000000,Tamil Nadu,1970-01-01 00:00:00.000002024,,,Recovered,3,No,15000,46-60,,2024.0,5.0,May,2024Q2,Wednesday,Medium Cost,0
+371,62,Male,Diabetes,Insulin Therapy,2023-08-10,1683763200000000000,Goa,1970-01-01 00:00:00.000002023,,,Stable,4,Yes,2000,61-75,,2023.0,8.0,August,2023Q3,Thursday,Low Cost,0
+372,35,Female,Fractured Arm,X-Ray and Splint,,-9223372036854775808,Maharastra,1970-01-01 00:00:00.000002025,,,Recovered,5,No,500,31-45,,,,,NaT,,Low Cost,0
+373,78,Male,Stroke,CT Scan and Medication,,-9223372036854775808,Tripura,1970-01-01 00:00:00.000002022,,,Stable,2,No,10000,76+,,,,,NaT,,Low Cost,0
+374,53,Female,Cancer,Surgery and Chemotherapy,,-9223372036854775808,Meghalaya,1970-01-01 00:00:00.000002023,,,Recovered,4,No,25000,46-60,,,,,NaT,,Low Cost,0
+375,72,Male,Hypertension,Medication and Counseling,,-9223372036854775808,Punjab,1970-01-01 00:00:00.000002025,,,Stable,4,No,1000,61-75,,,,,NaT,,Low Cost,0
+376,60,Female,Appendicitis,Appendectomy,2025-02-04,1736035200000000000,Kerala,1970-01-01 00:00:00.000002025,,,Recovered,3,No,8000,46-60,,2025.0,2.0,February,2025Q1,Tuesday,Medium Cost,0
+377,45,Male,Fractured Leg,Cast and Physical Therapy,,-9223372036854775808,Himachal Pradesh,1970-01-01 00:00:00.000002023,,,Recovered,4,No,3000,31-45,,,,,NaT,,Low Cost,0
+378,75,Female,Heart Attack,Cardiac Catheterization,,-9223372036854775808,West Bengal,1970-01-01 00:00:00.000002024,,,Stable,2,No,18000,61-75,,,,,NaT,,Low Cost,0
+379,28,Male,Allergic Reaction,Epinephrine Injection,,-9223372036854775808,Kerala,1970-01-01 00:00:00.000002025,,,Recovered,5,Yes,100,19-30,,,,,NaT,,Low Cost,0
+380,52,Female,Respiratory Infection,Antibiotics and Rest,2023-08-04,1683244800000000000,Delhi,1970-01-01 00:00:00.000002023,,,Stable,4,No,800,46-60,,2023.0,8.0,August,2023Q3,Friday,Low Cost,0
+381,67,Male,Prostate Cancer,Radiation Therapy,,-9223372036854775808,Delhi,1970-01-01 00:00:00.000002023,,,Recovered,3,No,20000,61-75,,,,,NaT,,Low Cost,0
+382,35,Female,Childbirth,Delivery and Postnatal Care,,1701475200000000000,Bihar,1970-01-01 00:00:00.000002023,,,Recovered,4,Yes,12000,31-45,,,,,NaT,,Medium Cost,0
+383,50,Male,Kidney Stones,Lithotripsy,,1701734400000000000,Haryana,1970-01-01 00:00:00.000002023,,,Recovered,3,No,6000,46-60,,,,,NaT,,Medium Cost,0
+384,60,Female,Osteoarthritis,Physical Therapy and Pain Management,2024-12-08,1731110400000000000,Chandigarh,1970-01-01 00:00:00.000002024,,,Stable,4,No,4000,46-60,,2024.0,12.0,December,2024Q4,Sunday,Medium Cost,0
+385,48,Female,Heart Disease,Angioplasty,2022-12-09,-9223372036854775808,Kerala,1970-01-01 00:00:00.000002022,,,Recovered,4,No,15000,46-60,,2022.0,12.0,December,2022Q4,Friday,Low Cost,0
+386,65,Male,Diabetes,Insulin Therapy,,-9223372036854775808,Kerala,1970-01-01 00:00:00.000002025,,,Stable,3,No,2000,61-75,,,,,NaT,,Low Cost,0
+387,30,Female,Fractured Arm,X-Ray and Splint,,1699660800000000000,Himachal Pradesh,1970-01-01 00:00:00.000002023,,,Recovered,5,No,500,19-30,,,,,NaT,,Medium Cost,0
+388,70,Male,Stroke,CT Scan and Medication,2023-04-11,1691798400000000000,Manipur,1970-01-01 00:00:00.000002023,123.0,,Stable,2,No,10000,61-75,8+ Days,2023.0,4.0,April,2023Q2,Tuesday,Medium Cost,0
+389,55,Female,Cancer,Surgery and Chemotherapy,,1714694400000000000,Assam,1970-01-01 00:00:00.000002024,,,Recovered,4,Yes,25000,46-60,,,,,NaT,,Medium Cost,0
+390,68,Male,Hypertension,Medication and Counseling,,-9223372036854775808,Sikkim,1970-01-01 00:00:00.000002022,,,Stable,4,No,1000,61-75,,,,,NaT,,Low Cost,0
+391,45,Female,Appendicitis,Appendectomy,2022-05-09,1652140800000000000,Andhra Pradesh,1970-01-01 00:00:00.000002022,1.0,,Recovered,3,No,8000,31-45,Same Day / 1 Day,2022.0,5.0,May,2022Q2,Monday,Low Cost,0
+392,40,Male,Fractured Leg,Cast and Physical Therapy,2022-08-11,1665532800000000000,Gujarat,1970-01-01 00:00:00.000002022,62.0,,Recovered,4,No,3000,31-45,8+ Days,2022.0,8.0,August,2022Q3,Thursday,Low Cost,0
+393,78,Female,Heart Attack,Cardiac Catheterization,2023-10-08,-9223372036854775808,Kerala,1970-01-01 00:00:00.000002023,,,Stable,2,No,18000,76+,,2023.0,10.0,October,2023Q4,Sunday,Low Cost,0
+394,25,Male,Allergic Reaction,Epinephrine Injection,2025-01-11,-9223372036854775808,Madhya Pradesh,1970-01-01 00:00:00.000002025,,,Recovered,5,No,100,19-30,,2025.0,1.0,January,2025Q1,Saturday,Low Cost,0
+395,52,Female,Respiratory Infection,Antibiotics and Rest,,1701388800000000000,Meghalaya,1970-01-01 00:00:00.000002022,,,Stable,4,Yes,800,46-60,,,,,NaT,,Medium Cost,0
+396,58,Male,Prostate Cancer,Radiation Therapy,,-9223372036854775808,Delhi,1970-01-01 00:00:00.000002025,,,Recovered,3,No,20000,46-60,,,,,NaT,,Low Cost,0
+397,32,Female,Childbirth,Delivery and Postnatal Care,2024-02-08,-9223372036854775808,Uttar Pradesh,1970-01-01 00:00:00.000002024,,,Recovered,4,No,12000,31-45,,2024.0,2.0,February,2024Q1,Thursday,Low Cost,0
+398,55,Male,Kidney Stones,Lithotripsy,2024-11-01,1727827200000000000,Delhi,1970-01-01 00:00:00.000002024,,,Recovered,3,No,6000,46-60,,2024.0,11.0,November,2024Q4,Friday,Medium Cost,0
+399,65,Female,Osteoarthritis,Physical Therapy and Pain Management,2025-10-07,1759881600000000000,Odisha,1970-01-01 00:00:00.000002025,1.0,,Stable,4,No,4000,61-75,Same Day / 1 Day,2025.0,10.0,October,2025Q4,Tuesday,Medium Cost,0
+400,55,Female,Heart Disease,Angioplasty,,-9223372036854775808,Punjab,1970-01-01 00:00:00.000002024,,,Recovered,3,No,15000,46-60,,,,,NaT,,Low Cost,0
+401,62,Male,Diabetes,Insulin Therapy,2024-11-01,1727827200000000000,Kerala,1970-01-01 00:00:00.000002024,,,Stable,4,No,2000,61-75,,2024.0,11.0,November,2024Q4,Friday,Medium Cost,0
+402,35,Female,Fractured Arm,X-Ray and Splint,2024-03-03,-9223372036854775808,Maharastra,1970-01-01 00:00:00.000002024,,,Recovered,5,No,500,31-45,,2024.0,3.0,March,2024Q1,Sunday,Low Cost,0
+403,78,Male,Stroke,CT Scan and Medication,,-9223372036854775808,Manipur,1970-01-01 00:00:00.000002024,,,Stable,2,No,10000,76+,,,,,NaT,,Low Cost,0
+404,53,Female,Cancer,Surgery and Chemotherapy,,1704326400000000000,Mizoram,1970-01-01 00:00:00.000002024,,,Recovered,4,Yes,25000,46-60,,,,,NaT,,Medium Cost,0
+405,72,Male,Hypertension,Medication and Counseling,2024-07-04,1717545600000000000,Goa,1970-01-01 00:00:00.000002024,,,Stable,4,No,1000,61-75,,2024.0,7.0,July,2024Q3,Thursday,Medium Cost,0
+406,60,Female,Appendicitis,Appendectomy,2025-04-05,1743897600000000000,Tamil Nadu,1970-01-01 00:00:00.000002025,1.0,,Recovered,3,No,8000,46-60,Same Day / 1 Day,2025.0,4.0,April,2025Q2,Saturday,Medium Cost,0
+407,45,Male,Fractured Leg,Cast and Physical Therapy,,-9223372036854775808,Puducherry,1970-01-01 00:00:00.000002022,,,Recovered,4,Yes,3000,31-45,,,,,NaT,,Low Cost,0
+408,75,Female,Heart Attack,Cardiac Catheterization,,-9223372036854775808,West Bengal,1970-01-01 00:00:00.000002023,,,Stable,2,Yes,18000,61-75,,,,,NaT,,Low Cost,0
+409,28,Male,Allergic Reaction,Epinephrine Injection,,-9223372036854775808,Madhya Pradesh,1970-01-01 00:00:00.000002023,,,Recovered,5,No,100,19-30,,,,,NaT,,Low Cost,0
+410,52,Female,Respiratory Infection,Antibiotics and Rest,2022-03-11,1644624000000000000,Delhi,1970-01-01 00:00:00.000002022,,,Stable,4,Yes,800,46-60,,2022.0,3.0,March,2022Q1,Friday,Low Cost,0
+411,35,Female,Childbirth,Delivery and Postnatal Care,,-9223372036854775808,Rajasthan,1970-01-01 00:00:00.000002022,,,Recovered,4,Yes,12000,31-45,,,,,NaT,,Low Cost,0
+412,50,Male,Kidney Stones,Lithotripsy,,-9223372036854775808,Delhi,1970-01-01 00:00:00.000002024,,,Recovered,3,No,6000,46-60,,,,,NaT,,Low Cost,0
+413,60,Female,Osteoarthritis,Physical Therapy and Pain Management,,-9223372036854775808,Chandigarh,1970-01-01 00:00:00.000002023,,,Stable,4,No,4000,46-60,,,,,NaT,,Low Cost,0
+414,48,Female,Heart Disease,Angioplasty,2023-02-12,1711929600000000000,Punjab,1970-01-01 00:00:00.000002023,414.0,,Recovered,4,No,15000,46-60,8+ Days,2023.0,2.0,February,2023Q1,Sunday,Medium Cost,0
+415,65,Male,Diabetes,Insulin Therapy,2024-03-05,1709683200000000000,Puducherry,1970-01-01 00:00:00.000002024,1.0,,Stable,3,Yes,2000,61-75,Same Day / 1 Day,2024.0,3.0,March,2024Q1,Tuesday,Medium Cost,0
+416,30,Female,Fractured Arm,X-Ray and Splint,,-9223372036854775808,Maharastra,1970-01-01 00:00:00.000002024,,,Recovered,5,Yes,500,19-30,,,,,NaT,,Low Cost,0
+417,70,Male,Stroke,CT Scan and Medication,,-9223372036854775808,Tripura,1970-01-01 00:00:00.000002025,,,Stable,2,Yes,10000,61-75,,,,,NaT,,Low Cost,0
+418,55,Female,Cancer,Surgery and Chemotherapy,2023-01-05,1691280000000000000,Assam,1970-01-01 00:00:00.000002023,213.0,,Recovered,4,Yes,25000,46-60,8+ Days,2023.0,1.0,January,2023Q1,Thursday,Medium Cost,0
+419,68,Male,Hypertension,Medication and Counseling,,-9223372036854775808,Sikkim,1970-01-01 00:00:00.000002023,,,Stable,4,Yes,1000,61-75,,,,,NaT,,Low Cost,0
+420,45,Female,Appendicitis,Appendectomy,,-9223372036854775808,Karnataka,1970-01-01 00:00:00.000002022,,,Recovered,3,No,8000,31-45,,,,,NaT,,Low Cost,0
+421,40,Male,Fractured Leg,Cast and Physical Therapy,,1680652800000000000,Gujarat,1970-01-01 00:00:00.000002023,,,Recovered,4,No,3000,31-45,,,,,NaT,,Low Cost,0
+422,78,Female,Heart Attack,Cardiac Catheterization,,-9223372036854775808,Kerala,1970-01-01 00:00:00.000002022,,,Stable,2,Yes,18000,76+,,,,,NaT,,Low Cost,0
+423,25,Male,Allergic Reaction,Epinephrine Injection,,-9223372036854775808,Maharastra,1970-01-01 00:00:00.000002022,,,Recovered,5,No,100,19-30,,,,,NaT,,Low Cost,0
+424,52,Female,Respiratory Infection,Antibiotics and Rest,,-9223372036854775808,Meghalaya,1970-01-01 00:00:00.000002025,,,Stable,4,No,800,46-60,,,,,NaT,,Low Cost,0
+425,58,Male,Prostate Cancer,Radiation Therapy,2023-09-12,-9223372036854775808,Delhi,1970-01-01 00:00:00.000002023,,,Recovered,3,No,20000,46-60,,2023.0,9.0,September,2023Q3,Tuesday,Low Cost,0
+426,32,Female,Childbirth,Delivery and Postnatal Care,2025-12-11,-9223372036854775808,Madhya Pradesh,1970-01-01 00:00:00.000002025,,,Recovered,4,Yes,12000,31-45,,2025.0,12.0,December,2025Q4,Thursday,Low Cost,0
+427,55,Male,Kidney Stones,Lithotripsy,2025-03-02,1751500800000000000,Gujarat,1970-01-01 00:00:00.000002025,123.0,,Recovered,3,No,6000,46-60,8+ Days,2025.0,3.0,March,2025Q1,Sunday,Medium Cost,0
+428,65,Female,Osteoarthritis,Physical Therapy and Pain Management,,-9223372036854775808,Tamil Nadu,1970-01-01 00:00:00.000002024,,,Stable,4,No,4000,61-75,,,,,NaT,,Low Cost,0
+429,55,Female,Heart Disease,Angioplasty,2022-09-02,-9223372036854775808,Kerala,1970-01-01 00:00:00.000002022,,,Recovered,3,No,15000,46-60,,2022.0,9.0,September,2022Q3,Friday,Low Cost,0
+430,62,Male,Diabetes,Insulin Therapy,2025-03-06,1746576000000000000,Goa,1970-01-01 00:00:00.000002025,62.0,,Stable,4,No,2000,61-75,8+ Days,2025.0,3.0,March,2025Q1,Thursday,Medium Cost,0
+431,35,Female,Fractured Arm,X-Ray and Splint,,-9223372036854775808,Maharastra,1970-01-01 00:00:00.000002024,,,Recovered,5,Yes,500,31-45,,,,,NaT,,Low Cost,0
+432,78,Male,Stroke,CT Scan and Medication,2024-08-05,-9223372036854775808,Manipur,1970-01-01 00:00:00.000002024,,,Stable,2,No,10000,76+,,2024.0,8.0,August,2024Q3,Monday,Low Cost,0
+433,53,Female,Cancer,Surgery and Chemotherapy,,-9223372036854775808,Punjab,1970-01-01 00:00:00.000002024,,,Recovered,4,No,25000,46-60,,,,,NaT,,Low Cost,0
+434,72,Male,Hypertension,Medication and Counseling,,-9223372036854775808,Sikkim,1970-01-01 00:00:00.000002025,,,Stable,4,Yes,1000,61-75,,,,,NaT,,Low Cost,0
+435,60,Female,Appendicitis,Appendectomy,2025-08-05,1759708800000000000,Kerala,1970-01-01 00:00:00.000002025,62.0,,Recovered,3,No,8000,46-60,8+ Days,2025.0,8.0,August,2025Q3,Tuesday,Medium Cost,0
+436,45,Male,Fractured Leg,Cast and Physical Therapy,,-9223372036854775808,Himachal Pradesh,1970-01-01 00:00:00.000002024,,,Recovered,4,No,3000,31-45,,,,,NaT,,Low Cost,0
+437,75,Female,Heart Attack,Cardiac Catheterization,2025-10-02,-9223372036854775808,Kerala,1970-01-01 00:00:00.000002025,,,Stable,2,Yes,18000,61-75,,2025.0,10.0,October,2025Q4,Thursday,Low Cost,0
+438,28,Male,Allergic Reaction,Epinephrine Injection,,-9223372036854775808,Madhya Pradesh,1970-01-01 00:00:00.000002023,,,Recovered,5,No,100,19-30,,,,,NaT,,Low Cost,0
+439,52,Female,Respiratory Infection,Antibiotics and Rest,,-9223372036854775808,Meghalaya,1970-01-01 00:00:00.000002023,,,Stable,4,No,800,46-60,,,,,NaT,,Low Cost,0
+440,67,Male,Prostate Cancer,Radiation Therapy,2025-01-03,1754265600000000000,Delhi,1970-01-01 00:00:00.000002025,213.0,,Recovered,3,No,20000,61-75,8+ Days,2025.0,1.0,January,2025Q1,Friday,Medium Cost,0
+441,35,Female,Childbirth,Delivery and Postnatal Care,,1707091200000000000,Jharkhand,1970-01-01 00:00:00.000002024,,,Recovered,4,No,12000,31-45,,,,,NaT,,Medium Cost,0
+442,50,Male,Kidney Stones,Lithotripsy,,-9223372036854775808,Haryana,1970-01-01 00:00:00.000002024,,,Recovered,3,No,6000,46-60,,,,,NaT,,Low Cost,0
+443,60,Female,Osteoarthritis,Physical Therapy and Pain Management,,-9223372036854775808,Tamil Nadu,1970-01-01 00:00:00.000002022,,,Stable,4,No,4000,46-60,,,,,NaT,,Low Cost,0
+444,48,Female,Heart Disease,Angioplasty,,-9223372036854775808,Tamil Nadu,1970-01-01 00:00:00.000002022,,,Recovered,4,No,15000,46-60,,,,,NaT,,Low Cost,0
+445,65,Male,Diabetes,Insulin Therapy,,-9223372036854775808,Puducherry,1970-01-01 00:00:00.000002022,,,Stable,3,Yes,2000,61-75,,,,,NaT,,Low Cost,0
+446,30,Female,Fractured Arm,X-Ray and Splint,,-9223372036854775808,Himachal Pradesh,1970-01-01 00:00:00.000002022,,,Recovered,5,Yes,500,19-30,,,,,NaT,,Low Cost,0
+447,70,Male,Stroke,CT Scan and Medication,,-9223372036854775808,Mizoram,1970-01-01 00:00:00.000002023,,,Stable,2,No,10000,61-75,,,,,NaT,,Low Cost,0
+448,55,Female,Cancer,Surgery and Chemotherapy,,1691193600000000000,Mizoram,1970-01-01 00:00:00.000002023,,,Recovered,4,No,25000,46-60,,,,,NaT,,Medium Cost,0
+449,68,Male,Hypertension,Medication and Counseling,,-9223372036854775808,Sikkim,1970-01-01 00:00:00.000002022,,,Stable,4,Yes,1000,61-75,,,,,NaT,,Low Cost,0
+450,45,Female,Appendicitis,Appendectomy,2022-12-09,-9223372036854775808,Karnataka,1970-01-01 00:00:00.000002022,,,Recovered,3,No,8000,31-45,,2022.0,12.0,December,2022Q4,Friday,Low Cost,0
+451,40,Male,Fractured Leg,Cast and Physical Therapy,,-9223372036854775808,Puducherry,1970-01-01 00:00:00.000002025,,,Recovered,4,No,3000,31-45,,,,,NaT,,Low Cost,0
+452,78,Female,Heart Attack,Cardiac Catheterization,,1723420800000000000,Kerala,1970-01-01 00:00:00.000002024,,,Stable,2,No,18000,76+,,,,,NaT,,Medium Cost,0
+453,25,Male,Allergic Reaction,Epinephrine Injection,,-9223372036854775808,Kerala,1970-01-01 00:00:00.000002024,,,Recovered,5,Yes,100,19-30,,,,,NaT,,Low Cost,0
+454,52,Female,Respiratory Infection,Antibiotics and Rest,2024-02-09,1712707200000000000,Delhi,1970-01-01 00:00:00.000002024,61.0,,Stable,4,No,800,46-60,8+ Days,2024.0,2.0,February,2024Q1,Friday,Medium Cost,0
+455,58,Male,Prostate Cancer,Radiation Therapy,,1644364800000000000,Kerala,1970-01-01 00:00:00.000002022,,,Recovered,3,Yes,20000,46-60,,,,,NaT,,Low Cost,0
+456,32,Female,Childbirth,Delivery and Postnatal Care,,-9223372036854775808,Odisha,1970-01-01 00:00:00.000002022,,,Recovered,4,No,12000,31-45,,,,,NaT,,Low Cost,0
+457,55,Male,Kidney Stones,Lithotripsy,2023-05-07,1691452800000000000,Haryana,1970-01-01 00:00:00.000002023,93.0,,Recovered,3,No,6000,46-60,8+ Days,2023.0,5.0,May,2023Q2,Sunday,Medium Cost,0
+458,65,Female,Osteoarthritis,Physical Therapy and Pain Management,,1746835200000000000,Tamil Nadu,1970-01-01 00:00:00.000002025,,,Stable,4,No,4000,61-75,,,,,NaT,,Medium Cost,0
+459,55,Female,Heart Disease,Angioplasty,,-9223372036854775808,Kerala,1970-01-01 00:00:00.000002025,,,Recovered,3,No,15000,46-60,,,,,NaT,,Low Cost,0
+460,62,Male,Diabetes,Insulin Therapy,,-9223372036854775808,Goa,1970-01-01 00:00:00.000002024,,,Stable,4,No,2000,61-75,,,,,NaT,,Low Cost,0
+461,35,Female,Fractured Arm,X-Ray and Splint,,-9223372036854775808,Himachal Pradesh,1970-01-01 00:00:00.000002023,,,Recovered,5,No,500,31-45,,,,,NaT,,Low Cost,0
+462,78,Male,Stroke,CT Scan and Medication,2023-06-10,-9223372036854775808,Tripura,1970-01-01 00:00:00.000002023,,,Stable,2,Yes,10000,76+,,2023.0,6.0,June,2023Q2,Saturday,Low Cost,0
+463,53,Female,Cancer,Surgery and Chemotherapy,2022-06-11,-9223372036854775808,Meghalaya,1970-01-01 00:00:00.000002022,,,Recovered,4,No,25000,46-60,,2022.0,6.0,June,2022Q2,Saturday,Low Cost,0
+464,72,Male,Hypertension,Medication and Counseling,,-9223372036854775808,Sikkim,1970-01-01 00:00:00.000002024,,,Stable,4,No,1000,61-75,,,,,NaT,,Low Cost,0
+465,60,Female,Appendicitis,Appendectomy,,-9223372036854775808,Andhra Pradesh,1970-01-01 00:00:00.000002024,,,Recovered,3,No,8000,46-60,,,,,NaT,,Low Cost,0
+466,45,Male,Fractured Leg,Cast and Physical Therapy,,-9223372036854775808,Gujarat,1970-01-01 00:00:00.000002022,,,Recovered,4,Yes,3000,31-45,,,,,NaT,,Low Cost,0
+467,75,Female,Heart Attack,Cardiac Catheterization,,1707091200000000000,West Bengal,1970-01-01 00:00:00.000002024,,,Stable,2,Yes,18000,61-75,,,,,NaT,,Medium Cost,0
+468,28,Male,Allergic Reaction,Epinephrine Injection,2025-03-06,1746576000000000000,Kerala,1970-01-01 00:00:00.000002025,62.0,,Recovered,5,No,100,19-30,8+ Days,2025.0,3.0,March,2025Q1,Thursday,Medium Cost,0
+469,52,Female,Respiratory Infection,Antibiotics and Rest,2022-05-05,1657065600000000000,Jammu & Kashmir,1970-01-01 00:00:00.000002022,62.0,,Stable,4,Yes,800,46-60,8+ Days,2022.0,5.0,May,2022Q2,Thursday,Low Cost,0
+470,67,Male,Prostate Cancer,Radiation Therapy,2022-01-10,1665446400000000000,Assam,1970-01-01 00:00:00.000002022,274.0,,Recovered,3,Yes,20000,61-75,8+ Days,2022.0,1.0,January,2022Q1,Monday,Low Cost,0
+471,50,Male,Kidney Stones,Lithotripsy,,-9223372036854775808,Rajasthan,1970-01-01 00:00:00.000002024,,,Recovered,3,No,6000,46-60,,,,,NaT,,Low Cost,0
+472,60,Female,Osteoarthritis,Physical Therapy and Pain Management,2022-01-09,1657411200000000000,Chandigarh,1970-01-01 00:00:00.000002022,182.0,,Stable,4,No,4000,46-60,8+ Days,2022.0,1.0,January,2022Q1,Sunday,Low Cost,0
+473,48,Female,Heart Disease,Angioplasty,,1686009600000000000,Tamil Nadu,1970-01-01 00:00:00.000002023,,,Recovered,4,Yes,15000,46-60,,,,,NaT,,Low Cost,0
+474,65,Male,Diabetes,Insulin Therapy,2024-02-03,1717459200000000000,Kerala,1970-01-01 00:00:00.000002024,122.0,,Stable,3,Yes,2000,61-75,8+ Days,2024.0,2.0,February,2024Q1,Saturday,Medium Cost,0
+475,30,Female,Fractured Arm,X-Ray and Splint,,1735862400000000000,Punjab,1970-01-01 00:00:00.000002025,,,Recovered,5,No,500,19-30,,,,,NaT,,Medium Cost,0
+476,70,Male,Stroke,CT Scan and Medication,,-9223372036854775808,Tripura,1970-01-01 00:00:00.000002024,,,Stable,2,No,10000,61-75,,,,,NaT,,Low Cost,0
+477,55,Female,Cancer,Surgery and Chemotherapy,,1672531200000000000,Assam,1970-01-01 00:00:00.000002022,,,Recovered,4,Yes,25000,46-60,,,,,NaT,,Low Cost,0
+478,68,Male,Hypertension,Medication and Counseling,,-9223372036854775808,Sikkim,1970-01-01 00:00:00.000002022,,,Stable,4,No,1000,61-75,,,,,NaT,,Low Cost,0
+479,45,Female,Appendicitis,Appendectomy,2023-02-03,1688428800000000000,Karnataka,1970-01-01 00:00:00.000002023,151.0,,Recovered,3,No,8000,31-45,8+ Days,2023.0,2.0,February,2023Q1,Friday,Medium Cost,0
+480,40,Male,Fractured Leg,Cast and Physical Therapy,,1715299200000000000,Himachal Pradesh,1970-01-01 00:00:00.000002024,,,Recovered,4,No,3000,31-45,,,,,NaT,,Medium Cost,0
+481,78,Female,Heart Attack,Cardiac Catheterization,,-9223372036854775808,Kerala,1970-01-01 00:00:00.000002022,,,Stable,2,Yes,18000,76+,,,,,NaT,,Low Cost,0
+482,25,Male,Allergic Reaction,Epinephrine Injection,2025-07-01,1756771200000000000,Madhya Pradesh,1970-01-01 00:00:00.000002025,63.0,,Recovered,5,No,100,19-30,8+ Days,2025.0,7.0,July,2025Q3,Tuesday,Medium Cost,0
+483,52,Female,Respiratory Infection,Antibiotics and Rest,,1641945600000000000,Delhi,1970-01-01 00:00:00.000002022,,,Stable,4,No,800,46-60,,,,,NaT,,Low Cost,0
+484,58,Male,Prostate Cancer,Radiation Therapy,,-9223372036854775808,Delhi,1970-01-01 00:00:00.000002023,,,Recovered,3,No,20000,46-60,,,,,NaT,,Low Cost,0
+485,32,Female,Childbirth,Delivery and Postnatal Care,2023-04-01,1690934400000000000,Jharkhand,1970-01-01 00:00:00.000002023,123.0,,Recovered,4,No,12000,31-45,8+ Days,2023.0,4.0,April,2023Q2,Saturday,Medium Cost,0
+486,55,Male,Kidney Stones,Lithotripsy,,-9223372036854775808,Gujarat,1970-01-01 00:00:00.000002022,,,Recovered,3,No,6000,46-60,,,,,NaT,,Low Cost,0
+487,65,Female,Osteoarthritis,Physical Therapy and Pain Management,2022-07-02,-9223372036854775808,Tamil Nadu,1970-01-01 00:00:00.000002022,,,Stable,4,No,4000,61-75,,2022.0,7.0,July,2022Q3,Saturday,Low Cost,0
+488,55,Female,Heart Disease,Angioplasty,,-9223372036854775808,Tamil Nadu,1970-01-01 00:00:00.000002025,,,Recovered,3,Yes,15000,46-60,,,,,NaT,,Low Cost,0
+489,62,Male,Diabetes,Insulin Therapy,,1712880000000000000,Chandigarh,1970-01-01 00:00:00.000002024,,,Stable,4,No,2000,61-75,,,,,NaT,,Medium Cost,0
+490,35,Female,Fractured Arm,X-Ray and Splint,2023-12-01,-9223372036854775808,Himachal Pradesh,1970-01-01 00:00:00.000002023,,,Recovered,5,Yes,500,31-45,,2023.0,12.0,December,2023Q4,Friday,Low Cost,0
+491,78,Male,Stroke,CT Scan and Medication,2025-08-04,-9223372036854775808,Manipur,1970-01-01 00:00:00.000002025,,,Stable,2,Yes,10000,76+,,2025.0,8.0,August,2025Q3,Monday,Low Cost,0
+492,53,Female,Cancer,Surgery and Chemotherapy,2022-10-07,-9223372036854775808,Meghalaya,1970-01-01 00:00:00.000002022,,,Recovered,4,Yes,25000,46-60,,2022.0,10.0,October,2022Q4,Friday,Low Cost,0
+493,72,Male,Hypertension,Medication and Counseling,2022-12-12,-9223372036854775808,Sikkim,1970-01-01 00:00:00.000002022,,,Stable,4,No,1000,61-75,,2022.0,12.0,December,2022Q4,Monday,Low Cost,0
+494,60,Female,Appendicitis,Appendectomy,,-9223372036854775808,Kerala,1970-01-01 00:00:00.000002025,,,Recovered,3,Yes,8000,46-60,,,,,NaT,,Low Cost,0
+495,45,Male,Fractured Leg,Cast and Physical Therapy,,-9223372036854775808,Gujarat,1970-01-01 00:00:00.000002023,,,Recovered,4,No,3000,31-45,,,,,NaT,,Low Cost,0
+496,75,Female,Heart Attack,Cardiac Catheterization,2023-02-10,1702252800000000000,Punjab,1970-01-01 00:00:00.000002023,304.0,,Stable,2,Yes,18000,61-75,8+ Days,2023.0,2.0,February,2023Q1,Friday,Medium Cost,0
+497,28,Male,Allergic Reaction,Epinephrine Injection,,-9223372036854775808,Delhi,1970-01-01 00:00:00.000002025,,,Recovered,5,Yes,100,19-30,,,,,NaT,,Low Cost,0
+498,52,Female,Respiratory Infection,Antibiotics and Rest,2022-06-02,-9223372036854775808,Jammu & Kashmir,1970-01-01 00:00:00.000002022,,,Stable,4,Yes,800,46-60,,2022.0,6.0,June,2022Q2,Thursday,Low Cost,0
+499,67,Male,Prostate Cancer,Radiation Therapy,2024-09-08,-9223372036854775808,Assam,1970-01-01 00:00:00.000002024,,,Recovered,3,No,20000,61-75,,2024.0,9.0,September,2024Q3,Sunday,Low Cost,0
+500,35,Female,Childbirth,Delivery and Postnatal Care,2024-07-01,1733097600000000000,Jharkhand,1970-01-01 00:00:00.000002024,154.0,,Recovered,4,No,12000,31-45,8+ Days,2024.0,7.0,July,2024Q3,Monday,Medium Cost,0
+501,50,Male,Kidney Stones,Lithotripsy,2025-10-04,-9223372036854775808,Haryana,1970-01-01 00:00:00.000002025,,,Recovered,3,No,6000,46-60,,2025.0,10.0,October,2025Q4,Saturday,Low Cost,0
+502,60,Female,Osteoarthritis,Physical Therapy and Pain Management,2023-11-08,-9223372036854775808,Chandigarh,1970-01-01 00:00:00.000002023,,,Stable,4,Yes,4000,46-60,,2023.0,11.0,November,2023Q4,Wednesday,Low Cost,0
+503,48,Female,Heart Disease,Angioplasty,,-9223372036854775808,Punjab,1970-01-01 00:00:00.000002025,,,Recovered,4,Yes,15000,46-60,,,,,NaT,,Low Cost,0
+504,65,Male,Diabetes,Insulin Therapy,,1717804800000000000,Kerala,1970-01-01 00:00:00.000002024,,,Stable,3,Yes,2000,61-75,,,,,NaT,,Medium Cost,0
+505,30,Female,Fractured Arm,X-Ray and Splint,,-9223372036854775808,Himachal Pradesh,1970-01-01 00:00:00.000002024,,,Recovered,5,No,500,19-30,,,,,NaT,,Low Cost,0
+506,70,Male,Stroke,CT Scan and Medication,,1719878400000000000,Manipur,1970-01-01 00:00:00.000002023,,,Stable,2,No,10000,61-75,,,,,NaT,,Medium Cost,0
+507,55,Female,Cancer,Surgery and Chemotherapy,,-9223372036854775808,Meghalaya,1970-01-01 00:00:00.000002024,,,Recovered,4,No,25000,46-60,,,,,NaT,,Low Cost,0
+508,68,Male,Hypertension,Medication and Counseling,,1672963200000000000,Sikkim,1970-01-01 00:00:00.000002023,,,Stable,4,No,1000,61-75,,,,,NaT,,Low Cost,0
+509,45,Female,Appendicitis,Appendectomy,,-9223372036854775808,Kerala,1970-01-01 00:00:00.000002023,,,Recovered,3,No,8000,31-45,,,,,NaT,,Low Cost,0
+510,40,Male,Fractured Leg,Cast and Physical Therapy,,1707350400000000000,Gujarat,1970-01-01 00:00:00.000002024,,,Recovered,4,No,3000,31-45,,,,,NaT,,Medium Cost,0
+511,78,Female,Heart Attack,Cardiac Catheterization,,1673308800000000000,Punjab,1970-01-01 00:00:00.000002023,,,Stable,2,No,18000,76+,,,,,NaT,,Low Cost,0
+512,25,Male,Allergic Reaction,Epinephrine Injection,2024-03-08,1720483200000000000,Madhya Pradesh,1970-01-01 00:00:00.000002024,123.0,,Recovered,5,Yes,100,19-30,8+ Days,2024.0,3.0,March,2024Q1,Friday,Medium Cost,0
+513,52,Female,Respiratory Infection,Antibiotics and Rest,,1714694400000000000,Delhi,1970-01-01 00:00:00.000002024,,,Stable,4,No,800,46-60,,,,,NaT,,Medium Cost,0
+514,58,Male,Prostate Cancer,Radiation Therapy,,1707436800000000000,Kerala,1970-01-01 00:00:00.000002024,,,Recovered,3,No,20000,46-60,,,,,NaT,,Medium Cost,0
+515,32,Female,Childbirth,Delivery and Postnatal Care,2022-09-05,-9223372036854775808,Bihar,1970-01-01 00:00:00.000002022,,,Recovered,4,No,12000,31-45,,2022.0,9.0,September,2022Q3,Monday,Low Cost,0
+516,55,Male,Kidney Stones,Lithotripsy,,1646265600000000000,Haryana,1970-01-01 00:00:00.000002022,,,Recovered,3,Yes,6000,46-60,,,,,NaT,,Low Cost,0
+517,65,Female,Osteoarthritis,Physical Therapy and Pain Management,,-9223372036854775808,Odisha,1970-01-01 00:00:00.000002023,,,Stable,4,No,4000,61-75,,,,,NaT,,Low Cost,0
+518,55,Female,Heart Disease,Angioplasty,,1680652800000000000,Punjab,1970-01-01 00:00:00.000002023,,,Recovered,3,Yes,15000,46-60,,,,,NaT,,Low Cost,0
+519,62,Male,Diabetes,Insulin Therapy,,-9223372036854775808,Goa,1970-01-01 00:00:00.000002024,,,Stable,4,Yes,2000,61-75,,,,,NaT,,Low Cost,0
+520,35,Female,Fractured Arm,X-Ray and Splint,,-9223372036854775808,Maharastra,1970-01-01 00:00:00.000002022,,,Recovered,5,Yes,500,31-45,,,,,NaT,,Low Cost,0
+521,78,Male,Stroke,CT Scan and Medication,,1762387200000000000,Mizoram,1970-01-01 00:00:00.000002025,,,Stable,2,Yes,10000,76+,,,,,NaT,,Medium Cost,0
+522,53,Female,Cancer,Surgery and Chemotherapy,2022-12-07,-9223372036854775808,Meghalaya,1970-01-01 00:00:00.000002022,,,Recovered,4,No,25000,46-60,,2022.0,12.0,December,2022Q4,Wednesday,Low Cost,0
+523,72,Male,Hypertension,Medication and Counseling,,-9223372036854775808,Sikkim,1970-01-01 00:00:00.000002022,,,Stable,4,Yes,1000,61-75,,,,,NaT,,Low Cost,0
+524,60,Female,Appendicitis,Appendectomy,,-9223372036854775808,Andhra Pradesh,1970-01-01 00:00:00.000002023,,,Recovered,3,No,8000,46-60,,,,,NaT,,Low Cost,0
+525,45,Male,Fractured Leg,Cast and Physical Therapy,,1697068800000000000,Puducherry,1970-01-01 00:00:00.000002023,,,Recovered,4,Yes,3000,31-45,,,,,NaT,,Medium Cost,0
+526,75,Female,Heart Attack,Cardiac Catheterization,,1699228800000000000,West Bengal,1970-01-01 00:00:00.000002023,,,Stable,2,No,18000,61-75,,,,,NaT,,Medium Cost,0
+527,28,Male,Allergic Reaction,Epinephrine Injection,2024-06-02,-9223372036854775808,Kerala,1970-01-01 00:00:00.000002024,,,Recovered,5,No,100,19-30,,2024.0,6.0,June,2024Q2,Sunday,Low Cost,0
+528,52,Female,Respiratory Infection,Antibiotics and Rest,,-9223372036854775808,Jammu & Kashmir,1970-01-01 00:00:00.000002023,,,Stable,4,No,800,46-60,,,,,NaT,,Low Cost,0
+529,67,Male,Prostate Cancer,Radiation Therapy,2022-04-03,-9223372036854775808,Assam,1970-01-01 00:00:00.000002022,,,Recovered,3,No,20000,61-75,,2022.0,4.0,April,2022Q2,Sunday,Low Cost,0
+530,35,Female,Childbirth,Delivery and Postnatal Care,,-9223372036854775808,Uttar Pradesh,1970-01-01 00:00:00.000002023,,,Recovered,4,Yes,12000,31-45,,,,,NaT,,Low Cost,0
+531,60,Female,Osteoarthritis,Physical Therapy and Pain Management,,1656979200000000000,Tamil Nadu,1970-01-01 00:00:00.000002022,,,Stable,4,No,4000,46-60,,,,,NaT,,Low Cost,0
+532,48,Female,Heart Disease,Angioplasty,2025-02-05,1764979200000000000,Punjab,1970-01-01 00:00:00.000002025,304.0,,Recovered,4,No,15000,46-60,8+ Days,2025.0,2.0,February,2025Q1,Wednesday,Medium Cost,0
+533,65,Male,Diabetes,Insulin Therapy,,1691280000000000000,Kerala,1970-01-01 00:00:00.000002023,,,Stable,3,Yes,2000,61-75,,,,,NaT,,Medium Cost,0
+534,30,Female,Fractured Arm,X-Ray and Splint,,1654646400000000000,Maharastra,1970-01-01 00:00:00.000002022,,,Recovered,5,Yes,500,19-30,,,,,NaT,,Low Cost,0
+535,70,Male,Stroke,CT Scan and Medication,,-9223372036854775808,Manipur,1970-01-01 00:00:00.000002022,,,Stable,2,No,10000,61-75,,,,,NaT,,Low Cost,0
+536,55,Female,Cancer,Surgery and Chemotherapy,,1649116800000000000,Assam,1970-01-01 00:00:00.000002022,,,Recovered,4,No,25000,46-60,,,,,NaT,,Low Cost,0
+537,68,Male,Hypertension,Medication and Counseling,,-9223372036854775808,Punjab,1970-01-01 00:00:00.000002025,,,Stable,4,No,1000,61-75,,,,,NaT,,Low Cost,0
+538,45,Female,Appendicitis,Appendectomy,,1675987200000000000,Tamil Nadu,1970-01-01 00:00:00.000002023,,,Recovered,3,No,8000,31-45,,,,,NaT,,Low Cost,0
+539,40,Male,Fractured Leg,Cast and Physical Therapy,,1704931200000000000,Gujarat,1970-01-01 00:00:00.000002024,,,Recovered,4,No,3000,31-45,,,,,NaT,,Medium Cost,0
+540,78,Female,Heart Attack,Cardiac Catheterization,,-9223372036854775808,Punjab,1970-01-01 00:00:00.000002023,,,Stable,2,No,18000,76+,,,,,NaT,,Low Cost,0
+541,25,Male,Allergic Reaction,Epinephrine Injection,,1740960000000000000,Kerala,1970-01-01 00:00:00.000002025,,,Recovered,5,No,100,19-30,,,,,NaT,,Medium Cost,0
+542,52,Female,Respiratory Infection,Antibiotics and Rest,,-9223372036854775808,Meghalaya,1970-01-01 00:00:00.000002022,,,Stable,4,Yes,800,46-60,,,,,NaT,,Low Cost,0
+543,58,Male,Prostate Cancer,Radiation Therapy,,1673222400000000000,Delhi,1970-01-01 00:00:00.000002023,,,Recovered,3,Yes,20000,46-60,,,,,NaT,,Low Cost,0
+544,32,Female,Childbirth,Delivery and Postnatal Care,,-9223372036854775808,Rajasthan,1970-01-01 00:00:00.000002023,,,Recovered,4,No,12000,31-45,,,,,NaT,,Low Cost,0
+545,55,Male,Kidney Stones,Lithotripsy,2022-09-10,-9223372036854775808,Haryana,1970-01-01 00:00:00.000002022,,,Recovered,3,No,6000,46-60,,2022.0,9.0,September,2022Q3,Saturday,Low Cost,0
+546,65,Female,Osteoarthritis,Physical Therapy and Pain Management,,-9223372036854775808,Chandigarh,1970-01-01 00:00:00.000002022,,,Stable,4,Yes,4000,61-75,,,,,NaT,,Low Cost,0
+547,55,Female,Heart Disease,Angioplasty,,1762041600000000000,Tamil Nadu,1970-01-01 00:00:00.000002024,,,Recovered,3,No,15000,46-60,,,,,NaT,,Medium Cost,0
+548,62,Male,Diabetes,Insulin Therapy,,-9223372036854775808,Kerala,1970-01-01 00:00:00.000002024,,,Stable,4,Yes,2000,61-75,,,,,NaT,,Low Cost,0
+549,35,Female,Fractured Arm,X-Ray and Splint,2024-07-02,-9223372036854775808,Maharastra,1970-01-01 00:00:00.000002024,,,Recovered,5,No,500,31-45,,2024.0,7.0,July,2024Q3,Tuesday,Low Cost,0
+550,78,Male,Stroke,CT Scan and Medication,2024-06-09,-9223372036854775808,Mizoram,1970-01-01 00:00:00.000002024,,,Stable,2,No,10000,76+,,2024.0,6.0,June,2024Q2,Sunday,Low Cost,0
+551,53,Female,Cancer,Surgery and Chemotherapy,2025-10-09,-9223372036854775808,Assam,1970-01-01 00:00:00.000002025,,,Recovered,4,No,25000,46-60,,2025.0,10.0,October,2025Q4,Thursday,Low Cost,0
+552,72,Male,Hypertension,Medication and Counseling,2022-08-02,-9223372036854775808,Goa,1970-01-01 00:00:00.000002022,,,Stable,4,Yes,1000,61-75,,2022.0,8.0,August,2022Q3,Tuesday,Low Cost,0
+553,60,Female,Appendicitis,Appendectomy,2025-02-05,-9223372036854775808,West Bengal,1970-01-01 00:00:00.000002025,,,Recovered,3,No,8000,46-60,,2025.0,2.0,February,2025Q1,Wednesday,Low Cost,0
+554,45,Male,Fractured Leg,Cast and Physical Therapy,,-9223372036854775808,Himachal Pradesh,1970-01-01 00:00:00.000002022,,,Recovered,4,No,3000,31-45,,,,,NaT,,Low Cost,0
+555,75,Female,Heart Attack,Cardiac Catheterization,,-9223372036854775808,West Bengal,1970-01-01 00:00:00.000002022,,,Stable,2,No,18000,61-75,,,,,NaT,,Low Cost,0
+556,28,Male,Allergic Reaction,Epinephrine Injection,,-9223372036854775808,Madhya Pradesh,1970-01-01 00:00:00.000002024,,,Recovered,5,Yes,100,19-30,,,,,NaT,,Low Cost,0
+557,52,Female,Respiratory Infection,Antibiotics and Rest,,-9223372036854775808,Puducherry,1970-01-01 00:00:00.000002024,,,Stable,4,No,800,46-60,,,,,NaT,,Low Cost,0
+558,67,Male,Prostate Cancer,Radiation Therapy,,-9223372036854775808,Delhi,1970-01-01 00:00:00.000002022,,,Recovered,3,Yes,20000,61-75,,,,,NaT,,Low Cost,0
+559,35,Female,Childbirth,Delivery and Postnatal Care,,-9223372036854775808,Madhya Pradesh,1970-01-01 00:00:00.000002024,,,Recovered,4,Yes,12000,31-45,,,,,NaT,,Low Cost,0
+560,50,Male,Kidney Stones,Lithotripsy,,1649289600000000000,Haryana,1970-01-01 00:00:00.000002022,,,Recovered,3,Yes,6000,46-60,,,,,NaT,,Low Cost,0
+561,60,Female,Osteoarthritis,Physical Therapy and Pain Management,2023-11-10,-9223372036854775808,Odisha,1970-01-01 00:00:00.000002023,,,Stable,4,Yes,4000,46-60,,2023.0,11.0,November,2023Q4,Friday,Low Cost,0
+562,48,Female,Heart Disease,Angioplasty,,1754265600000000000,Kerala,1970-01-01 00:00:00.000002025,,,Recovered,4,No,15000,46-60,,,,,NaT,,Medium Cost,0
+563,65,Male,Diabetes,Insulin Therapy,,-9223372036854775808,Goa,1970-01-01 00:00:00.000002024,,,Stable,3,No,2000,61-75,,,,,NaT,,Low Cost,0
+564,30,Female,Fractured Arm,X-Ray and Splint,,1673049600000000000,Maharastra,1970-01-01 00:00:00.000002023,,,Recovered,5,No,500,19-30,,,,,NaT,,Low Cost,0
+565,70,Male,Stroke,CT Scan and Medication,,1683331200000000000,Tripura,1970-01-01 00:00:00.000002023,,,Stable,2,Yes,10000,61-75,,,,,NaT,,Low Cost,0
+566,55,Female,Cancer,Surgery and Chemotherapy,,-9223372036854775808,Assam,1970-01-01 00:00:00.000002023,,,Recovered,4,No,25000,46-60,,,,,NaT,,Low Cost,0
+567,68,Male,Hypertension,Medication and Counseling,,-9223372036854775808,Goa,1970-01-01 00:00:00.000002024,,,Stable,4,No,1000,61-75,,,,,NaT,,Low Cost,0
+568,45,Female,Appendicitis,Appendectomy,,1654214400000000000,Andhra Pradesh,1970-01-01 00:00:00.000002022,,,Recovered,3,Yes,8000,31-45,,,,,NaT,,Low Cost,0
+569,40,Male,Fractured Leg,Cast and Physical Therapy,,1733529600000000000,Himachal Pradesh,1970-01-01 00:00:00.000002024,,,Recovered,4,No,3000,31-45,,,,,NaT,,Medium Cost,0
+570,78,Female,Heart Attack,Cardiac Catheterization,2022-10-08,-9223372036854775808,Punjab,1970-01-01 00:00:00.000002022,,,Stable,2,Yes,18000,76+,,2022.0,10.0,October,2022Q4,Saturday,Low Cost,0
+571,25,Male,Allergic Reaction,Epinephrine Injection,2023-03-06,1701907200000000000,Kerala,1970-01-01 00:00:00.000002023,276.0,,Recovered,5,Yes,100,19-30,8+ Days,2023.0,3.0,March,2023Q1,Monday,Medium Cost,0
+572,52,Female,Respiratory Infection,Antibiotics and Rest,,-9223372036854775808,Puducherry,1970-01-01 00:00:00.000002024,,,Stable,4,Yes,800,46-60,,,,,NaT,,Low Cost,0
+573,58,Male,Prostate Cancer,Radiation Therapy,,1693699200000000000,Maharastra,1970-01-01 00:00:00.000002023,,,Recovered,3,No,20000,46-60,,,,,NaT,,Medium Cost,0
+574,32,Female,Childbirth,Delivery and Postnatal Care,,-9223372036854775808,Bihar,1970-01-01 00:00:00.000002024,,,Recovered,4,Yes,12000,31-45,,,,,NaT,,Low Cost,0
+575,55,Male,Kidney Stones,Lithotripsy,,1736121600000000000,Haryana,1970-01-01 00:00:00.000002025,,,Recovered,3,No,6000,46-60,,,,,NaT,,Medium Cost,0
+576,65,Female,Osteoarthritis,Physical Therapy and Pain Management,,1749254400000000000,Chandigarh,1970-01-01 00:00:00.000002025,,,Stable,4,No,4000,61-75,,,,,NaT,,Medium Cost,0
+577,55,Female,Heart Disease,Angioplasty,,1712707200000000000,Kerala,1970-01-01 00:00:00.000002024,,,Recovered,3,No,15000,46-60,,,,,NaT,,Medium Cost,0
+578,62,Male,Diabetes,Insulin Therapy,2023-03-06,-9223372036854775808,Puducherry,1970-01-01 00:00:00.000002023,,,Stable,4,No,2000,61-75,,2023.0,3.0,March,2023Q1,Monday,Low Cost,0
+579,35,Female,Fractured Arm,X-Ray and Splint,,1641513600000000000,Himachal Pradesh,1970-01-01 00:00:00.000002022,,,Recovered,5,Yes,500,31-45,,,,,NaT,,Low Cost,0
+580,78,Male,Stroke,CT Scan and Medication,,-9223372036854775808,Tripura,1970-01-01 00:00:00.000002025,,,Stable,2,No,10000,76+,,,,,NaT,,Low Cost,0
+581,53,Female,Cancer,Surgery and Chemotherapy,,1749600000000000000,Assam,1970-01-01 00:00:00.000002025,,,Recovered,4,Yes,25000,46-60,,,,,NaT,,Medium Cost,0
+582,72,Male,Hypertension,Medication and Counseling,,-9223372036854775808,Goa,1970-01-01 00:00:00.000002023,,,Stable,4,Yes,1000,61-75,,,,,NaT,,Low Cost,0
+583,60,Female,Appendicitis,Appendectomy,,1676073600000000000,Punjab,1970-01-01 00:00:00.000002023,,,Recovered,3,Yes,8000,46-60,,,,,NaT,,Low Cost,0
+584,45,Male,Fractured Leg,Cast and Physical Therapy,,1751500800000000000,Gujarat,1970-01-01 00:00:00.000002025,,,Recovered,4,No,3000,31-45,,,,,NaT,,Medium Cost,0
+585,75,Female,Heart Attack,Cardiac Catheterization,,1657411200000000000,West Bengal,1970-01-01 00:00:00.000002022,,,Stable,2,No,18000,61-75,,,,,NaT,,Low Cost,0
+586,28,Male,Allergic Reaction,Epinephrine Injection,2022-03-12,1701388800000000000,Madhya Pradesh,1970-01-01 00:00:00.000002022,629.0,,Recovered,5,Yes,100,19-30,8+ Days,2022.0,3.0,March,2022Q1,Saturday,Medium Cost,0
+587,52,Female,Respiratory Infection,Antibiotics and Rest,,1741737600000000000,Jammu & Kashmir,1970-01-01 00:00:00.000002025,,,Stable,4,Yes,800,46-60,,,,,NaT,,Medium Cost,0
+588,67,Male,Prostate Cancer,Radiation Therapy,2024-01-11,-9223372036854775808,Karnataka,1970-01-01 00:00:00.000002024,,,Recovered,3,No,20000,61-75,,2024.0,1.0,January,2024Q1,Thursday,Low Cost,0
+589,35,Female,Childbirth,Delivery and Postnatal Care,,1714608000000000000,Bihar,1970-01-01 00:00:00.000002023,,,Recovered,4,No,12000,31-45,,,,,NaT,,Medium Cost,0
+590,50,Male,Kidney Stones,Lithotripsy,2024-05-12,-9223372036854775808,Punjab,1970-01-01 00:00:00.000002024,,,Recovered,3,No,6000,46-60,,2024.0,5.0,May,2024Q2,Sunday,Low Cost,0
+591,48,Female,Heart Disease,Angioplasty,,1707264000000000000,Tamil Nadu,1970-01-01 00:00:00.000002024,,,Recovered,4,No,15000,46-60,,,,,NaT,,Medium Cost,0
+592,65,Male,Diabetes,Insulin Therapy,2022-12-05,-9223372036854775808,Puducherry,1970-01-01 00:00:00.000002022,,,Stable,3,No,2000,61-75,,2022.0,12.0,December,2022Q4,Monday,Low Cost,0
+593,30,Female,Fractured Arm,X-Ray and Splint,,-9223372036854775808,Himachal Pradesh,1970-01-01 00:00:00.000002025,,,Recovered,5,No,500,19-30,,,,,NaT,,Low Cost,0
+594,70,Male,Stroke,CT Scan and Medication,,-9223372036854775808,Tripura,1970-01-01 00:00:00.000002025,,,Stable,2,Yes,10000,61-75,,,,,NaT,,Low Cost,0
+595,55,Female,Cancer,Surgery and Chemotherapy,,1688515200000000000,Meghalaya,1970-01-01 00:00:00.000002023,,,Recovered,4,No,25000,46-60,,,,,NaT,,Medium Cost,0
+596,68,Male,Hypertension,Medication and Counseling,,1670198400000000000,Arunachal Pradesh,1970-01-01 00:00:00.000002022,,,Stable,4,No,1000,61-75,,,,,NaT,,Low Cost,0
+597,45,Female,Appendicitis,Appendectomy,,1715385600000000000,Andhra Pradesh,1970-01-01 00:00:00.000002024,,,Recovered,3,No,8000,31-45,,,,,NaT,,Medium Cost,0
+598,40,Male,Fractured Leg,Cast and Physical Therapy,,1730937600000000000,Himachal Pradesh,1970-01-01 00:00:00.000002024,,,Recovered,4,No,3000,31-45,,,,,NaT,,Medium Cost,0
+599,78,Female,Heart Attack,Cardiac Catheterization,2024-08-08,-9223372036854775808,Kerala,1970-01-01 00:00:00.000002024,,,Stable,2,No,18000,76+,,2024.0,8.0,August,2024Q3,Thursday,Low Cost,0
+600,25,Male,Allergic Reaction,Epinephrine Injection,,-9223372036854775808,Tamil Nadu,1970-01-01 00:00:00.000002023,,,Recovered,5,Yes,100,19-30,,,,,NaT,,Low Cost,0
+601,52,Female,Respiratory Infection,Antibiotics and Rest,2025-08-11,-9223372036854775808,Puducherry,1970-01-01 00:00:00.000002025,,,Stable,4,No,800,46-60,,2025.0,8.0,August,2025Q3,Monday,Low Cost,0
+602,58,Male,Prostate Cancer,Radiation Therapy,,1767225600000000000,Kerala,1970-01-01 00:00:00.000002025,,,Recovered,3,No,20000,46-60,,,,,NaT,,Medium Cost,0
+603,32,Female,Childbirth,Delivery and Postnatal Care,2024-07-11,-9223372036854775808,Bihar,1970-01-01 00:00:00.000002024,,,Recovered,4,No,12000,31-45,,2024.0,7.0,July,2024Q3,Thursday,Low Cost,0
+604,55,Male,Kidney Stones,Lithotripsy,,1764979200000000000,Gujarat,1970-01-01 00:00:00.000002025,,,Recovered,3,No,6000,46-60,,,,,NaT,,Medium Cost,0
+605,65,Female,Osteoarthritis,Physical Therapy and Pain Management,2022-10-02,-9223372036854775808,Odisha,1970-01-01 00:00:00.000002022,,,Stable,4,Yes,4000,61-75,,2022.0,10.0,October,2022Q4,Sunday,Low Cost,0
+606,55,Female,Heart Disease,Angioplasty,,-9223372036854775808,Punjab,1970-01-01 00:00:00.000002025,,,Recovered,3,No,15000,46-60,,,,,NaT,,Low Cost,0
+607,62,Male,Diabetes,Insulin Therapy,2023-08-12,-9223372036854775808,Puducherry,1970-01-01 00:00:00.000002023,,,Stable,4,No,2000,61-75,,2023.0,8.0,August,2023Q3,Saturday,Low Cost,0
+608,35,Female,Fractured Arm,X-Ray and Splint,2022-08-02,-9223372036854775808,Maharastra,1970-01-01 00:00:00.000002022,,,Recovered,5,No,500,31-45,,2022.0,8.0,August,2022Q3,Tuesday,Low Cost,0
+609,78,Male,Stroke,CT Scan and Medication,,1727913600000000000,Mizoram,1970-01-01 00:00:00.000002024,,,Stable,2,Yes,10000,76+,,,,,NaT,,Medium Cost,0
+610,53,Female,Cancer,Surgery and Chemotherapy,,-9223372036854775808,Mizoram,1970-01-01 00:00:00.000002024,,,Recovered,4,No,25000,46-60,,,,,NaT,,Low Cost,0
+611,72,Male,Hypertension,Medication and Counseling,2024-03-10,-9223372036854775808,Goa,1970-01-01 00:00:00.000002024,,,Stable,4,No,1000,61-75,,2024.0,3.0,March,2024Q1,Sunday,Low Cost,0
+612,60,Female,Appendicitis,Appendectomy,2023-02-02,-9223372036854775808,Andhra Pradesh,1970-01-01 00:00:00.000002023,,,Recovered,3,No,8000,46-60,,2023.0,2.0,February,2023Q1,Thursday,Low Cost,0
+613,45,Male,Fractured Leg,Cast and Physical Therapy,,1741564800000000000,Puducherry,1970-01-01 00:00:00.000002025,,,Recovered,4,No,3000,31-45,,,,,NaT,,Medium Cost,0
+614,75,Female,Heart Attack,Cardiac Catheterization,,-9223372036854775808,Kerala,1970-01-01 00:00:00.000002022,,,Stable,2,No,18000,61-75,,,,,NaT,,Low Cost,0
+615,28,Male,Allergic Reaction,Epinephrine Injection,,1688688000000000000,Madhya Pradesh,1970-01-01 00:00:00.000002023,,,Recovered,5,No,100,19-30,,,,,NaT,,Medium Cost,0
+616,52,Female,Respiratory Infection,Antibiotics and Rest,2023-06-07,-9223372036854775808,Delhi,1970-01-01 00:00:00.000002023,,,Stable,4,No,800,46-60,,2023.0,6.0,June,2023Q2,Wednesday,Low Cost,0
+617,67,Male,Prostate Cancer,Radiation Therapy,,1715126400000000000,Delhi,1970-01-01 00:00:00.000002024,,,Recovered,3,Yes,20000,61-75,,,,,NaT,,Medium Cost,0
+618,35,Female,Childbirth,Delivery and Postnatal Care,2023-09-01,-9223372036854775808,Bihar,1970-01-01 00:00:00.000002023,,,Recovered,4,Yes,12000,31-45,,2023.0,9.0,September,2023Q3,Friday,Low Cost,0
+619,50,Male,Kidney Stones,Lithotripsy,,1641772800000000000,Haryana,1970-01-01 00:00:00.000002022,,,Recovered,3,Yes,6000,46-60,,,,,NaT,,Low Cost,0
+620,60,Female,Osteoarthritis,Physical Therapy and Pain Management,,-9223372036854775808,Chandigarh,1970-01-01 00:00:00.000002024,,,Stable,4,No,4000,46-60,,,,,NaT,,Low Cost,0
+621,48,Female,Heart Disease,Angioplasty,,1720310400000000000,Himachal Pradesh,1970-01-01 00:00:00.000002024,,,Recovered,4,Yes,15000,46-60,,,,,NaT,,Medium Cost,0
+622,65,Male,Diabetes,Insulin Therapy,2022-06-03,-9223372036854775808,Goa,1970-01-01 00:00:00.000002022,,,Stable,3,No,2000,61-75,,2022.0,6.0,June,2022Q2,Friday,Low Cost,0
+623,30,Female,Fractured Arm,X-Ray and Splint,2023-12-07,-9223372036854775808,Himachal Pradesh,1970-01-01 00:00:00.000002023,,,Recovered,5,No,500,19-30,,2023.0,12.0,December,2023Q4,Thursday,Low Cost,0
+624,70,Male,Stroke,CT Scan and Medication,,-9223372036854775808,Manipur,1970-01-01 00:00:00.000002023,,,Stable,2,Yes,10000,61-75,,,,,NaT,,Low Cost,0
+625,55,Female,Cancer,Surgery and Chemotherapy,,1731196800000000000,Kerala,1970-01-01 00:00:00.000002024,,,Recovered,4,No,25000,46-60,,,,,NaT,,Medium Cost,0
+626,68,Male,Hypertension,Medication and Counseling,,1659916800000000000,Arunachal Pradesh,1970-01-01 00:00:00.000002022,,,Stable,4,No,1000,61-75,,,,,NaT,,Low Cost,0
+627,45,Female,Appendicitis,Appendectomy,2024-01-03,-9223372036854775808,Karnataka,1970-01-01 00:00:00.000002024,,,Recovered,3,No,8000,31-45,,2024.0,1.0,January,2024Q1,Wednesday,Low Cost,0
+628,40,Male,Fractured Leg,Cast and Physical Therapy,,1720569600000000000,Puducherry,1970-01-01 00:00:00.000002024,,,Recovered,4,Yes,3000,31-45,,,,,NaT,,Medium Cost,0
+629,78,Female,Heart Attack,Cardiac Catheterization,,-9223372036854775808,Kerala,1970-01-01 00:00:00.000002025,,,Stable,2,No,18000,76+,,,,,NaT,,Low Cost,0
+630,25,Male,Allergic Reaction,Epinephrine Injection,,-9223372036854775808,Kerala,1970-01-01 00:00:00.000002023,,,Recovered,5,Yes,100,19-30,,,,,NaT,,Low Cost,0
+631,52,Female,Respiratory Infection,Antibiotics and Rest,,1709251200000000000,Meghalaya,1970-01-01 00:00:00.000002023,,,Stable,4,Yes,800,46-60,,,,,NaT,,Medium Cost,0
+632,58,Male,Prostate Cancer,Radiation Therapy,2025-03-03,-9223372036854775808,Assam,1970-01-01 00:00:00.000002025,,,Recovered,3,Yes,20000,46-60,,2025.0,3.0,March,2025Q1,Monday,Low Cost,0
+633,32,Female,Childbirth,Delivery and Postnatal Care,2024-02-10,-9223372036854775808,Uttar Pradesh,1970-01-01 00:00:00.000002024,,,Recovered,4,Yes,12000,31-45,,2024.0,2.0,February,2024Q1,Saturday,Low Cost,0
+634,55,Male,Kidney Stones,Lithotripsy,,1660003200000000000,Rajasthan,1970-01-01 00:00:00.000002022,,,Recovered,3,Yes,6000,46-60,,,,,NaT,,Low Cost,0
+635,65,Female,Osteoarthritis,Physical Therapy and Pain Management,2023-11-04,-9223372036854775808,Tamil Nadu,1970-01-01 00:00:00.000002023,,,Stable,4,No,4000,61-75,,2023.0,11.0,November,2023Q4,Saturday,Low Cost,0
+636,55,Female,Heart Disease,Angioplasty,2025-01-10,-9223372036854775808,Kerala,1970-01-01 00:00:00.000002025,,,Recovered,3,Yes,15000,46-60,,2025.0,1.0,January,2025Q1,Friday,Low Cost,0
+637,62,Male,Diabetes,Insulin Therapy,,1754006400000000000,Goa,1970-01-01 00:00:00.000002024,,,Stable,4,Yes,2000,61-75,,,,,NaT,,Medium Cost,0
+638,35,Female,Fractured Arm,X-Ray and Splint,2024-12-05,-9223372036854775808,Himachal Pradesh,1970-01-01 00:00:00.000002024,,,Recovered,5,No,500,31-45,,2024.0,12.0,December,2024Q4,Thursday,Low Cost,0
+639,78,Male,Stroke,CT Scan and Medication,2022-05-05,-9223372036854775808,Tripura,1970-01-01 00:00:00.000002022,,,Stable,2,No,10000,76+,,2022.0,5.0,May,2022Q2,Thursday,Low Cost,0
+640,53,Female,Cancer,Surgery and Chemotherapy,,-9223372036854775808,Mizoram,1970-01-01 00:00:00.000002024,,,Recovered,4,Yes,25000,46-60,,,,,NaT,,Low Cost,0
+641,72,Male,Hypertension,Medication and Counseling,2022-03-07,-9223372036854775808,Sikkim,1970-01-01 00:00:00.000002022,,,Stable,4,No,1000,61-75,,2022.0,3.0,March,2022Q1,Monday,Low Cost,0
+642,60,Female,Appendicitis,Appendectomy,,-9223372036854775808,Kerala,1970-01-01 00:00:00.000002024,,,Recovered,3,No,8000,46-60,,,,,NaT,,Low Cost,0
+643,45,Male,Fractured Leg,Cast and Physical Therapy,2024-06-05,-9223372036854775808,Gujarat,1970-01-01 00:00:00.000002024,,,Recovered,4,No,3000,31-45,,2024.0,6.0,June,2024Q2,Wednesday,Low Cost,0
+644,75,Female,Heart Attack,Cardiac Catheterization,2024-08-02,-9223372036854775808,Kerala,1970-01-01 00:00:00.000002024,,,Stable,2,Yes,18000,61-75,,2024.0,8.0,August,2024Q3,Friday,Low Cost,0
+645,28,Male,Allergic Reaction,Epinephrine Injection,2022-08-04,-9223372036854775808,Kerala,1970-01-01 00:00:00.000002022,,,Recovered,5,No,100,19-30,,2022.0,8.0,August,2022Q3,Thursday,Low Cost,0
+646,52,Female,Respiratory Infection,Antibiotics and Rest,,1762905600000000000,Puducherry,1970-01-01 00:00:00.000002025,,,Stable,4,Yes,800,46-60,,,,,NaT,,Medium Cost,0
+647,67,Male,Prostate Cancer,Radiation Therapy,2023-06-02,-9223372036854775808,Karnataka,1970-01-01 00:00:00.000002023,,,Recovered,3,No,20000,61-75,,2023.0,6.0,June,2023Q2,Friday,Low Cost,0
+648,35,Female,Childbirth,Delivery and Postnatal Care,,-9223372036854775808,Uttar Pradesh,1970-01-01 00:00:00.000002024,,,Recovered,4,No,12000,31-45,,,,,NaT,,Low Cost,0
+649,50,Male,Kidney Stones,Lithotripsy,2024-01-10,-9223372036854775808,Haryana,1970-01-01 00:00:00.000002024,,,Recovered,3,No,6000,46-60,,2024.0,1.0,January,2024Q1,Wednesday,Low Cost,0
+650,60,Female,Osteoarthritis,Physical Therapy and Pain Management,,-9223372036854775808,Odisha,1970-01-01 00:00:00.000002025,,,Stable,4,Yes,4000,46-60,,,,,NaT,,Low Cost,0
+651,65,Male,Diabetes,Insulin Therapy,2024-11-05,-9223372036854775808,Puducherry,1970-01-01 00:00:00.000002024,,,Stable,3,No,2000,61-75,,2024.0,11.0,November,2024Q4,Tuesday,Low Cost,0
+652,30,Female,Fractured Arm,X-Ray and Splint,,-9223372036854775808,Maharastra,1970-01-01 00:00:00.000002025,,,Recovered,5,No,500,19-30,,,,,NaT,,Low Cost,0
+653,70,Male,Stroke,CT Scan and Medication,2025-03-11,-9223372036854775808,Manipur,1970-01-01 00:00:00.000002025,,,Stable,2,No,10000,61-75,,2025.0,3.0,March,2025Q1,Tuesday,Low Cost,0
+654,55,Female,Cancer,Surgery and Chemotherapy,,-9223372036854775808,Mizoram,1970-01-01 00:00:00.000002023,,,Recovered,4,Yes,25000,46-60,,,,,NaT,,Low Cost,0
+655,68,Male,Hypertension,Medication and Counseling,2025-08-09,-9223372036854775808,Punjab,1970-01-01 00:00:00.000002025,,,Stable,4,No,1000,61-75,,2025.0,8.0,August,2025Q3,Saturday,Low Cost,0
+656,45,Female,Appendicitis,Appendectomy,,1722556800000000000,Andhra Pradesh,1970-01-01 00:00:00.000002023,,,Recovered,3,No,8000,31-45,,,,,NaT,,Medium Cost,0
+657,40,Male,Fractured Leg,Cast and Physical Therapy,,-9223372036854775808,Himachal Pradesh,1970-01-01 00:00:00.000002022,,,Recovered,4,No,3000,31-45,,,,,NaT,,Low Cost,0
+658,78,Female,Heart Attack,Cardiac Catheterization,2024-02-01,-9223372036854775808,Kerala,1970-01-01 00:00:00.000002024,,,Stable,2,No,18000,76+,,2024.0,2.0,February,2024Q1,Thursday,Low Cost,0
+659,25,Male,Allergic Reaction,Epinephrine Injection,2025-07-03,-9223372036854775808,Kerala,1970-01-01 00:00:00.000002025,,,Recovered,5,Yes,100,19-30,,2025.0,7.0,July,2025Q3,Thursday,Low Cost,0
+660,52,Female,Respiratory Infection,Antibiotics and Rest,2025-04-03,-9223372036854775808,Delhi,1970-01-01 00:00:00.000002025,,,Stable,4,No,800,46-60,,2025.0,4.0,April,2025Q2,Thursday,Low Cost,0
+661,58,Male,Prostate Cancer,Radiation Therapy,,-9223372036854775808,Delhi,1970-01-01 00:00:00.000002022,,,Recovered,3,Yes,20000,46-60,,,,,NaT,,Low Cost,0
+662,32,Female,Childbirth,Delivery and Postnatal Care,,1701561600000000000,Madhya Pradesh,1970-01-01 00:00:00.000002023,,,Recovered,4,No,12000,31-45,,,,,NaT,,Medium Cost,0
+663,55,Male,Kidney Stones,Lithotripsy,2024-11-06,-9223372036854775808,Haryana,1970-01-01 00:00:00.000002024,,,Recovered,3,No,6000,46-60,,2024.0,11.0,November,2024Q4,Wednesday,Low Cost,0
+664,65,Female,Osteoarthritis,Physical Therapy and Pain Management,,-9223372036854775808,Chandigarh,1970-01-01 00:00:00.000002023,,,Stable,4,No,4000,61-75,,,,,NaT,,Low Cost,0
+665,55,Female,Heart Disease,Angioplasty,,1678060800000000000,Punjab,1970-01-01 00:00:00.000002023,,,Recovered,3,Yes,15000,46-60,,,,,NaT,,Low Cost,0
+666,62,Male,Diabetes,Insulin Therapy,2022-07-11,-9223372036854775808,Goa,1970-01-01 00:00:00.000002022,,,Stable,4,No,2000,61-75,,2022.0,7.0,July,2022Q3,Monday,Low Cost,0
+667,35,Female,Fractured Arm,X-Ray and Splint,2022-09-05,-9223372036854775808,Maharastra,1970-01-01 00:00:00.000002022,,,Recovered,5,No,500,31-45,,2022.0,9.0,September,2022Q3,Monday,Low Cost,0
+668,78,Male,Stroke,CT Scan and Medication,2024-01-03,-9223372036854775808,Tripura,1970-01-01 00:00:00.000002024,,,Stable,2,Yes,10000,76+,,2024.0,1.0,January,2024Q1,Wednesday,Low Cost,0
+669,53,Female,Cancer,Surgery and Chemotherapy,,-9223372036854775808,Mizoram,1970-01-01 00:00:00.000002023,,,Recovered,4,No,25000,46-60,,,,,NaT,,Low Cost,0
+670,72,Male,Hypertension,Medication and Counseling,,1733097600000000000,Arunachal Pradesh,1970-01-01 00:00:00.000002023,,,Stable,4,No,1000,61-75,,,,,NaT,,Medium Cost,0
+671,60,Female,Appendicitis,Appendectomy,,-9223372036854775808,Andhra Pradesh,1970-01-01 00:00:00.000002023,,,Recovered,3,No,8000,46-60,,,,,NaT,,Low Cost,0
+672,45,Male,Fractured Leg,Cast and Physical Therapy,,1717718400000000000,Himachal Pradesh,1970-01-01 00:00:00.000002024,,,Recovered,4,No,3000,31-45,,,,,NaT,,Medium Cost,0
+673,75,Female,Heart Attack,Cardiac Catheterization,2024-07-04,-9223372036854775808,Kerala,1970-01-01 00:00:00.000002024,,,Stable,2,No,18000,61-75,,2024.0,7.0,July,2024Q3,Thursday,Low Cost,0
+674,28,Male,Allergic Reaction,Epinephrine Injection,,1686009600000000000,Madhya Pradesh,1970-01-01 00:00:00.000002023,,,Recovered,5,No,100,19-30,,,,,NaT,,Low Cost,0
+675,52,Female,Respiratory Infection,Antibiotics and Rest,,-9223372036854775808,Jammu & Kashmir,1970-01-01 00:00:00.000002025,,,Stable,4,Yes,800,46-60,,,,,NaT,,Low Cost,0
+676,67,Male,Prostate Cancer,Radiation Therapy,,-9223372036854775808,Kerala,1970-01-01 00:00:00.000002024,,,Recovered,3,No,20000,61-75,,,,,NaT,,Low Cost,0
+677,35,Female,Childbirth,Delivery and Postnatal Care,,1712448000000000000,Uttar Pradesh,1970-01-01 00:00:00.000002024,,,Recovered,4,No,12000,31-45,,,,,NaT,,Medium Cost,0
+678,50,Male,Kidney Stones,Lithotripsy,,1723161600000000000,Haryana,1970-01-01 00:00:00.000002024,,,Recovered,3,No,6000,46-60,,,,,NaT,,Medium Cost,0
+679,60,Female,Osteoarthritis,Physical Therapy and Pain Management,,1725235200000000000,Chandigarh,1970-01-01 00:00:00.000002023,,,Stable,4,Yes,4000,46-60,,,,,NaT,,Medium Cost,0
+680,48,Female,Heart Disease,Angioplasty,2024-11-06,1704672000000000000,Tamil Nadu,1970-01-01 00:00:00.000002024,,,Recovered,4,No,15000,46-60,,2024.0,11.0,November,2024Q4,Wednesday,Medium Cost,0
+681,65,Male,Diabetes,Insulin Therapy,,1670112000000000000,Puducherry,1970-01-01 00:00:00.000002022,,,Stable,3,Yes,2000,61-75,,,,,NaT,,Low Cost,0
+682,30,Female,Fractured Arm,X-Ray and Splint,2023-01-06,-9223372036854775808,Himachal Pradesh,1970-01-01 00:00:00.000002023,,,Recovered,5,No,500,19-30,,2023.0,1.0,January,2023Q1,Friday,Low Cost,0
+683,70,Male,Stroke,CT Scan and Medication,,-9223372036854775808,Mizoram,1970-01-01 00:00:00.000002025,,,Stable,2,Yes,10000,61-75,,,,,NaT,,Low Cost,0
+684,55,Female,Cancer,Surgery and Chemotherapy,,1688256000000000000,Mizoram,1970-01-01 00:00:00.000002022,,,Recovered,4,Yes,25000,46-60,,,,,NaT,,Low Cost,0
+685,68,Male,Hypertension,Medication and Counseling,,1759536000000000000,Punjab,1970-01-01 00:00:00.000002025,,,Stable,4,Yes,1000,61-75,,,,,NaT,,Medium Cost,0
+686,45,Female,Appendicitis,Appendectomy,,1691539200000000000,Tamil Nadu,1970-01-01 00:00:00.000002023,,,Recovered,3,Yes,8000,31-45,,,,,NaT,,Medium Cost,0
+687,40,Male,Fractured Leg,Cast and Physical Therapy,,-9223372036854775808,Gujarat,1970-01-01 00:00:00.000002024,,,Recovered,4,No,3000,31-45,,,,,NaT,,Low Cost,0
+688,78,Female,Heart Attack,Cardiac Catheterization,,1731024000000000000,West Bengal,1970-01-01 00:00:00.000002024,,,Stable,2,No,18000,76+,,,,,NaT,,Medium Cost,0
+689,25,Male,Allergic Reaction,Epinephrine Injection,,1660176000000000000,Madhya Pradesh,1970-01-01 00:00:00.000002022,,,Recovered,5,No,100,19-30,,,,,NaT,,Low Cost,0
+690,52,Female,Respiratory Infection,Antibiotics and Rest,,1760054400000000000,Jammu & Kashmir,1970-01-01 00:00:00.000002025,,,Stable,4,No,800,46-60,,,,,NaT,,Medium Cost,0
+691,58,Male,Prostate Cancer,Radiation Therapy,,-9223372036854775808,Assam,1970-01-01 00:00:00.000002025,,,Recovered,3,Yes,20000,46-60,,,,,NaT,,Low Cost,0
+692,32,Female,Childbirth,Delivery and Postnatal Care,2025-03-08,-9223372036854775808,Bihar,1970-01-01 00:00:00.000002025,,,Recovered,4,No,12000,31-45,,2025.0,3.0,March,2025Q1,Saturday,Low Cost,0
+693,55,Male,Kidney Stones,Lithotripsy,2023-07-02,-9223372036854775808,Haryana,1970-01-01 00:00:00.000002023,,,Recovered,3,No,6000,46-60,,2023.0,7.0,July,2023Q3,Sunday,Low Cost,0
+694,65,Female,Osteoarthritis,Physical Therapy and Pain Management,,1683072000000000000,Tamil Nadu,1970-01-01 00:00:00.000002023,,,Stable,4,No,4000,61-75,,,,,NaT,,Low Cost,0
+695,55,Female,Heart Disease,Angioplasty,,1656979200000000000,Andhra Pradesh,1970-01-01 00:00:00.000002022,,,Recovered,3,No,15000,46-60,,,,,NaT,,Low Cost,0
+696,62,Male,Diabetes,Insulin Therapy,,-9223372036854775808,Chandigarh,1970-01-01 00:00:00.000002022,,,Stable,4,No,2000,61-75,,,,,NaT,,Low Cost,0
+697,35,Female,Fractured Arm,X-Ray and Splint,,1675900800000000000,Haryana,1970-01-01 00:00:00.000002023,,,Recovered,5,No,500,31-45,,,,,NaT,,Low Cost,0
+698,78,Male,Stroke,CT Scan and Medication,2025-04-05,-9223372036854775808,Mizoram,1970-01-01 00:00:00.000002025,,,Stable,2,Yes,10000,76+,,2025.0,4.0,April,2025Q2,Saturday,Low Cost,0
+699,53,Female,Cancer,Surgery and Chemotherapy,,-9223372036854775808,Meghalaya,1970-01-01 00:00:00.000002024,,,Recovered,4,No,25000,46-60,,,,,NaT,,Low Cost,0
+700,72,Male,Hypertension,Medication and Counseling,,1739059200000000000,Punjab,1970-01-01 00:00:00.000002025,,,Stable,4,No,1000,61-75,,,,,NaT,,Medium Cost,0
+701,60,Female,Appendicitis,Appendectomy,2024-11-01,1712102400000000000,Tamil Nadu,1970-01-01 00:00:00.000002024,,,Recovered,3,Yes,8000,46-60,,2024.0,11.0,November,2024Q4,Friday,Medium Cost,0
+702,45,Male,Fractured Leg,Cast and Physical Therapy,,-9223372036854775808,Punjab,1970-01-01 00:00:00.000002023,,,Recovered,4,Yes,3000,31-45,,,,,NaT,,Low Cost,0
+703,75,Female,Heart Attack,Cardiac Catheterization,,-9223372036854775808,West Bengal,1970-01-01 00:00:00.000002025,,,Stable,2,No,18000,61-75,,,,,NaT,,Low Cost,0
+704,28,Male,Allergic Reaction,Epinephrine Injection,2025-08-01,-9223372036854775808,Madhya Pradesh,1970-01-01 00:00:00.000002025,,,Recovered,5,No,100,19-30,,2025.0,8.0,August,2025Q3,Friday,Low Cost,0
+705,52,Female,Respiratory Infection,Antibiotics and Rest,,1733529600000000000,Jammu & Kashmir,1970-01-01 00:00:00.000002024,,,Stable,4,Yes,800,46-60,,,,,NaT,,Medium Cost,0
+706,67,Male,Prostate Cancer,Radiation Therapy,2023-05-08,-9223372036854775808,Kerala,1970-01-01 00:00:00.000002023,,,Recovered,3,No,20000,61-75,,2023.0,5.0,May,2023Q2,Monday,Low Cost,0
+707,35,Female,Childbirth,Delivery and Postnatal Care,2023-05-11,-9223372036854775808,Uttar Pradesh,1970-01-01 00:00:00.000002023,,,Recovered,4,No,12000,31-45,,2023.0,5.0,May,2023Q2,Thursday,Low Cost,0
+708,50,Male,Kidney Stones,Lithotripsy,2025-09-11,-9223372036854775808,Rajasthan,1970-01-01 00:00:00.000002025,,,Recovered,3,Yes,6000,46-60,,2025.0,9.0,September,2025Q3,Thursday,Low Cost,0
+709,60,Female,Osteoarthritis,Physical Therapy and Pain Management,,-9223372036854775808,Odisha,1970-01-01 00:00:00.000002022,,,Stable,4,Yes,4000,46-60,,,,,NaT,,Low Cost,0
+710,48,Female,Heart Disease,Angioplasty,,-9223372036854775808,Tamil Nadu,1970-01-01 00:00:00.000002022,,,Recovered,4,No,15000,46-60,,,,,NaT,,Low Cost,0
+711,30,Female,Fractured Arm,X-Ray and Splint,,1652054400000000000,Haryana,1970-01-01 00:00:00.000002022,,,Recovered,5,No,500,19-30,,,,,NaT,,Low Cost,0
+712,70,Male,Stroke,CT Scan and Medication,,1727827200000000000,Mizoram,1970-01-01 00:00:00.000002023,,,Stable,2,No,10000,61-75,,,,,NaT,,Medium Cost,0
+713,55,Female,Cancer,Surgery and Chemotherapy,,1730851200000000000,Meghalaya,1970-01-01 00:00:00.000002024,,,Recovered,4,Yes,25000,46-60,,,,,NaT,,Medium Cost,0
+714,68,Male,Hypertension,Medication and Counseling,,-9223372036854775808,Sikkim,1970-01-01 00:00:00.000002023,,,Stable,4,No,1000,61-75,,,,,NaT,,Low Cost,0
+715,45,Female,Appendicitis,Appendectomy,2023-11-11,1711929600000000000,Tamil Nadu,1970-01-01 00:00:00.000002023,142.0,,Recovered,3,Yes,8000,31-45,8+ Days,2023.0,11.0,November,2023Q4,Saturday,Medium Cost,0
+716,40,Male,Fractured Leg,Cast and Physical Therapy,,1665446400000000000,Maharastra,1970-01-01 00:00:00.000002022,,,Recovered,4,Yes,3000,31-45,,,,,NaT,,Low Cost,0
+717,78,Female,Heart Attack,Cardiac Catheterization,,-9223372036854775808,Kerala,1970-01-01 00:00:00.000002022,,,Stable,2,No,18000,76+,,,,,NaT,,Low Cost,0
+718,25,Male,Allergic Reaction,Epinephrine Injection,,1764806400000000000,Kerala,1970-01-01 00:00:00.000002025,,,Recovered,5,No,100,19-30,,,,,NaT,,Medium Cost,0
+719,52,Female,Respiratory Infection,Antibiotics and Rest,2022-09-06,-9223372036854775808,Jammu & Kashmir,1970-01-01 00:00:00.000002022,,,Stable,4,No,800,46-60,,2022.0,9.0,September,2022Q3,Tuesday,Low Cost,0
+720,58,Male,Prostate Cancer,Radiation Therapy,2022-02-01,-9223372036854775808,Assam,1970-01-01 00:00:00.000002022,,,Recovered,3,No,20000,46-60,,2022.0,2.0,February,2022Q1,Tuesday,Low Cost,0
+721,32,Female,Childbirth,Delivery and Postnatal Care,,-9223372036854775808,Uttar Pradesh,1970-01-01 00:00:00.000002022,,,Recovered,4,No,12000,31-45,,,,,NaT,,Low Cost,0
+722,55,Male,Kidney Stones,Lithotripsy,,-9223372036854775808,Punjab,1970-01-01 00:00:00.000002022,,,Recovered,3,Yes,6000,46-60,,,,,NaT,,Low Cost,0
+723,65,Female,Osteoarthritis,Physical Therapy and Pain Management,,-9223372036854775808,Odisha,1970-01-01 00:00:00.000002022,,,Stable,4,No,4000,61-75,,,,,NaT,,Low Cost,0
+724,55,Female,Heart Disease,Angioplasty,,-9223372036854775808,Tamil Nadu,1970-01-01 00:00:00.000002022,,,Recovered,3,Yes,15000,46-60,,,,,NaT,,Low Cost,0
+725,62,Male,Diabetes,Insulin Therapy,2022-11-10,1644624000000000000,Tamil Nadu,1970-01-01 00:00:00.000002022,,,Stable,4,No,2000,61-75,,2022.0,11.0,November,2022Q4,Thursday,Low Cost,0
+726,35,Female,Fractured Arm,X-Ray and Splint,2022-09-10,-9223372036854775808,Maharastra,1970-01-01 00:00:00.000002022,,,Recovered,5,No,500,31-45,,2022.0,9.0,September,2022Q3,Saturday,Low Cost,0
+727,78,Male,Stroke,CT Scan and Medication,2023-09-08,1683676800000000000,Tripura,1970-01-01 00:00:00.000002023,,,Stable,2,No,10000,76+,,2023.0,9.0,September,2023Q3,Friday,Low Cost,0
+728,53,Female,Cancer,Surgery and Chemotherapy,,-9223372036854775808,Assam,1970-01-01 00:00:00.000002023,,,Recovered,4,Yes,25000,46-60,,,,,NaT,,Low Cost,0
+729,72,Male,Hypertension,Medication and Counseling,,1683590400000000000,Sikkim,1970-01-01 00:00:00.000002023,,,Stable,4,No,1000,61-75,,,,,NaT,,Low Cost,0
+730,60,Female,Appendicitis,Appendectomy,,-9223372036854775808,Karnataka,1970-01-01 00:00:00.000002023,,,Recovered,3,Yes,8000,46-60,,,,,NaT,,Low Cost,0
+731,45,Male,Fractured Leg,Cast and Physical Therapy,,1793577600000000000,Maharastra,1970-01-01 00:00:00.000002025,,,Recovered,4,Yes,3000,31-45,,,,,NaT,,Medium Cost,0
+732,75,Female,Heart Attack,Cardiac Catheterization,,1762732800000000000,Punjab,1970-01-01 00:00:00.000002025,,,Stable,2,Yes,18000,61-75,,,,,NaT,,Medium Cost,0
+733,28,Male,Allergic Reaction,Epinephrine Injection,2025-06-09,-9223372036854775808,Madhya Pradesh,1970-01-01 00:00:00.000002025,,,Recovered,5,Yes,100,19-30,,2025.0,6.0,June,2025Q2,Monday,Low Cost,0
+734,52,Female,Respiratory Infection,Antibiotics and Rest,,-9223372036854775808,Delhi,1970-01-01 00:00:00.000002023,,,Stable,4,Yes,800,46-60,,,,,NaT,,Low Cost,0
+735,67,Male,Prostate Cancer,Radiation Therapy,,-9223372036854775808,Delhi,1970-01-01 00:00:00.000002022,,,Recovered,3,No,20000,61-75,,,,,NaT,,Low Cost,0
+736,35,Female,Childbirth,Delivery and Postnatal Care,,-9223372036854775808,Bihar,1970-01-01 00:00:00.000002025,,,Recovered,4,No,12000,31-45,,,,,NaT,,Low Cost,0
+737,50,Male,Kidney Stones,Lithotripsy,2025-11-04,1741219200000000000,Gujarat,1970-01-01 00:00:00.000002025,,,Recovered,3,Yes,6000,46-60,,2025.0,11.0,November,2025Q4,Tuesday,Medium Cost,0
+738,60,Female,Osteoarthritis,Physical Therapy and Pain Management,2022-05-05,-9223372036854775808,Odisha,1970-01-01 00:00:00.000002022,,,Stable,4,No,4000,46-60,,2022.0,5.0,May,2022Q2,Thursday,Low Cost,0
+739,48,Female,Heart Disease,Angioplasty,,-9223372036854775808,Kerala,1970-01-01 00:00:00.000002023,,,Recovered,4,No,15000,46-60,,,,,NaT,,Low Cost,0
+740,65,Male,Diabetes,Insulin Therapy,,-9223372036854775808,Kerala,1970-01-01 00:00:00.000002022,,,Stable,3,No,2000,61-75,,,,,NaT,,Low Cost,0
+741,30,Female,Fractured Arm,X-Ray and Splint,,1654905600000000000,Haryana,1970-01-01 00:00:00.000002022,,,Recovered,5,Yes,500,19-30,,,,,NaT,,Low Cost,0
+742,70,Male,Stroke,CT Scan and Medication,,1764892800000000000,Tripura,1970-01-01 00:00:00.000002025,,,Stable,2,No,10000,61-75,,,,,NaT,,Medium Cost,0
+743,55,Female,Cancer,Surgery and Chemotherapy,2025-01-11,-9223372036854775808,Meghalaya,1970-01-01 00:00:00.000002025,,,Recovered,4,No,25000,46-60,,2025.0,1.0,January,2025Q1,Saturday,Low Cost,0
+744,68,Male,Hypertension,Medication and Counseling,,1762041600000000000,Sikkim,1970-01-01 00:00:00.000002024,,,Stable,4,No,1000,61-75,,,,,NaT,,Medium Cost,0
+745,45,Female,Appendicitis,Appendectomy,,1693526400000000000,Kerala,1970-01-01 00:00:00.000002022,,,Recovered,3,No,8000,31-45,,,,,NaT,,Medium Cost,0
+746,40,Male,Fractured Leg,Cast and Physical Therapy,2023-08-12,1706832000000000000,Maharastra,1970-01-01 00:00:00.000002023,174.0,,Recovered,4,Yes,3000,31-45,8+ Days,2023.0,8.0,August,2023Q3,Saturday,Medium Cost,0
+747,78,Female,Heart Attack,Cardiac Catheterization,2025-03-07,-9223372036854775808,Punjab,1970-01-01 00:00:00.000002025,,,Stable,2,No,18000,76+,,2025.0,3.0,March,2025Q1,Friday,Low Cost,0
+748,25,Male,Allergic Reaction,Epinephrine Injection,,-9223372036854775808,Tamil Nadu,1970-01-01 00:00:00.000002023,,,Recovered,5,No,100,19-30,,,,,NaT,,Low Cost,0
+749,52,Female,Respiratory Infection,Antibiotics and Rest,2022-07-04,-9223372036854775808,Meghalaya,1970-01-01 00:00:00.000002022,,,Stable,4,Yes,800,46-60,,2022.0,7.0,July,2022Q3,Monday,Low Cost,0
+750,58,Male,Prostate Cancer,Radiation Therapy,,-9223372036854775808,Assam,1970-01-01 00:00:00.000002024,,,Recovered,3,Yes,20000,46-60,,,,,NaT,,Low Cost,0
+751,32,Female,Childbirth,Delivery and Postnatal Care,2025-06-10,-9223372036854775808,Uttar Pradesh,1970-01-01 00:00:00.000002025,,,Recovered,4,No,12000,31-45,,2025.0,6.0,June,2025Q2,Tuesday,Low Cost,0
+752,55,Male,Kidney Stones,Lithotripsy,,1764806400000000000,Rajasthan,1970-01-01 00:00:00.000002025,,,Recovered,3,No,6000,46-60,,,,,NaT,,Medium Cost,0
+753,65,Female,Osteoarthritis,Physical Therapy and Pain Management,2022-12-06,1654646400000000000,Tamil Nadu,1970-01-01 00:00:00.000002022,,,Stable,4,Yes,4000,61-75,,2022.0,12.0,December,2022Q4,Tuesday,Low Cost,0
+754,55,Female,Heart Disease,Angioplasty,,-9223372036854775808,Tamil Nadu,1970-01-01 00:00:00.000002024,,,Recovered,3,No,15000,46-60,,,,,NaT,,Low Cost,0
+755,62,Male,Diabetes,Insulin Therapy,2025-10-01,1746230400000000000,Chandigarh,1970-01-01 00:00:00.000002025,,,Stable,4,No,2000,61-75,,2025.0,10.0,October,2025Q4,Wednesday,Medium Cost,0
+756,35,Female,Fractured Arm,X-Ray and Splint,,-9223372036854775808,Himachal Pradesh,1970-01-01 00:00:00.000002025,,,Recovered,5,No,500,31-45,,,,,NaT,,Low Cost,0
+757,78,Male,Stroke,CT Scan and Medication,2022-06-07,1646784000000000000,Manipur,1970-01-01 00:00:00.000002022,,,Stable,2,Yes,10000,76+,,2022.0,6.0,June,2022Q2,Tuesday,Low Cost,0
+758,53,Female,Cancer,Surgery and Chemotherapy,,-9223372036854775808,Mizoram,1970-01-01 00:00:00.000002025,,,Recovered,4,No,25000,46-60,,,,,NaT,,Low Cost,0
+759,72,Male,Hypertension,Medication and Counseling,,-9223372036854775808,Goa,1970-01-01 00:00:00.000002023,,,Stable,4,No,1000,61-75,,,,,NaT,,Low Cost,0
+760,60,Female,Appendicitis,Appendectomy,,1757203200000000000,Karnataka,1970-01-01 00:00:00.000002025,,,Recovered,3,Yes,8000,46-60,,,,,NaT,,Medium Cost,0
+761,45,Male,Fractured Leg,Cast and Physical Therapy,,1670457600000000000,Maharastra,1970-01-01 00:00:00.000002022,,,Recovered,4,No,3000,31-45,,,,,NaT,,Low Cost,0
+762,75,Female,Heart Attack,Cardiac Catheterization,,-9223372036854775808,Punjab,1970-01-01 00:00:00.000002023,,,Stable,2,No,18000,61-75,,,,,NaT,,Low Cost,0
+763,28,Male,Allergic Reaction,Epinephrine Injection,2024-03-08,-9223372036854775808,Tamil Nadu,1970-01-01 00:00:00.000002024,,,Recovered,5,No,100,19-30,,2024.0,3.0,March,2024Q1,Friday,Low Cost,0
+764,52,Female,Respiratory Infection,Antibiotics and Rest,,1762473600000000000,Delhi,1970-01-01 00:00:00.000002025,,,Stable,4,No,800,46-60,,,,,NaT,,Medium Cost,0
+765,67,Male,Prostate Cancer,Radiation Therapy,2022-12-04,1667692800000000000,Delhi,1970-01-01 00:00:00.000002022,,,Recovered,3,No,20000,61-75,,2022.0,12.0,December,2022Q4,Sunday,Low Cost,0
+766,35,Female,Childbirth,Delivery and Postnatal Care,,-9223372036854775808,Bihar,1970-01-01 00:00:00.000002023,,,Recovered,4,No,12000,31-45,,,,,NaT,,Low Cost,0
+767,50,Male,Kidney Stones,Lithotripsy,2023-03-06,-9223372036854775808,Haryana,1970-01-01 00:00:00.000002023,,,Recovered,3,No,6000,46-60,,2023.0,3.0,March,2023Q1,Monday,Low Cost,0
+768,60,Female,Osteoarthritis,Physical Therapy and Pain Management,,1657324800000000000,Chandigarh,1970-01-01 00:00:00.000002022,,,Stable,4,No,4000,46-60,,,,,NaT,,Low Cost,0
+769,48,Female,Heart Disease,Angioplasty,2022-09-03,1651708800000000000,Kerala,1970-01-01 00:00:00.000002022,,,Recovered,4,No,15000,46-60,,2022.0,9.0,September,2022Q3,Saturday,Low Cost,0
+770,65,Male,Diabetes,Insulin Therapy,,-9223372036854775808,Tamil Nadu,1970-01-01 00:00:00.000002023,,,Stable,3,No,2000,61-75,,,,,NaT,,Low Cost,0
+771,30,Female,Fractured Arm,X-Ray and Splint,,1728691200000000000,Maharastra,1970-01-01 00:00:00.000002024,,,Recovered,5,No,500,19-30,,,,,NaT,,Medium Cost,0
+772,55,Female,Cancer,Surgery and Chemotherapy,,-9223372036854775808,Mizoram,1970-01-01 00:00:00.000002022,,,Recovered,4,No,25000,46-60,,,,,NaT,,Low Cost,0
+773,68,Male,Hypertension,Medication and Counseling,,-9223372036854775808,Arunachal Pradesh,1970-01-01 00:00:00.000002024,,,Stable,4,No,1000,61-75,,,,,NaT,,Low Cost,0
+774,45,Female,Appendicitis,Appendectomy,,-9223372036854775808,Karnataka,1970-01-01 00:00:00.000002023,,,Recovered,3,No,8000,31-45,,,,,NaT,,Low Cost,0
+775,40,Male,Fractured Leg,Cast and Physical Therapy,2024-12-01,1727913600000000000,Gujarat,1970-01-01 00:00:00.000002024,,,Recovered,4,Yes,3000,31-45,,2024.0,12.0,December,2024Q4,Sunday,Medium Cost,0
+776,78,Female,Heart Attack,Cardiac Catheterization,2024-05-05,1712448000000000000,West Bengal,1970-01-01 00:00:00.000002024,,,Stable,2,Yes,18000,76+,,2024.0,5.0,May,2024Q2,Sunday,Medium Cost,0
+777,25,Male,Allergic Reaction,Epinephrine Injection,2025-03-05,-9223372036854775808,Madhya Pradesh,1970-01-01 00:00:00.000002025,,,Recovered,5,No,100,19-30,,2025.0,3.0,March,2025Q1,Wednesday,Low Cost,0
+778,52,Female,Respiratory Infection,Antibiotics and Rest,,-9223372036854775808,Delhi,1970-01-01 00:00:00.000002025,,,Stable,4,No,800,46-60,,,,,NaT,,Low Cost,0
+779,58,Male,Prostate Cancer,Radiation Therapy,,-9223372036854775808,Kerala,1970-01-01 00:00:00.000002022,,,Recovered,3,No,20000,46-60,,,,,NaT,,Low Cost,0
+780,32,Female,Childbirth,Delivery and Postnatal Care,,-9223372036854775808,Rajasthan,1970-01-01 00:00:00.000002025,,,Recovered,4,Yes,12000,31-45,,,,,NaT,,Low Cost,0
+781,55,Male,Kidney Stones,Lithotripsy,,1725408000000000000,Haryana,1970-01-01 00:00:00.000002024,,,Recovered,3,Yes,6000,46-60,,,,,NaT,,Medium Cost,0
+782,65,Female,Osteoarthritis,Physical Therapy and Pain Management,2023-11-08,1688947200000000000,Tamil Nadu,1970-01-01 00:00:00.000002023,,,Stable,4,Yes,4000,61-75,,2023.0,11.0,November,2023Q4,Wednesday,Medium Cost,0
+783,55,Female,Heart Disease,Angioplasty,,-9223372036854775808,Punjab,1970-01-01 00:00:00.000002023,,,Recovered,3,No,15000,46-60,,,,,NaT,,Low Cost,0
+784,62,Male,Diabetes,Insulin Therapy,2022-11-09,1654905600000000000,Tamil Nadu,1970-01-01 00:00:00.000002022,,,Stable,4,No,2000,61-75,,2022.0,11.0,November,2022Q4,Wednesday,Low Cost,0
+785,35,Female,Fractured Arm,X-Ray and Splint,,-9223372036854775808,Himachal Pradesh,1970-01-01 00:00:00.000002022,,,Recovered,5,Yes,500,31-45,,,,,NaT,,Low Cost,0
+786,78,Male,Stroke,CT Scan and Medication,2025-06-04,1749168000000000000,Mizoram,1970-01-01 00:00:00.000002025,2.0,,Stable,2,Yes,10000,76+,2-3 Days,2025.0,6.0,June,2025Q2,Wednesday,Medium Cost,0
+787,53,Female,Cancer,Surgery and Chemotherapy,,-9223372036854775808,Mizoram,1970-01-01 00:00:00.000002022,,,Recovered,4,Yes,25000,46-60,,,,,NaT,,Low Cost,0
+788,72,Male,Hypertension,Medication and Counseling,2022-07-06,1646697600000000000,Arunachal Pradesh,1970-01-01 00:00:00.000002022,,,Stable,4,Yes,1000,61-75,,2022.0,7.0,July,2022Q3,Wednesday,Low Cost,0
+789,60,Female,Appendicitis,Appendectomy,2022-01-08,-9223372036854775808,Kerala,1970-01-01 00:00:00.000002022,,,Recovered,3,No,8000,46-60,,2022.0,1.0,January,2022Q1,Saturday,Low Cost,0
+790,45,Male,Fractured Leg,Cast and Physical Therapy,,-9223372036854775808,Himachal Pradesh,1970-01-01 00:00:00.000002022,,,Recovered,4,No,3000,31-45,,,,,NaT,,Low Cost,0
+791,75,Female,Heart Attack,Cardiac Catheterization,2023-05-05,1683417600000000000,Kerala,1970-01-01 00:00:00.000002023,2.0,,Stable,2,No,18000,61-75,2-3 Days,2023.0,5.0,May,2023Q2,Friday,Low Cost,0
+792,28,Male,Allergic Reaction,Epinephrine Injection,,1725494400000000000,Kerala,1970-01-01 00:00:00.000002024,,,Recovered,5,Yes,100,19-30,,,,,NaT,,Medium Cost,0
+793,52,Female,Respiratory Infection,Antibiotics and Rest,2022-06-12,-9223372036854775808,Delhi,1970-01-01 00:00:00.000002022,,,Stable,4,No,800,46-60,,2022.0,6.0,June,2022Q2,Sunday,Low Cost,0
+794,67,Male,Prostate Cancer,Radiation Therapy,2022-06-04,1657065600000000000,Delhi,1970-01-01 00:00:00.000002022,32.0,,Recovered,3,Yes,20000,61-75,8+ Days,2022.0,6.0,June,2022Q2,Saturday,Low Cost,0
+795,35,Female,Childbirth,Delivery and Postnatal Care,2025-02-05,-9223372036854775808,Madhya Pradesh,1970-01-01 00:00:00.000002025,,,Recovered,4,No,12000,31-45,,2025.0,2.0,February,2025Q1,Wednesday,Low Cost,0
+796,50,Male,Kidney Stones,Lithotripsy,,-9223372036854775808,Haryana,1970-01-01 00:00:00.000002023,,,Recovered,3,No,6000,46-60,,,,,NaT,,Low Cost,0
+797,60,Female,Osteoarthritis,Physical Therapy and Pain Management,,-9223372036854775808,Odisha,1970-01-01 00:00:00.000002025,,,Stable,4,Yes,4000,46-60,,,,,NaT,,Low Cost,0
+798,48,Female,Heart Disease,Angioplasty,,-9223372036854775808,Kerala,1970-01-01 00:00:00.000002022,,,Recovered,4,Yes,15000,46-60,,,,,NaT,,Low Cost,0
+799,65,Male,Diabetes,Insulin Therapy,,-9223372036854775808,Goa,1970-01-01 00:00:00.000002025,,,Stable,3,Yes,2000,61-75,,,,,NaT,,Low Cost,0
+800,30,Female,Fractured Arm,X-Ray and Splint,2022-10-03,1649116800000000000,Maharastra,1970-01-01 00:00:00.000002022,,,Recovered,5,No,500,19-30,,2022.0,10.0,October,2022Q4,Monday,Low Cost,0
+801,70,Male,Stroke,CT Scan and Medication,2025-05-12,1777680000000000000,Tripura,1970-01-01 00:00:00.000002025,355.0,,Stable,2,No,10000,61-75,8+ Days,2025.0,5.0,May,2025Q2,Monday,Medium Cost,0
+802,55,Female,Cancer,Surgery and Chemotherapy,2022-03-06,1654646400000000000,Meghalaya,1970-01-01 00:00:00.000002022,94.0,,Recovered,4,No,25000,46-60,8+ Days,2022.0,3.0,March,2022Q1,Sunday,Low Cost,0
+803,68,Male,Hypertension,Medication and Counseling,,-9223372036854775808,Sikkim,1970-01-01 00:00:00.000002025,,,Stable,4,No,1000,61-75,,,,,NaT,,Low Cost,0
+804,45,Female,Appendicitis,Appendectomy,,-9223372036854775808,Karnataka,1970-01-01 00:00:00.000002023,,,Recovered,3,No,8000,31-45,,,,,NaT,,Low Cost,0
+805,40,Male,Fractured Leg,Cast and Physical Therapy,,-9223372036854775808,Himachal Pradesh,1970-01-01 00:00:00.000002022,,,Recovered,4,Yes,3000,31-45,,,,,NaT,,Low Cost,0
+806,78,Female,Heart Attack,Cardiac Catheterization,,-9223372036854775808,Punjab,1970-01-01 00:00:00.000002025,,,Stable,2,No,18000,76+,,,,,NaT,,Low Cost,0
+807,25,Male,Allergic Reaction,Epinephrine Injection,,-9223372036854775808,Madhya Pradesh,1970-01-01 00:00:00.000002025,,,Recovered,5,No,100,19-30,,,,,NaT,,Low Cost,0
+808,52,Female,Respiratory Infection,Antibiotics and Rest,,-9223372036854775808,Jammu & Kashmir,1970-01-01 00:00:00.000002022,,,Stable,4,Yes,800,46-60,,,,,NaT,,Low Cost,0
+809,58,Male,Prostate Cancer,Radiation Therapy,2023-07-12,1722556800000000000,Kerala,1970-01-01 00:00:00.000002023,387.0,,Recovered,3,No,20000,46-60,8+ Days,2023.0,7.0,July,2023Q3,Wednesday,Medium Cost,0
+810,32,Female,Childbirth,Delivery and Postnatal Care,,-9223372036854775808,Jharkhand,1970-01-01 00:00:00.000002023,,,Recovered,4,No,12000,31-45,,,,,NaT,,Low Cost,0
+811,55,Male,Kidney Stones,Lithotripsy,,-9223372036854775808,Haryana,1970-01-01 00:00:00.000002025,,,Recovered,3,No,6000,46-60,,,,,NaT,,Low Cost,0
+812,65,Female,Osteoarthritis,Physical Therapy and Pain Management,,-9223372036854775808,Odisha,1970-01-01 00:00:00.000002025,,,Stable,4,No,4000,61-75,,,,,NaT,,Low Cost,0
+813,55,Female,Heart Disease,Angioplasty,,-9223372036854775808,Punjab,1970-01-01 00:00:00.000002024,,,Recovered,3,No,15000,46-60,,,,,NaT,,Low Cost,0
+814,62,Male,Diabetes,Insulin Therapy,,-9223372036854775808,Puducherry,1970-01-01 00:00:00.000002023,,,Stable,4,Yes,2000,61-75,,,,,NaT,,Low Cost,0
+815,35,Female,Fractured Arm,X-Ray and Splint,,-9223372036854775808,Himachal Pradesh,1970-01-01 00:00:00.000002025,,,Recovered,5,Yes,500,31-45,,,,,NaT,,Low Cost,0
+816,78,Male,Stroke,CT Scan and Medication,,-9223372036854775808,Tripura,1970-01-01 00:00:00.000002023,,,Stable,2,Yes,10000,76+,,,,,NaT,,Low Cost,0
+817,53,Female,Cancer,Surgery and Chemotherapy,2022-09-02,-9223372036854775808,Assam,1970-01-01 00:00:00.000002022,,,Recovered,4,No,25000,46-60,,2022.0,9.0,September,2022Q3,Friday,Low Cost,0
+818,72,Male,Hypertension,Medication and Counseling,,-9223372036854775808,Sikkim,1970-01-01 00:00:00.000002022,,,Stable,4,No,1000,61-75,,,,,NaT,,Low Cost,0
+819,60,Female,Appendicitis,Appendectomy,,-9223372036854775808,Kerala,1970-01-01 00:00:00.000002024,,,Recovered,3,Yes,8000,46-60,,,,,NaT,,Low Cost,0
+820,45,Male,Fractured Leg,Cast and Physical Therapy,,-9223372036854775808,Gujarat,1970-01-01 00:00:00.000002023,,,Recovered,4,Yes,3000,31-45,,,,,NaT,,Low Cost,0
+821,75,Female,Heart Attack,Cardiac Catheterization,,1675728000000000000,Kerala,1970-01-01 00:00:00.000002023,,,Stable,2,No,18000,61-75,,,,,NaT,,Low Cost,0
+822,28,Male,Allergic Reaction,Epinephrine Injection,2023-03-09,-9223372036854775808,Kerala,1970-01-01 00:00:00.000002023,,,Recovered,5,Yes,100,19-30,,2023.0,3.0,March,2023Q1,Thursday,Low Cost,0
+823,52,Female,Respiratory Infection,Antibiotics and Rest,2025-02-05,-9223372036854775808,Delhi,1970-01-01 00:00:00.000002025,,,Stable,4,No,800,46-60,,2025.0,2.0,February,2025Q1,Wednesday,Low Cost,0
+824,67,Male,Prostate Cancer,Radiation Therapy,2025-07-03,1759622400000000000,Delhi,1970-01-01 00:00:00.000002025,94.0,,Recovered,3,Yes,20000,61-75,8+ Days,2025.0,7.0,July,2025Q3,Thursday,Medium Cost,0
+825,35,Female,Childbirth,Delivery and Postnatal Care,,-9223372036854775808,Jharkhand,1970-01-01 00:00:00.000002022,,,Recovered,4,No,12000,31-45,,,,,NaT,,Low Cost,0
+826,50,Male,Kidney Stones,Lithotripsy,2022-01-06,-9223372036854775808,Rajasthan,1970-01-01 00:00:00.000002022,,,Recovered,3,Yes,6000,46-60,,2022.0,1.0,January,2022Q1,Thursday,Low Cost,0
+827,60,Female,Osteoarthritis,Physical Therapy and Pain Management,2025-11-01,1764720000000000000,Tamil Nadu,1970-01-01 00:00:00.000002025,32.0,,Stable,4,Yes,4000,46-60,8+ Days,2025.0,11.0,November,2025Q4,Saturday,Medium Cost,0
+828,48,Female,Heart Disease,Angioplasty,,-9223372036854775808,Punjab,1970-01-01 00:00:00.000002022,,,Recovered,4,No,15000,46-60,,,,,NaT,,Low Cost,0
+829,65,Male,Diabetes,Insulin Therapy,2022-05-08,1646870400000000000,Puducherry,1970-01-01 00:00:00.000002022,,,Stable,3,Yes,2000,61-75,,2022.0,5.0,May,2022Q2,Sunday,Low Cost,0
+830,30,Female,Fractured Arm,X-Ray and Splint,,1670630400000000000,Maharastra,1970-01-01 00:00:00.000002022,,,Recovered,5,No,500,19-30,,,,,NaT,,Low Cost,0
+831,70,Male,Stroke,CT Scan and Medication,2023-09-09,1702252800000000000,Manipur,1970-01-01 00:00:00.000002023,93.0,,Stable,2,No,10000,61-75,8+ Days,2023.0,9.0,September,2023Q3,Saturday,Medium Cost,0
+832,68,Male,Hypertension,Medication and Counseling,2022-02-03,1641340800000000000,Punjab,1970-01-01 00:00:00.000002022,,,Stable,4,No,1000,61-75,,2022.0,2.0,February,2022Q1,Thursday,Low Cost,0
+833,45,Female,Appendicitis,Appendectomy,2023-05-06,1686182400000000000,Tamil Nadu,1970-01-01 00:00:00.000002023,33.0,,Recovered,3,No,8000,31-45,8+ Days,2023.0,5.0,May,2023Q2,Saturday,Low Cost,0
+834,40,Male,Fractured Leg,Cast and Physical Therapy,,-9223372036854775808,Himachal Pradesh,1970-01-01 00:00:00.000002024,,,Recovered,4,No,3000,31-45,,,,,NaT,,Low Cost,0
+835,78,Female,Heart Attack,Cardiac Catheterization,,1738886400000000000,West Bengal,1970-01-01 00:00:00.000002025,,,Stable,2,Yes,18000,76+,,,,,NaT,,Medium Cost,0
+836,25,Male,Allergic Reaction,Epinephrine Injection,2025-03-05,-9223372036854775808,Karnataka,1970-01-01 00:00:00.000002025,,,Recovered,5,No,100,19-30,,2025.0,3.0,March,2025Q1,Wednesday,Low Cost,0
+837,52,Female,Respiratory Infection,Antibiotics and Rest,,-9223372036854775808,Meghalaya,1970-01-01 00:00:00.000002023,,,Stable,4,No,800,46-60,,,,,NaT,,Low Cost,0
+838,58,Male,Prostate Cancer,Radiation Therapy,2024-01-12,1743552000000000000,Karnataka,1970-01-01 00:00:00.000002024,446.0,,Recovered,3,No,20000,46-60,8+ Days,2024.0,1.0,January,2024Q1,Friday,Medium Cost,0
+839,32,Female,Childbirth,Delivery and Postnatal Care,,-9223372036854775808,Jharkhand,1970-01-01 00:00:00.000002025,,,Recovered,4,Yes,12000,31-45,,,,,NaT,,Low Cost,0
+840,55,Male,Kidney Stones,Lithotripsy,,-9223372036854775808,Gujarat,1970-01-01 00:00:00.000002025,,,Recovered,3,No,6000,46-60,,,,,NaT,,Low Cost,0
+841,65,Female,Osteoarthritis,Physical Therapy and Pain Management,,-9223372036854775808,Odisha,1970-01-01 00:00:00.000002024,,,Stable,4,Yes,4000,61-75,,,,,NaT,,Low Cost,0
+842,55,Female,Heart Disease,Angioplasty,,-9223372036854775808,Kerala,1970-01-01 00:00:00.000002022,,,Recovered,3,Yes,15000,46-60,,,,,NaT,,Low Cost,0
+843,62,Male,Diabetes,Insulin Therapy,,-9223372036854775808,Puducherry,1970-01-01 00:00:00.000002022,,,Stable,4,No,2000,61-75,,,,,NaT,,Low Cost,0
+844,35,Female,Fractured Arm,X-Ray and Splint,2025-01-10,-9223372036854775808,Haryana,1970-01-01 00:00:00.000002025,,,Recovered,5,No,500,31-45,,2025.0,1.0,January,2025Q1,Friday,Low Cost,0
+845,78,Male,Stroke,CT Scan and Medication,2023-10-11,-9223372036854775808,Tripura,1970-01-01 00:00:00.000002023,,,Stable,2,No,10000,76+,,2023.0,10.0,October,2023Q4,Wednesday,Low Cost,0
+846,53,Female,Cancer,Surgery and Chemotherapy,,-9223372036854775808,Assam,1970-01-01 00:00:00.000002025,,,Recovered,4,Yes,25000,46-60,,,,,NaT,,Low Cost,0
+847,72,Male,Hypertension,Medication and Counseling,2023-01-06,1673136000000000000,Goa,1970-01-01 00:00:00.000002023,2.0,,Stable,4,Yes,1000,61-75,2-3 Days,2023.0,1.0,January,2023Q1,Friday,Low Cost,0
+848,60,Female,Appendicitis,Appendectomy,2022-01-06,1646697600000000000,Andhra Pradesh,1970-01-01 00:00:00.000002022,61.0,,Recovered,3,No,8000,46-60,8+ Days,2022.0,1.0,January,2022Q1,Thursday,Low Cost,0
+849,45,Male,Fractured Leg,Cast and Physical Therapy,2025-08-08,1760054400000000000,Puducherry,1970-01-01 00:00:00.000002025,63.0,,Recovered,4,No,3000,31-45,8+ Days,2025.0,8.0,August,2025Q3,Friday,Medium Cost,0
+850,75,Female,Heart Attack,Cardiac Catheterization,2024-03-02,1722729600000000000,Kerala,1970-01-01 00:00:00.000002024,155.0,,Stable,2,No,18000,61-75,8+ Days,2024.0,3.0,March,2024Q1,Saturday,Medium Cost,0
+851,28,Male,Allergic Reaction,Epinephrine Injection,,1701648000000000000,Karnataka,1970-01-01 00:00:00.000002023,,,Recovered,5,No,100,19-30,,,,,NaT,,Medium Cost,0
+852,52,Female,Respiratory Infection,Antibiotics and Rest,,-9223372036854775808,Puducherry,1970-01-01 00:00:00.000002022,,,Stable,4,Yes,800,46-60,,,,,NaT,,Low Cost,0
+853,67,Male,Prostate Cancer,Radiation Therapy,,-9223372036854775808,Maharastra,1970-01-01 00:00:00.000002024,,,Recovered,3,No,20000,61-75,,,,,NaT,,Low Cost,0
+854,35,Female,Childbirth,Delivery and Postnatal Care,,-9223372036854775808,Jharkhand,1970-01-01 00:00:00.000002024,,,Recovered,4,No,12000,31-45,,,,,NaT,,Low Cost,0
+855,50,Male,Kidney Stones,Lithotripsy,,-9223372036854775808,Gujarat,1970-01-01 00:00:00.000002023,,,Recovered,3,No,6000,46-60,,,,,NaT,,Low Cost,0
+856,60,Female,Osteoarthritis,Physical Therapy and Pain Management,2023-09-03,1696464000000000000,Tamil Nadu,1970-01-01 00:00:00.000002023,32.0,,Stable,4,No,4000,46-60,8+ Days,2023.0,9.0,September,2023Q3,Sunday,Medium Cost,0
+857,48,Female,Heart Disease,Angioplasty,2023-08-04,1696550400000000000,Punjab,1970-01-01 00:00:00.000002023,63.0,,Recovered,4,No,15000,46-60,8+ Days,2023.0,8.0,August,2023Q3,Friday,Medium Cost,0
+858,65,Male,Diabetes,Insulin Therapy,2022-04-06,1649376000000000000,Puducherry,1970-01-01 00:00:00.000002022,2.0,,Stable,3,Yes,2000,61-75,2-3 Days,2022.0,4.0,April,2022Q2,Wednesday,Low Cost,0
+859,30,Female,Fractured Arm,X-Ray and Splint,,-9223372036854775808,Haryana,1970-01-01 00:00:00.000002022,,,Recovered,5,No,500,19-30,,,,,NaT,,Low Cost,0
+860,70,Male,Stroke,CT Scan and Medication,2023-04-03,1693872000000000000,Manipur,1970-01-01 00:00:00.000002023,155.0,,Stable,2,No,10000,61-75,8+ Days,2023.0,4.0,April,2023Q2,Monday,Medium Cost,0
+861,55,Female,Cancer,Surgery and Chemotherapy,2025-09-09,-9223372036854775808,Meghalaya,1970-01-01 00:00:00.000002025,,,Recovered,4,No,25000,46-60,,2025.0,9.0,September,2025Q3,Tuesday,Low Cost,0
+862,68,Male,Hypertension,Medication and Counseling,,-9223372036854775808,Arunachal Pradesh,1970-01-01 00:00:00.000002023,,,Stable,4,No,1000,61-75,,,,,NaT,,Low Cost,0
+863,45,Female,Appendicitis,Appendectomy,,-9223372036854775808,Andhra Pradesh,1970-01-01 00:00:00.000002025,,,Recovered,3,No,8000,31-45,,,,,NaT,,Low Cost,0
+864,40,Male,Fractured Leg,Cast and Physical Therapy,,-9223372036854775808,Puducherry,1970-01-01 00:00:00.000002023,,,Recovered,4,No,3000,31-45,,,,,NaT,,Low Cost,0
+865,78,Female,Heart Attack,Cardiac Catheterization,2025-12-06,-9223372036854775808,West Bengal,1970-01-01 00:00:00.000002025,,,Stable,2,No,18000,76+,,2025.0,12.0,December,2025Q4,Saturday,Low Cost,0
+866,25,Male,Allergic Reaction,Epinephrine Injection,,-9223372036854775808,Karnataka,1970-01-01 00:00:00.000002022,,,Recovered,5,Yes,100,19-30,,,,,NaT,,Low Cost,0
+867,52,Female,Respiratory Infection,Antibiotics and Rest,,-9223372036854775808,Jammu & Kashmir,1970-01-01 00:00:00.000002023,,,Stable,4,No,800,46-60,,,,,NaT,,Low Cost,0
+868,58,Male,Prostate Cancer,Radiation Therapy,,-9223372036854775808,Kerala,1970-01-01 00:00:00.000002023,,,Recovered,3,No,20000,46-60,,,,,NaT,,Low Cost,0
+869,32,Female,Childbirth,Delivery and Postnatal Care,2022-01-06,1641600000000000000,Odisha,1970-01-01 00:00:00.000002022,2.0,,Recovered,4,No,12000,31-45,2-3 Days,2022.0,1.0,January,2022Q1,Thursday,Low Cost,0
+870,55,Male,Kidney Stones,Lithotripsy,,-9223372036854775808,Punjab,1970-01-01 00:00:00.000002022,,,Recovered,3,No,6000,46-60,,,,,NaT,,Low Cost,0
+871,65,Female,Osteoarthritis,Physical Therapy and Pain Management,,-9223372036854775808,Odisha,1970-01-01 00:00:00.000002022,,,Stable,4,No,4000,61-75,,,,,NaT,,Low Cost,0
+872,55,Female,Heart Disease,Angioplasty,2022-02-12,1680393600000000000,Kerala,1970-01-01 00:00:00.000002022,414.0,,Recovered,3,No,15000,46-60,8+ Days,2022.0,2.0,February,2022Q1,Saturday,Low Cost,0
+873,62,Male,Diabetes,Insulin Therapy,2025-12-05,-9223372036854775808,Puducherry,1970-01-01 00:00:00.000002025,,,Stable,4,Yes,2000,61-75,,2025.0,12.0,December,2025Q4,Friday,Low Cost,0
+874,35,Female,Fractured Arm,X-Ray and Splint,2022-08-10,1657584000000000000,Maharastra,1970-01-01 00:00:00.000002022,,,Recovered,5,Yes,500,31-45,,2022.0,8.0,August,2022Q3,Wednesday,Low Cost,0
+875,78,Male,Stroke,CT Scan and Medication,,-9223372036854775808,Mizoram,1970-01-01 00:00:00.000002023,,,Stable,2,No,10000,76+,,,,,NaT,,Low Cost,0
+876,53,Female,Cancer,Surgery and Chemotherapy,2025-12-10,-9223372036854775808,Mizoram,1970-01-01 00:00:00.000002025,,,Recovered,4,Yes,25000,46-60,,2025.0,12.0,December,2025Q4,Wednesday,Low Cost,0
+877,72,Male,Hypertension,Medication and Counseling,,-9223372036854775808,Arunachal Pradesh,1970-01-01 00:00:00.000002025,,,Stable,4,Yes,1000,61-75,,,,,NaT,,Low Cost,0
+878,60,Female,Appendicitis,Appendectomy,2023-10-01,-9223372036854775808,Andhra Pradesh,1970-01-01 00:00:00.000002023,,,Recovered,3,Yes,8000,46-60,,2023.0,10.0,October,2023Q4,Sunday,Low Cost,0
+879,45,Male,Fractured Leg,Cast and Physical Therapy,,-9223372036854775808,Puducherry,1970-01-01 00:00:00.000002025,,,Recovered,4,No,3000,31-45,,,,,NaT,,Low Cost,0
+880,75,Female,Heart Attack,Cardiac Catheterization,,-9223372036854775808,Jammu & Kashmir,1970-01-01 00:00:00.000002023,,,Stable,2,Yes,18000,61-75,,,,,NaT,,Low Cost,0
+881,28,Male,Allergic Reaction,Epinephrine Injection,2022-12-02,-9223372036854775808,Karnataka,1970-01-01 00:00:00.000002022,,,Recovered,5,No,100,19-30,,2022.0,12.0,December,2022Q4,Friday,Low Cost,0
+882,52,Female,Respiratory Infection,Antibiotics and Rest,,1702080000000000000,Delhi,1970-01-01 00:00:00.000002023,,,Stable,4,No,800,46-60,,,,,NaT,,Medium Cost,0
+883,67,Male,Prostate Cancer,Radiation Therapy,,1715472000000000000,Delhi,1970-01-01 00:00:00.000002024,,,Recovered,3,No,20000,61-75,,,,,NaT,,Medium Cost,0
+884,35,Female,Childbirth,Delivery and Postnatal Care,2025-08-02,1762214400000000000,Jharkhand,1970-01-01 00:00:00.000002025,94.0,,Recovered,4,No,12000,31-45,8+ Days,2025.0,8.0,August,2025Q3,Saturday,Medium Cost,0
+885,50,Male,Kidney Stones,Lithotripsy,2024-04-08,1717977600000000000,Rajasthan,1970-01-01 00:00:00.000002024,63.0,,Recovered,3,No,6000,46-60,8+ Days,2024.0,4.0,April,2024Q2,Monday,Medium Cost,0
+886,60,Female,Osteoarthritis,Physical Therapy and Pain Management,,-9223372036854775808,Tamil Nadu,1970-01-01 00:00:00.000002023,,,Stable,4,No,4000,46-60,,,,,NaT,,Low Cost,0
+887,48,Female,Heart Disease,Angioplasty,,-9223372036854775808,Tamil Nadu,1970-01-01 00:00:00.000002024,,,Recovered,4,No,15000,46-60,,,,,NaT,,Low Cost,0
+888,65,Male,Diabetes,Insulin Therapy,,-9223372036854775808,Goa,1970-01-01 00:00:00.000002025,,,Stable,3,No,2000,61-75,,,,,NaT,,Low Cost,0
+889,30,Female,Fractured Arm,X-Ray and Splint,,-9223372036854775808,Himachal Pradesh,1970-01-01 00:00:00.000002025,,,Recovered,5,Yes,500,19-30,,,,,NaT,,Low Cost,0
+890,70,Male,Stroke,CT Scan and Medication,,1712361600000000000,Tripura,1970-01-01 00:00:00.000002024,,,Stable,2,No,10000,61-75,,,,,NaT,,Medium Cost,0
+891,55,Female,Cancer,Surgery and Chemotherapy,,1712016000000000000,Meghalaya,1970-01-01 00:00:00.000002023,,,Recovered,4,Yes,25000,46-60,,,,,NaT,,Medium Cost,0
+892,45,Female,Appendicitis,Appendectomy,,-9223372036854775808,Andhra Pradesh,1970-01-01 00:00:00.000002025,,,Recovered,3,No,8000,31-45,,,,,NaT,,Low Cost,0
+893,40,Male,Fractured Leg,Cast and Physical Therapy,2022-03-05,1659830400000000000,Puducherry,1970-01-01 00:00:00.000002022,155.0,,Recovered,4,No,3000,31-45,8+ Days,2022.0,3.0,March,2022Q1,Saturday,Low Cost,0
+894,78,Female,Heart Attack,Cardiac Catheterization,,1685836800000000000,Kerala,1970-01-01 00:00:00.000002023,,,Stable,2,No,18000,76+,,,,,NaT,,Low Cost,0
+895,25,Male,Allergic Reaction,Epinephrine Injection,,-9223372036854775808,Karnataka,1970-01-01 00:00:00.000002022,,,Recovered,5,Yes,100,19-30,,,,,NaT,,Low Cost,0
+896,52,Female,Respiratory Infection,Antibiotics and Rest,,-9223372036854775808,Delhi,1970-01-01 00:00:00.000002025,,,Stable,4,No,800,46-60,,,,,NaT,,Low Cost,0
+897,58,Male,Prostate Cancer,Radiation Therapy,,-9223372036854775808,Delhi,1970-01-01 00:00:00.000002024,,,Recovered,3,No,20000,46-60,,,,,NaT,,Low Cost,0
+898,32,Female,Childbirth,Delivery and Postnatal Care,2023-05-04,1688601600000000000,Uttar Pradesh,1970-01-01 00:00:00.000002023,63.0,,Recovered,4,No,12000,31-45,8+ Days,2023.0,5.0,May,2023Q2,Thursday,Medium Cost,0
+899,55,Male,Kidney Stones,Lithotripsy,,-9223372036854775808,Gujarat,1970-01-01 00:00:00.000002023,,,Recovered,3,No,6000,46-60,,,,,NaT,,Low Cost,0
+900,65,Female,Osteoarthritis,Physical Therapy and Pain Management,2025-04-05,1754524800000000000,Chandigarh,1970-01-01 00:00:00.000002025,124.0,,Stable,4,No,4000,61-75,8+ Days,2025.0,4.0,April,2025Q2,Saturday,Medium Cost,0
+901,55,Female,Heart Disease,Angioplasty,2025-08-06,-9223372036854775808,Tamil Nadu,1970-01-01 00:00:00.000002025,,,Recovered,3,No,15000,46-60,,2025.0,8.0,August,2025Q3,Wednesday,Low Cost,0
+902,62,Male,Diabetes,Insulin Therapy,,-9223372036854775808,Goa,1970-01-01 00:00:00.000002023,,,Stable,4,No,2000,61-75,,,,,NaT,,Low Cost,0
+903,35,Female,Fractured Arm,X-Ray and Splint,,-9223372036854775808,Maharastra,1970-01-01 00:00:00.000002024,,,Recovered,5,No,500,31-45,,,,,NaT,,Low Cost,0
+904,78,Male,Stroke,CT Scan and Medication,,-9223372036854775808,Tripura,1970-01-01 00:00:00.000002022,,,Stable,2,Yes,10000,76+,,,,,NaT,,Low Cost,0
+905,53,Female,Cancer,Surgery and Chemotherapy,,-9223372036854775808,Meghalaya,1970-01-01 00:00:00.000002023,,,Recovered,4,No,25000,46-60,,,,,NaT,,Low Cost,0
+906,72,Male,Hypertension,Medication and Counseling,2025-08-09,1765411200000000000,Arunachal Pradesh,1970-01-01 00:00:00.000002025,124.0,,Stable,4,No,1000,61-75,8+ Days,2025.0,8.0,August,2025Q3,Saturday,Medium Cost,0
+907,60,Female,Appendicitis,Appendectomy,2024-06-12,1762041600000000000,Kerala,1970-01-01 00:00:00.000002024,508.0,,Recovered,3,No,8000,46-60,8+ Days,2024.0,6.0,June,2024Q2,Wednesday,Medium Cost,0
+908,45,Male,Fractured Leg,Cast and Physical Therapy,,-9223372036854775808,Puducherry,1970-01-01 00:00:00.000002025,,,Recovered,4,No,3000,31-45,,,,,NaT,,Low Cost,0
+909,75,Female,Heart Attack,Cardiac Catheterization,,1649635200000000000,West Bengal,1970-01-01 00:00:00.000002022,,,Stable,2,No,18000,61-75,,,,,NaT,,Low Cost,0
+910,28,Male,Allergic Reaction,Epinephrine Injection,,1641254400000000000,Karnataka,1970-01-01 00:00:00.000002022,,,Recovered,5,Yes,100,19-30,,,,,NaT,,Low Cost,0
+911,52,Female,Respiratory Infection,Antibiotics and Rest,,-9223372036854775808,Jammu & Kashmir,1970-01-01 00:00:00.000002025,,,Stable,4,Yes,800,46-60,,,,,NaT,,Low Cost,0
+912,67,Male,Prostate Cancer,Radiation Therapy,,1688515200000000000,Delhi,1970-01-01 00:00:00.000002023,,,Recovered,3,Yes,20000,61-75,,,,,NaT,,Medium Cost,0
+913,35,Female,Childbirth,Delivery and Postnatal Care,,-9223372036854775808,Bihar,1970-01-01 00:00:00.000002023,,,Recovered,4,No,12000,31-45,,,,,NaT,,Low Cost,0
+914,50,Male,Kidney Stones,Lithotripsy,2025-03-05,1751846400000000000,Haryana,1970-01-01 00:00:00.000002025,124.0,,Recovered,3,Yes,6000,46-60,8+ Days,2025.0,3.0,March,2025Q1,Wednesday,Medium Cost,0
+915,60,Female,Osteoarthritis,Physical Therapy and Pain Management,,-9223372036854775808,Chandigarh,1970-01-01 00:00:00.000002025,,,Stable,4,Yes,4000,46-60,,,,,NaT,,Low Cost,0
+916,48,Female,Heart Disease,Angioplasty,,-9223372036854775808,Kerala,1970-01-01 00:00:00.000002023,,,Recovered,4,Yes,15000,46-60,,,,,NaT,,Low Cost,0
+917,65,Male,Diabetes,Insulin Therapy,,-9223372036854775808,Goa,1970-01-01 00:00:00.000002022,,,Stable,3,Yes,2000,61-75,,,,,NaT,,Low Cost,0
+918,30,Female,Fractured Arm,X-Ray and Splint,,-9223372036854775808,Himachal Pradesh,1970-01-01 00:00:00.000002024,,,Recovered,5,No,500,19-30,,,,,NaT,,Low Cost,0
+919,70,Male,Stroke,CT Scan and Medication,,-9223372036854775808,Mizoram,1970-01-01 00:00:00.000002023,,,Stable,2,No,10000,61-75,,,,,NaT,,Low Cost,0
+920,55,Female,Cancer,Surgery and Chemotherapy,2022-08-02,-9223372036854775808,Assam,1970-01-01 00:00:00.000002022,,,Recovered,4,No,25000,46-60,,2022.0,8.0,August,2022Q3,Tuesday,Low Cost,0
+921,68,Male,Hypertension,Medication and Counseling,,-9223372036854775808,Goa,1970-01-01 00:00:00.000002024,,,Stable,4,No,1000,61-75,,,,,NaT,,Low Cost,0
+922,45,Female,Appendicitis,Appendectomy,,-9223372036854775808,Karnataka,1970-01-01 00:00:00.000002022,,,Recovered,3,Yes,8000,31-45,,,,,NaT,,Low Cost,0
+923,40,Male,Fractured Leg,Cast and Physical Therapy,2022-10-06,-9223372036854775808,Gujarat,1970-01-01 00:00:00.000002022,,,Recovered,4,Yes,3000,31-45,,2022.0,10.0,October,2022Q4,Thursday,Low Cost,0
+924,78,Female,Heart Attack,Cardiac Catheterization,,-9223372036854775808,Kerala,1970-01-01 00:00:00.000002025,,,Stable,2,No,18000,76+,,,,,NaT,,Low Cost,0
+925,25,Male,Allergic Reaction,Epinephrine Injection,,1704758400000000000,Karnataka,1970-01-01 00:00:00.000002024,,,Recovered,5,No,100,19-30,,,,,NaT,,Medium Cost,0
+926,52,Female,Respiratory Infection,Antibiotics and Rest,2024-07-11,1759276800000000000,Delhi,1970-01-01 00:00:00.000002024,447.0,,Stable,4,No,800,46-60,8+ Days,2024.0,7.0,July,2024Q3,Thursday,Medium Cost,0
+927,58,Male,Prostate Cancer,Radiation Therapy,2023-07-03,-9223372036854775808,Delhi,1970-01-01 00:00:00.000002023,,,Recovered,3,No,20000,46-60,,2023.0,7.0,July,2023Q3,Monday,Low Cost,0
+928,32,Female,Childbirth,Delivery and Postnatal Care,,-9223372036854775808,Rajasthan,1970-01-01 00:00:00.000002024,,,Recovered,4,Yes,12000,31-45,,,,,NaT,,Low Cost,0
+929,55,Male,Kidney Stones,Lithotripsy,,-9223372036854775808,Haryana,1970-01-01 00:00:00.000002023,,,Recovered,3,No,6000,46-60,,,,,NaT,,Low Cost,0
+930,65,Female,Osteoarthritis,Physical Therapy and Pain Management,,-9223372036854775808,Odisha,1970-01-01 00:00:00.000002023,,,Stable,4,Yes,4000,61-75,,,,,NaT,,Low Cost,0
+931,55,Female,Heart Disease,Angioplasty,,-9223372036854775808,Tamil Nadu,1970-01-01 00:00:00.000002024,,,Recovered,3,No,15000,46-60,,,,,NaT,,Low Cost,0
+932,62,Male,Diabetes,Insulin Therapy,,-9223372036854775808,Tamil Nadu,1970-01-01 00:00:00.000002025,,,Stable,4,No,2000,61-75,,,,,NaT,,Low Cost,0
+933,35,Female,Fractured Arm,X-Ray and Splint,2024-05-08,1723248000000000000,Himachal Pradesh,1970-01-01 00:00:00.000002024,94.0,,Recovered,5,No,500,31-45,8+ Days,2024.0,5.0,May,2024Q2,Wednesday,Medium Cost,0
+934,78,Male,Stroke,CT Scan and Medication,2023-04-02,-9223372036854775808,Mizoram,1970-01-01 00:00:00.000002023,,,Stable,2,No,10000,76+,,2023.0,4.0,April,2023Q2,Sunday,Low Cost,0
+935,53,Female,Cancer,Surgery and Chemotherapy,,-9223372036854775808,Meghalaya,1970-01-01 00:00:00.000002022,,,Recovered,4,Yes,25000,46-60,,,,,NaT,,Low Cost,0
+936,72,Male,Hypertension,Medication and Counseling,2024-07-04,-9223372036854775808,Punjab,1970-01-01 00:00:00.000002024,,,Stable,4,No,1000,61-75,,2024.0,7.0,July,2024Q3,Thursday,Low Cost,0
+937,60,Female,Appendicitis,Appendectomy,2023-06-07,-9223372036854775808,Karnataka,1970-01-01 00:00:00.000002023,,,Recovered,3,No,8000,46-60,,2023.0,6.0,June,2023Q2,Wednesday,Low Cost,0
+938,45,Male,Fractured Leg,Cast and Physical Therapy,2022-01-01,1667433600000000000,Gujarat,1970-01-01 00:00:00.000002022,306.0,,Recovered,4,No,3000,31-45,8+ Days,2022.0,1.0,January,2022Q1,Saturday,Low Cost,0
+939,75,Female,Heart Attack,Cardiac Catheterization,2023-05-01,-9223372036854775808,West Bengal,1970-01-01 00:00:00.000002023,,,Stable,2,Yes,18000,61-75,,2023.0,5.0,May,2023Q2,Monday,Low Cost,0
+940,28,Male,Allergic Reaction,Epinephrine Injection,2022-07-01,1670025600000000000,Madhya Pradesh,1970-01-01 00:00:00.000002022,155.0,,Recovered,5,No,100,19-30,8+ Days,2022.0,7.0,July,2022Q3,Friday,Low Cost,0
+941,52,Female,Respiratory Infection,Antibiotics and Rest,2024-12-01,-9223372036854775808,Jammu & Kashmir,1970-01-01 00:00:00.000002024,,,Stable,4,No,800,46-60,,2024.0,12.0,December,2024Q4,Sunday,Low Cost,0
+942,67,Male,Prostate Cancer,Radiation Therapy,2024-10-11,-9223372036854775808,Kerala,1970-01-01 00:00:00.000002024,,,Recovered,3,Yes,20000,61-75,,2024.0,10.0,October,2024Q4,Friday,Low Cost,0
+943,35,Female,Childbirth,Delivery and Postnatal Care,,-9223372036854775808,Bihar,1970-01-01 00:00:00.000002023,,,Recovered,4,No,12000,31-45,,,,,NaT,,Low Cost,0
+944,50,Male,Kidney Stones,Lithotripsy,2025-04-12,1788307200000000000,Gujarat,1970-01-01 00:00:00.000002025,508.0,,Recovered,3,Yes,6000,46-60,8+ Days,2025.0,4.0,April,2025Q2,Saturday,Medium Cost,0
+945,60,Female,Osteoarthritis,Physical Therapy and Pain Management,2025-09-04,-9223372036854775808,Chandigarh,1970-01-01 00:00:00.000002025,,,Stable,4,No,4000,46-60,,2025.0,9.0,September,2025Q3,Thursday,Low Cost,0
+946,48,Female,Heart Disease,Angioplasty,,-9223372036854775808,Kerala,1970-01-01 00:00:00.000002022,,,Recovered,4,Yes,15000,46-60,,,,,NaT,,Low Cost,0
+947,65,Male,Diabetes,Insulin Therapy,,1704672000000000000,Kerala,1970-01-01 00:00:00.000002024,,,Stable,3,No,2000,61-75,,,,,NaT,,Medium Cost,0
+948,30,Female,Fractured Arm,X-Ray and Splint,,-9223372036854775808,Maharastra,1970-01-01 00:00:00.000002022,,,Recovered,5,Yes,500,19-30,,,,,NaT,,Low Cost,0
+949,70,Male,Stroke,CT Scan and Medication,2024-11-04,-9223372036854775808,Manipur,1970-01-01 00:00:00.000002024,,,Stable,2,No,10000,61-75,,2024.0,11.0,November,2024Q4,Monday,Low Cost,0
+950,55,Female,Cancer,Surgery and Chemotherapy,2023-06-01,-9223372036854775808,Meghalaya,1970-01-01 00:00:00.000002023,,,Recovered,4,No,25000,46-60,,2023.0,6.0,June,2023Q2,Thursday,Low Cost,0
+951,68,Male,Hypertension,Medication and Counseling,2022-05-05,1670371200000000000,Sikkim,1970-01-01 00:00:00.000002022,216.0,,Stable,4,Yes,1000,61-75,8+ Days,2022.0,5.0,May,2022Q2,Thursday,Low Cost,0
+952,40,Male,Fractured Leg,Cast and Physical Therapy,2022-10-08,-9223372036854775808,Gujarat,1970-01-01 00:00:00.000002022,,,Recovered,4,No,3000,31-45,,2022.0,10.0,October,2022Q4,Saturday,Low Cost,0
+953,78,Female,Heart Attack,Cardiac Catheterization,,-9223372036854775808,Punjab,1970-01-01 00:00:00.000002022,,,Stable,2,No,18000,76+,,,,,NaT,,Low Cost,0
+954,25,Male,Allergic Reaction,Epinephrine Injection,,1675209600000000000,Karnataka,1970-01-01 00:00:00.000002022,,,Recovered,5,Yes,100,19-30,,,,,NaT,,Low Cost,0
+955,52,Female,Respiratory Infection,Antibiotics and Rest,,-9223372036854775808,Jammu & Kashmir,1970-01-01 00:00:00.000002022,,,Stable,4,No,800,46-60,,,,,NaT,,Low Cost,0
+956,58,Male,Prostate Cancer,Radiation Therapy,,1749254400000000000,Kerala,1970-01-01 00:00:00.000002025,,,Recovered,3,Yes,20000,46-60,,,,,NaT,,Medium Cost,0
+957,32,Female,Childbirth,Delivery and Postnatal Care,2024-12-05,-9223372036854775808,Bihar,1970-01-01 00:00:00.000002024,,,Recovered,4,No,12000,31-45,,2024.0,12.0,December,2024Q4,Thursday,Low Cost,0
+958,55,Male,Kidney Stones,Lithotripsy,2022-05-06,1670457600000000000,Haryana,1970-01-01 00:00:00.000002022,216.0,,Recovered,3,No,6000,46-60,8+ Days,2022.0,5.0,May,2022Q2,Friday,Low Cost,0
+959,65,Female,Osteoarthritis,Physical Therapy and Pain Management,2024-09-10,-9223372036854775808,Chandigarh,1970-01-01 00:00:00.000002024,,,Stable,4,No,4000,61-75,,2024.0,9.0,September,2024Q3,Tuesday,Low Cost,0
+960,55,Female,Heart Disease,Angioplasty,,-9223372036854775808,Tamil Nadu,1970-01-01 00:00:00.000002023,,,Recovered,3,No,15000,46-60,,,,,NaT,,Low Cost,0
+961,62,Male,Diabetes,Insulin Therapy,,-9223372036854775808,Kerala,1970-01-01 00:00:00.000002024,,,Stable,4,No,2000,61-75,,,,,NaT,,Low Cost,0
+962,35,Female,Fractured Arm,X-Ray and Splint,,1735862400000000000,Maharastra,1970-01-01 00:00:00.000002024,,,Recovered,5,Yes,500,31-45,,,,,NaT,,Medium Cost,0
+963,78,Male,Stroke,CT Scan and Medication,,1699660800000000000,Manipur,1970-01-01 00:00:00.000002023,,,Stable,2,No,10000,76+,,,,,NaT,,Medium Cost,0
+964,53,Female,Cancer,Surgery and Chemotherapy,2025-05-03,-9223372036854775808,Meghalaya,1970-01-01 00:00:00.000002025,,,Recovered,4,Yes,25000,46-60,,2025.0,5.0,May,2025Q2,Saturday,Low Cost,0
+965,72,Male,Hypertension,Medication and Counseling,,-9223372036854775808,Arunachal Pradesh,1970-01-01 00:00:00.000002023,,,Stable,4,No,1000,61-75,,,,,NaT,,Low Cost,0
+966,60,Female,Appendicitis,Appendectomy,2024-09-02,-9223372036854775808,Karnataka,1970-01-01 00:00:00.000002024,,,Recovered,3,No,8000,46-60,,2024.0,9.0,September,2024Q3,Monday,Low Cost,0
+967,45,Male,Fractured Leg,Cast and Physical Therapy,,-9223372036854775808,Puducherry,1970-01-01 00:00:00.000002025,,,Recovered,4,Yes,3000,31-45,,,,,NaT,,Low Cost,0
+968,75,Female,Heart Attack,Cardiac Catheterization,,1693872000000000000,West Bengal,1970-01-01 00:00:00.000002023,,,Stable,2,No,18000,61-75,,,,,NaT,,Medium Cost,0
+969,28,Male,Allergic Reaction,Epinephrine Injection,2024-10-05,-9223372036854775808,Karnataka,1970-01-01 00:00:00.000002024,,,Recovered,5,No,100,19-30,,2024.0,10.0,October,2024Q4,Saturday,Low Cost,0
+970,52,Female,Respiratory Infection,Antibiotics and Rest,,-9223372036854775808,Jammu & Kashmir,1970-01-01 00:00:00.000002024,,,Stable,4,Yes,800,46-60,,,,,NaT,,Low Cost,0
+971,67,Male,Prostate Cancer,Radiation Therapy,,1654992000000000000,Delhi,1970-01-01 00:00:00.000002022,,,Recovered,3,No,20000,61-75,,,,,NaT,,Low Cost,0
+972,35,Female,Childbirth,Delivery and Postnatal Care,2025-10-07,-9223372036854775808,Bihar,1970-01-01 00:00:00.000002025,,,Recovered,4,Yes,12000,31-45,,2025.0,10.0,October,2025Q4,Tuesday,Low Cost,0
+973,50,Male,Kidney Stones,Lithotripsy,2022-01-05,1662508800000000000,Rajasthan,1970-01-01 00:00:00.000002022,245.0,,Recovered,3,No,6000,46-60,8+ Days,2022.0,1.0,January,2022Q1,Wednesday,Low Cost,0
+974,60,Female,Osteoarthritis,Physical Therapy and Pain Management,,1714953600000000000,Chandigarh,1970-01-01 00:00:00.000002024,,,Stable,4,Yes,4000,46-60,,,,,NaT,,Medium Cost,0
+975,48,Female,Heart Disease,Angioplasty,,1646438400000000000,Punjab,1970-01-01 00:00:00.000002022,,,Recovered,4,No,15000,46-60,,,,,NaT,,Low Cost,0
+976,65,Male,Diabetes,Insulin Therapy,,-9223372036854775808,Kerala,1970-01-01 00:00:00.000002024,,,Stable,3,No,2000,61-75,,,,,NaT,,Low Cost,0
+977,30,Female,Fractured Arm,X-Ray and Splint,,-9223372036854775808,Himachal Pradesh,1970-01-01 00:00:00.000002022,,,Recovered,5,Yes,500,19-30,,,,,NaT,,Low Cost,0
+978,70,Male,Stroke,CT Scan and Medication,2023-03-06,-9223372036854775808,Mizoram,1970-01-01 00:00:00.000002023,,,Stable,2,No,10000,61-75,,2023.0,3.0,March,2023Q1,Monday,Low Cost,0
+979,55,Female,Cancer,Surgery and Chemotherapy,,1657497600000000000,Assam,1970-01-01 00:00:00.000002022,,,Recovered,4,Yes,25000,46-60,,,,,NaT,,Low Cost,0
+980,68,Male,Hypertension,Medication and Counseling,,1693872000000000000,Sikkim,1970-01-01 00:00:00.000002023,,,Stable,4,Yes,1000,61-75,,,,,NaT,,Medium Cost,0
+981,45,Female,Appendicitis,Appendectomy,,1728086400000000000,Andhra Pradesh,1970-01-01 00:00:00.000002024,,,Recovered,3,No,8000,31-45,,,,,NaT,,Medium Cost,0
+982,40,Male,Fractured Leg,Cast and Physical Therapy,,1741132800000000000,Puducherry,1970-01-01 00:00:00.000002025,,,Recovered,4,No,3000,31-45,,,,,NaT,,Medium Cost,0
+983,78,Female,Heart Attack,Cardiac Catheterization,2024-07-09,-9223372036854775808,Punjab,1970-01-01 00:00:00.000002024,,,Stable,2,Yes,18000,76+,,2024.0,7.0,July,2024Q3,Tuesday,Low Cost,0
+984,25,Male,Allergic Reaction,Epinephrine Injection,,1685664000000000000,Kerala,1970-01-01 00:00:00.000002022,,,Recovered,5,No,100,19-30,,,,,NaT,,Low Cost,0
